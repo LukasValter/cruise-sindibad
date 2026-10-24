@@ -23,22 +23,12 @@
     "lead": "Cruise Sindibad dostarcza najwyższej jakości mrożone owoce i warzywa dla importerów, dystrybutorów oraz przetwórców żywności. Zamrożone w ciągu kilku godzin od zbiorów w Egipcie, dostarczone bezpośrednio do Państwa firmy.",
     "ctaPrimary": "Zapytaj o ofertę",
     "ctaSecondary": "Zobacz katalog",
-    "stats": {
-      "markets": "Rynków eksportowych",
-      "capacity": "Roczna wydajność",
-      "coldChain": "Nienaruszony łańcuch chłodniczy od pola do portu"
-    },
-    "card": {
-      "title": "Specyfikacja eksportowa",
-      "freezing": "Gwałtowne zamrażanie (IQF) w temp. -35 °C",
-      "freezingText": "Sypkie, głęboko mrożone owoce i warzywa bez grudek, zachowana naturalna barwa i struktura",
-      "packing": "Opakowania zbiorcze i Marka Własna (Private Label)",
-      "packingText": "Kartonyzbiorcze 10 kg, woreczki detaliczne od 400 g do 2,5 kg",
-      "shipping": "Transport w kontenerach chłodniczych 40ft (FCL Reefer)",
-      "shippingText": "FOB Aleksandria / Damietta lub CIF do wskazanego portu docelowego",
-      "safety": "Certyfikowane bezpieczeństwo żywności",
-      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · Rejestracja w US FDA",
-      "markets": "Dostawy do UE, Wielkiej Brytanii, Bliskiego Wschodu, Ameryki Północnej i Azji"
+    "points": {
+      "cold": { "title": "-18 °C i łańcuch chłodniczy", "text": "Nieprzerwany łańcuch chłodniczy od pola do portu." },
+      "packaging": { "title": "Elastyczne opakowania", "text": "Kartony zbiorcze 10 kg, torebki detaliczne od 400 g do 2,5 kg (także marka własna)." },
+      "fcl": { "title": "Logistyka FCL", "text": "40-stopowe kontenery chłodnicze, FOB Aleksandria / Damietta lub CIF do portu docelowego." },
+      "quality": { "title": "Certyfikowana jakość", "text": "ISO 22000 · HACCP · GlobalG.A.P. · rejestracja w US FDA." },
+      "markets": { "title": "Globalne rynki eksportowe", "text": "Niezawodnie zaopatrujemy klientów w UE, Wielkiej Brytanii, na Bliskim Wschodzie, w Ameryce Północnej i Azji." }
     }
   },
   "about": {

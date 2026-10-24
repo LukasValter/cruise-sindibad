@@ -23,22 +23,12 @@
     "lead": "Cruise Sindibad liefert Premium-Tiefkühlobst und -gemüse für Importeure, Großhändler und die Lebensmittelindustrie weltweit. Schockgefrostet wenige Stunden nach der Ernte in Ägypten, direkt zu Ihnen geliefert.",
     "ctaPrimary": "Angebot anfordern",
     "ctaSecondary": "Katalog ansehen",
-    "stats": {
-      "markets": "Exportmärkte",
-      "capacity": "Jahreskapazität",
-      "coldChain": "Lückenlose Kühlkette vom Feld bis zum Hafen"
-    },
-    "card": {
-      "title": "Exportspezifikationen",
-      "freezing": "Schockgefrostet (IQF) bei -35 °C",
-      "freezingText": "Freifließende, tiefgekühlte Stücke ohne Klumpenbildung, natürliche Farbe und Textur",
-      "packing": "Großhandelsverpackungen & Private Label",
-      "packingText": "Masterkartons 10 kg, Einzelhandelsbeutel von 400 g bis 2,5 kg",
-      "shipping": "Transport in 40ft-Kühlcontainern (FCL Reefer)",
-      "shippingText": "FOB Alexandria / Damietta oder CIF zu Ihrem Zielhafen",
-      "safety": "Zertifizierte Lebensmittelsicherheit",
-      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA registriert",
-      "markets": "Lieferung in die EU, nach Großbritannien, in den Nahen Osten, Nordamerika und Asien"
+    "points": {
+      "cold": { "title": "-18 °C & Kühlkette", "text": "Lückenlose Kühlkette vom Feld bis zum Hafen." },
+      "packaging": { "title": "Flexible Verpackung", "text": "10-kg-Umkartons, Einzelhandelsbeutel von 400 g bis 2,5 kg (auch als Handelsmarke)." },
+      "fcl": { "title": "FCL-Logistik", "text": "40-Fuß-Kühlcontainer, FOB Alexandria / Damietta oder CIF bis zu Ihrem Zielhafen." },
+      "quality": { "title": "Zertifizierte Qualität", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US-FDA-registriert." },
+      "markets": { "title": "Globale Exportmärkte", "text": "Zuverlässige Belieferung von Kunden in der EU, in Großbritannien, im Nahen Osten, in Nordamerika und Asien." }
     }
   },
   "about": {

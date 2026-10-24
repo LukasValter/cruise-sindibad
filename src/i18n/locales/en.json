@@ -23,22 +23,12 @@
     "lead": "Cruise Sindibad supplies premium frozen fruits and vegetables to importers, distributors, and food processors worldwide. Frozen within hours of harvest in Egypt, delivered directly to you with uncompromised quality.",
     "ctaPrimary": "Request a Quote",
     "ctaSecondary": "View Catalog",
-    "stats": {
-      "markets": "Export Markets",
-      "capacity": "Annual Capacity",
-      "coldChain": "Unbroken cold chain from farm to port"
-    },
-    "card": {
-      "title": "Export Specifications",
-      "freezing": "Flash Frozen (IQF) at -35 °C",
-      "freezingText": "Free-flowing deep-frozen pieces, lump-free, natural color and texture preserved",
-      "packing": "Bulk Packaging & Private Labeling",
-      "packingText": "10 kg master cartons, retail bags from 400 g to 2.5 kg",
-      "shipping": "40ft Reefer Container Shipping (FCL)",
-      "shippingText": "FOB Alexandria / Damietta or CIF to your destination port",
-      "safety": "Certified Food Safety",
-      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA Registered",
-      "markets": "Supplying the EU, UK, Middle East, North America & Asia"
+    "points": {
+      "cold": { "title": "-18 °C & Cold Chain", "text": "Unbroken cold chain from farm to port." },
+      "packaging": { "title": "Flexible Packaging", "text": "Bulk & Retail Packaging (400g - 10kg)." },
+      "fcl": { "title": "FCL Logistics", "text": "40ft Reefer containers (FOB / CIF)." },
+      "quality": { "title": "Certified Quality", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA" },
+      "markets": { "title": "Global Export Markets", "text": "Reliably supplying customers in the EU, UK, Middle East, North America & Asia." }
     }
   },
   "about": {

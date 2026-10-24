@@ -1,72 +1,79 @@
 ---
-import { ArrowRight, Sprout, Ship, ShieldCheck, Thermometer, Package } from 'lucide-astro';
+import { ArrowRight, Sprout, Snowflake, Package, Ship, ShieldCheck, Globe } from 'lucide-astro';
 import { getLang, useTranslations } from '../i18n/utils';
+import { products } from '../data/products';
 
 const t = useTranslations(getLang(Astro.currentLocale));
-const { stats, card } = t.hero;
+const { points } = t.hero;
 
-const statItems = [
-  { value: '40+', label: stats.markets },
-  { value: '25K t', label: stats.capacity },
-  { value: '-18°C', label: stats.coldChain },
+const strip = [
+  { icon: Snowflake, ...points.cold },
+  { icon: Package, ...points.packaging },
+  { icon: Ship, ...points.fcl },
+  { icon: ShieldCheck, ...points.quality },
+  { icon: Globe, ...points.markets },
 ];
 
-const specs = [
-  { icon: Thermometer, title: card.freezing, text: card.freezingText },
-  { icon: Package, title: card.packing, text: card.packingText },
-  { icon: Ship, title: card.shipping, text: card.shippingText },
-  { icon: ShieldCheck, title: card.safety, text: card.safetyText },
-];
+// Placeholder product photography — reuses the catalogue stock photos.
+const photo = (id: keyof typeof t.products.items) => ({
+  src: products.find((p) => p.id === id)!.image,
+  alt: t.products.items[id].name,
+});
+const photos = [photo('strawberries'), photo('peas'), photo('mango'), photo('mixed')];
 ---
 
-<section id="hero" class="relative overflow-hidden border-b border-slate-200 bg-white pt-32 pb-20 sm:pt-40 sm:pb-28">
+<section id="hero" class="border-b border-slate-200 bg-white pt-32 pb-16 sm:pt-40 sm:pb-20">
+  <div class="container-x">
+    <span class="eyebrow"><Sprout size={14} /> {t.hero.eyebrow}</span>
 
-  <div class="container-x grid items-center gap-14 lg:grid-cols-12">
-    <div class="lg:col-span-7">
-      <span class="eyebrow"><Sprout size={14} /> {t.hero.eyebrow}</span>
-      <h1 class="mt-6 text-4xl font-bold leading-[1.1] sm:text-5xl lg:text-6xl">
-        {t.hero.titleBefore} {t.hero.titleHighlight} {t.hero.titleAfter}
-      </h1>
-      <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-700">{t.hero.lead}</p>
+    <!-- Both columns stretch to the same height: the headline's top edge and the CTA row's bottom edge
+         define it, and the photo grid fills exactly that box. -->
+    <div class="mt-6 grid gap-12 lg:grid-cols-12 lg:gap-14">
+      <div class="lg:col-span-7">
+        <h1 class="text-4xl font-bold leading-[1.1] sm:text-5xl lg:text-6xl">
+          {t.hero.titleBefore} {t.hero.titleHighlight} {t.hero.titleAfter}
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-700">{t.hero.lead}</p>
 
-      <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-        <a href="#contact" class="btn-primary px-6 py-3.5 text-base">
-          {t.hero.ctaPrimary} <ArrowRight size={18} class="rtl:-scale-x-100" />
-        </a>
-        <a href="#products" class="btn-secondary px-6 py-3.5 text-base">{t.hero.ctaSecondary}</a>
+        <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+          <a href="#contact" class="btn-primary px-6 py-3.5 text-base">
+            {t.hero.ctaPrimary} <ArrowRight size={18} class="rtl:-scale-x-100" />
+          </a>
+          <a href="#products" class="btn-secondary px-6 py-3.5 text-base">{t.hero.ctaSecondary}</a>
+        </div>
       </div>
 
-      <dl class="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-slate-200 pt-8">
-        {
-          statItems.map((s) => (
-            <div>
-              <dt class="sr-only">{s.label}</dt>
-              <dd class="font-display text-2xl font-bold text-ink sm:text-3xl"><bdi dir="ltr">{s.value}</bdi></dd>
-              <dd class="mt-1 text-xs font-medium text-slate-700 sm:text-sm">{s.label}</dd>
-            </div>
-          ))
-        }
-      </dl>
-    </div>
-
-    <div class="lg:col-span-5">
-      <div class="rounded-lg bg-navy-900 p-8 text-white">
-        <p class="text-sm font-semibold uppercase tracking-widest text-slate-300">{card.title}</p>
-        <ul class="mt-4 divide-y divide-white/10">
+      <div class="lg:col-span-5 lg:flex lg:justify-end">
+        <div class="mx-auto grid aspect-square w-full max-w-sm grid-cols-2 grid-rows-2 gap-3 lg:mx-0 lg:h-full lg:w-auto lg:max-w-full">
           {
-            specs.map(({ icon: Icon, title, text }) => (
-              <li class="flex gap-4 py-4">
-                <Icon size={20} class="mt-0.5 shrink-0 text-sky" />
-                <div>
-                  <p class="font-semibold">{title}</p>
-                  <p class="mt-0.5 text-sm text-slate-300">{text}</p>
-                </div>
-              </li>
+            photos.map(({ src, alt }) => (
+              <div class="min-h-0 overflow-hidden rounded-2xl bg-slate-100 shadow-md shadow-slate-900/10">
+                <img
+                  src={src}
+                  alt={alt}
+                  width="600"
+                  height="600"
+                  decoding="async"
+                  onerror="this.style.display='none'"
+                  class="size-full object-cover"
+                />
+              </div>
             ))
           }
-        </ul>
-        <p class="border-t border-white/10 pt-4 text-sm text-slate-300">{card.markets}</p>
+        </div>
       </div>
     </div>
+
+    <ul class="mt-16 grid gap-x-10 gap-y-10 sm:grid-cols-2 xl:grid-cols-5">
+      {
+        strip.map(({ icon: Icon, title, text }) => (
+          <li>
+            <Icon size={24} strokeWidth={1.75} class="text-ink" />
+            <h3 class="mt-4 text-base font-semibold">{title}</h3>
+            <p class="mt-1.5 text-sm leading-relaxed text-slate-700">{text}</p>
+          </li>
+        ))
+      }
+    </ul>
   </div>
 </section>

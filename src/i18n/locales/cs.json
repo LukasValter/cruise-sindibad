@@ -23,22 +23,12 @@
     "lead": "Cruise Sindibad dodává prémiové mražené ovoce a zeleninu pro dovozce, distributory a potravinářské zpracovatele. Zmrazeno do pár hodin od sklizně v Egyptě, doručeno v plné kvalitě přímo k vám.",
     "ctaPrimary": "Poptat nabídku",
     "ctaSecondary": "Zobrazit katalog",
-    "stats": {
-      "markets": "Exportních trhů",
-      "capacity": "Roční kapacita",
-      "coldChain": "Nepřerušený chladový řetězec z pole do přístavu"
-    },
-    "card": {
-      "title": "Exportní specifikace",
-      "freezing": "Šokově zmraženo (IQF) při -35 °C",
-      "freezingText": "Volně sypané hluboce zmražené kusy bez hrudek, přirozená barva a textura",
-      "packing": "Velkoobchodní balení a privátní značky",
-      "packingText": "Master kartony 10 kg, maloobchodní sáčky 400 g – 2,5 kg",
-      "shipping": "Přeprava v mrazírenských kontejnerech 40ft Reefer (FCL)",
-      "shippingText": "FOB Alexandrie / Damietta nebo CIF do vašeho cílového přístavu",
-      "safety": "Certifikovaná bezpečnost potravin",
-      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · Registrace u US FDA",
-      "markets": "Dodáváme do EU, Velké Británie, Blízkého východu, Severní Ameriky a Asie"
+    "points": {
+      "cold": { "title": "-18 °C a chladicí řetězec", "text": "Nepřerušený chladicí řetězec z pole do přístavu." },
+      "packaging": { "title": "Flexibilní balení", "text": "Kartony 10 kg, maloobchodní sáčky od 400 g do 2,5 kg (včetně privátní značky)." },
+      "fcl": { "title": "Logistika FCL", "text": "40stopé chladicí kontejnery, FOB Alexandrie / Damietta nebo CIF do cílového přístavu." },
+      "quality": { "title": "Certifikovaná kvalita", "text": "ISO 22000 · HACCP · GlobalG.A.P. · registrace u US FDA." },
+      "markets": { "title": "Světové exportní trhy", "text": "Spolehlivě zásobujeme zákazníky v EU, Velké Británii, na Blízkém východě, v Severní Americe a v Asii." }
     }
   },
   "about": {

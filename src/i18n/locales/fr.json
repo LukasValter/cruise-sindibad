@@ -23,22 +23,12 @@
     "lead": "Cruise Sindibad fournit des fruits et légumes surgelés de qualité supérieure aux importateurs, distributeurs et transformateurs alimentaires. Surgelés quelques heures après la récolte en Égypte, livrés directement chez vous.",
     "ctaPrimary": "Demander un devis",
     "ctaSecondary": "Voir le catalogue",
-    "stats": {
-      "markets": "Marchés d'exportation",
-      "capacity": "Capacité annuelle",
-      "coldChain": "Chaîne du froid ininterrompue du champ au port"
-    },
-    "card": {
-      "title": "Spécifications d'exportation",
-      "freezing": "Surgélation rapide (IQF) à -35 °C",
-      "freezingText": "Morceaux surgelés individuellement sans grumeaux, couleur et texture naturelles préservées",
-      "packing": "Emballage en gros & Marque de distributeur",
-      "packingText": "Cartons master de 10 kg, sachets retail de 400 g à 2,5 kg",
-      "shipping": "Transport en conteneurs frigorifiques 40ft (FCL Reefer)",
-      "shippingText": "FOB Alexandrie / Damiette ou CIF jusqu'à votre port de destination",
-      "safety": "Sécurité alimentaire certifiée",
-      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · Enregistré auprès de la FDA américaine",
-      "markets": "Livraison vers l'UE, le Royaume-Uni, le Moyen-Orient, l'Amérique du Nord et l'Asie"
+    "points": {
+      "cold": { "title": "-18 °C & chaîne du froid", "text": "Chaîne du froid ininterrompue, du champ au port." },
+      "packaging": { "title": "Conditionnement flexible", "text": "Cartons de 10 kg, sachets de détail de 400 g à 2,5 kg (marque de distributeur possible)." },
+      "fcl": { "title": "Logistique FCL", "text": "Conteneurs frigorifiques 40 pieds, FOB Alexandrie / Damiette ou CIF jusqu’à votre port de destination." },
+      "quality": { "title": "Qualité certifiée", "text": "ISO 22000 · HACCP · GlobalG.A.P. · enregistré auprès de la FDA américaine." },
+      "markets": { "title": "Marchés d’export mondiaux", "text": "Nous approvisionnons durablement nos clients dans l’UE, au Royaume-Uni, au Moyen-Orient, en Amérique du Nord et en Asie." }
     }
   },
   "about": {
