@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  /* Inter + Manrope cover Latin-ext (CS, PL) and Cyrillic (RU); Arabic swaps to Cairo below. */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Text ink: deep navy, 16:1 on white. */
+  --color-ink: #001e3d;
+
+  /* Brand navy — anchored on the logo's #000060 (navy-900). Structure, headings, dark surfaces. */
+  --color-navy-50: #f0f3fb;
+  --color-navy-100: #dde4f5;
+  --color-navy-200: #bcc8ea;
+  --color-navy-300: #8fa1d6;
+  --color-navy-400: #5c73bf;
+  --color-navy-500: #3a52a6;
+  --color-navy-600: #243b8e;
+  --color-navy-700: #14287a;
+  --color-navy-800: #0a1a6e;
+  --color-navy-900: #000060;
+  --color-navy-950: #00003a;
+
+  /* Logo sky blue — used sparingly as a highlight on navy surfaces. */
+  --color-sky: #00b0f0;
+
+  /* Fresh agricultural green — CTAs, badges, highlights. 600 = 5.1:1 with white text. */
+  --color-leaf-50: #effaf1;
+  --color-leaf-100: #d6f1db;
+  --color-leaf-200: #aee3b8;
+  --color-leaf-300: #7ccf8b;
+  --color-leaf-400: #4dba61;
+  --color-leaf-500: #2f9e46;
+  --color-leaf-600: #1e7f37;
+  --color-leaf-700: #17702f;
+  --color-leaf-800: #135a28;
+  --color-leaf-900: #0f4721;
+  --color-leaf-950: #082a14;
+}
+
+html[lang="ar"] {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cairo", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-white text-slate-700 font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-ink tracking-tight;
+  }
+  /* Letter-spacing breaks Arabic letter joining. */
+  html[lang="ar"] * {
+    letter-spacing: 0 !important;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 border-s-2 border-ink ps-3 text-xs font-semibold uppercase tracking-[0.14em] text-ink;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-leaf-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-leaf-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-600;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-ink bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink;
+  }
+  .field {
+    @apply w-full rounded-md border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-500 transition focus:border-navy-700 focus:ring-2 focus:ring-navy-700/20 focus:outline-none;
+  }
+  .card {
+    @apply rounded-lg border border-slate-200 bg-white;
+  }
+}

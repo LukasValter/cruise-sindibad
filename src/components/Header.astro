@@ -1,0 +1,152 @@
+---
+import { Menu, X, ArrowRight, ChevronDown, Check } from 'lucide-astro';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getLang, languages, useTranslations, type Lang } from '../i18n/utils';
+
+const lang = getLang(Astro.currentLocale);
+const t = useTranslations(lang);
+
+const links = [
+  { href: '#hero', label: t.nav.home },
+  { href: '#about', label: t.nav.about },
+  { href: '#products', label: t.nav.products },
+  { href: '#certifications', label: t.nav.certifications },
+  { href: '#contact', label: t.nav.contact },
+];
+
+const locales = (Object.keys(languages) as Lang[]).map((code) => ({
+  code,
+  label: languages[code].label,
+  flag: languages[code].flag,
+  href: getRelativeLocaleUrl(code),
+  current: code === lang,
+}));
+---
+
+<header
+  id="site-header"
+  class="fixed inset-x-0 top-0 z-50 border-b border-transparent bg-white/95 backdrop-blur-md transition-colors"
+>
+  <nav class="container-x flex h-18 items-center justify-between gap-4" aria-label="Main">
+    <a href="#hero" class="flex shrink-0 items-center" aria-label={t.nav.homeLabel}>
+      <img src="/images/logo.png" alt="Cruise Sindibad" width="800" height="185" class="h-9 w-auto sm:h-10" />
+    </a>
+
+    <ul class="hidden items-center gap-7 xl:flex">
+      {
+        links.map((l) => (
+          <li>
+            <a href={l.href} class="text-sm font-medium text-slate-800 transition hover:text-ink">
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="flex items-center gap-2 sm:gap-3">
+      <details id="lang-switcher" class="group relative">
+        <summary
+          class="flex cursor-pointer list-none items-center gap-1.5 rounded-sm border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-slate-400 [&::-webkit-details-marker]:hidden"
+          aria-label={t.nav.language}
+        >
+          <img src={languages[lang].flag} alt="" width="20" height="15" class="h-[15px] w-5 shrink-0 rounded-[2px] object-cover ring-1 ring-black/10" />
+          <span class="uppercase">{lang}</span>
+          <ChevronDown size={14} class="text-slate-500 transition group-open:rotate-180" />
+        </summary>
+        <ul class="absolute end-0 mt-2 w-48 overflow-hidden rounded-md border border-slate-200 bg-white p-1.5 shadow-lg shadow-slate-900/5">
+          {
+            locales.map((l) => (
+              <li>
+                <a
+                  href={l.href}
+                  hreflang={l.code}
+                  lang={l.code}
+                  aria-current={l.current ? 'true' : undefined}
+                  class:list={[
+                    'flex items-center justify-between gap-3 rounded-md px-3 py-2 text-sm transition',
+                    l.current ? 'bg-slate-100 font-semibold text-ink' : 'text-slate-700 hover:bg-slate-100',
+                  ]}
+                >
+                  <span class="flex min-w-0 items-center gap-2.5 text-start">
+                    <img src={l.flag} alt="" width="24" height="18" loading="lazy" class="h-[18px] w-6 shrink-0 rounded-[2px] object-cover ring-1 ring-black/10" />
+                    {l.label}
+                  </span>
+                  {l.current && <Check size={16} class="text-leaf-600" />}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </details>
+
+      <a href="#contact" class="btn-primary hidden sm:inline-flex">
+        {t.nav.quote} <ArrowRight size={16} class="rtl:-scale-x-100" />
+      </a>
+      <button
+        id="menu-toggle"
+        type="button"
+        class="grid size-10 place-items-center rounded-md text-slate-700 hover:bg-slate-100 xl:hidden"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label={t.nav.toggleMenu}
+      >
+        <Menu size={22} class="menu-open" />
+        <X size={22} class="menu-close hidden" />
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white xl:hidden">
+    <ul class="container-x flex flex-col gap-1 py-4">
+      {
+        links.map((l) => (
+          <li>
+            <a href={l.href} class="block rounded-md px-3 py-2.5 font-medium text-slate-700 hover:bg-slate-100 hover:text-ink">
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+      <li class="pt-2">
+        <a href="#contact" class="btn-primary w-full">{t.nav.quote} <ArrowRight size={16} class="rtl:-scale-x-100" /></a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  const header = document.getElementById('site-header')!;
+  const toggle = document.getElementById('menu-toggle')!;
+  const menu = document.getElementById('mobile-menu')!;
+  const langSwitcher = document.getElementById('lang-switcher') as HTMLDetailsElement;
+
+  const setOpen = (open: boolean) => {
+    menu.classList.toggle('hidden', !open);
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.querySelector('.menu-open')?.classList.toggle('hidden', open);
+    toggle.querySelector('.menu-close')?.classList.toggle('hidden', !open);
+  };
+
+  toggle.addEventListener('click', () => setOpen(menu.classList.contains('hidden')));
+  menu.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => setOpen(false)));
+
+  // Close the language dropdown on outside click or Escape.
+  document.addEventListener('click', (e) => {
+    if (langSwitcher.open && !langSwitcher.contains(e.target as Node)) langSwitcher.open = false;
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && langSwitcher.open) {
+      langSwitcher.open = false;
+      langSwitcher.querySelector('summary')?.focus();
+    }
+  });
+
+  const onScroll = () => {
+    const scrolled = window.scrollY > 8;
+    header.classList.toggle('border-slate-200', scrolled);
+    header.classList.toggle('shadow-sm', scrolled);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>

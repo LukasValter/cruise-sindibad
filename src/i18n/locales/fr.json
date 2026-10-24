@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Cruise Sindibad | Exportateur Égyptien de Fruits et Légumes Surgelés IQF",
+    "description": "Cruise Sindibad cultive, surgèle et exporte des fruits et légumes IQF haut de gamme des terres fertiles d'Égypte pour les importateurs, distributeurs et industriels du monde entier."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "products": "Produits",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "quote": "Demander un devis",
+    "tagline": "Produits Surgelés",
+    "language": "Langue",
+    "toggleMenu": "Ouvrir ou fermer le menu",
+    "homeLabel": "Cruise Sindibad - Page d'accueil"
+  },
+  "hero": {
+    "eyebrow": "Cultivé et surgelé en Égypte",
+    "titleBefore": "Fruits et légumes",
+    "titleHighlight": "surgelés d'Égypte",
+    "titleAfter": "de haute qualité",
+    "lead": "Cruise Sindibad fournit des fruits et légumes surgelés de qualité supérieure aux importateurs, distributeurs et transformateurs alimentaires. Surgelés quelques heures après la récolte en Égypte, livrés directement chez vous.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Voir le catalogue",
+    "stats": {
+      "markets": "Marchés d'exportation",
+      "capacity": "Capacité annuelle",
+      "coldChain": "Chaîne du froid ininterrompue du champ au port"
+    },
+    "card": {
+      "title": "Spécifications d'exportation",
+      "freezing": "Surgélation rapide (IQF) à -35 °C",
+      "freezingText": "Morceaux surgelés individuellement sans grumeaux, couleur et texture naturelles préservées",
+      "packing": "Emballage en gros & Marque de distributeur",
+      "packingText": "Cartons master de 10 kg, sachets retail de 400 g à 2,5 kg",
+      "shipping": "Transport en conteneurs frigorifiques 40ft (FCL Reefer)",
+      "shippingText": "FOB Alexandrie / Damiette ou CIF jusqu'à votre port de destination",
+      "safety": "Sécurité alimentaire certifiée",
+      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · Enregistré auprès de la FDA américaine",
+      "markets": "Livraison vers l'UE, le Royaume-Uni, le Moyen-Orient, l'Amérique du Nord et l'Asie"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos de Cruise Sindibad",
+    "title": "Du delta du Nil aux chaînes du froid du monde entier.",
+    "lead": "Nous relions la fertilité de l'agriculture égyptienne aux normes internationales les plus strictes. Cruise Sindibad est un producteur, transformateur et exportateur égyptien de fruits et légumes surgelés. En partenariat étroit avec les agriculteurs locaux, nous sélectionnons les meilleurs produits du delta du Nil. La surgélation immédiate après récolte préserve la valeur nutritionnelle, le goût naturel et la fraîcheur tout au long de l'année.",
+    "pillars": {
+      "iqf": {
+        "title": "Agriculture durable",
+        "text": "Nous encourageons une agriculture responsable, raccourcissons la chaîne d'approvisionnement et réduisons le gaspillage alimentaire."
+      },
+      "farms": {
+        "title": "Contrôle qualité & Sécurité",
+        "text": "Nous garantissons une hygiène stricte, une traçabilité totale des lots et le respect rigoureux des normes alimentaires internationales."
+      },
+      "export": {
+        "title": "Exportation internationale fiable",
+        "text": "Nous assurons des approvisionnements stables toute l'année, des emballages sur mesure (gastro, industriel, marque propre) et une livraison sécurisée."
+      }
+    },
+    "whyTitle": "Pourquoi les acheteurs nous choisissent",
+    "points": {
+      "harvest": "Calendrier de récolte et d'approvisionnement 365 jours par an",
+      "residue": "Analysé pour les résidus de pesticides (conforme aux LMR européennes)",
+      "speed": "Du champ au surgélateur en moins de 6 heures"
+    }
+  },
+  "products": {
+    "eyebrow": "Nos Produits",
+    "title": "Catalogue de fruits et légumes",
+    "lead": "Tries, calibrés et surgelés selon les normes internationales. Coupes, mélanges et conditionnements personnalisés sur demande.",
+    "fruits": "Fruits",
+    "vegetables": "Légumes",
+    "items": {
+      "strawberries": { "name": "Fraises", "variants": ["Entières", "Tranches", "Dés"] },
+      "pomegranate": { "name": "Grenade", "variants": ["Arilles (Graines)"] },
+      "mango": { "name": "Mangue", "variants": ["Dés / Morceaux"] },
+      "okra": { "name": "Gombo (Okra)", "variants": ["Zero (Extra fin)", "Fin"] },
+      "artichoke": { "name": "Artichauts", "variants": ["Fonds", "Cœurs"] },
+      "peas": { "name": "Petits pois", "variants": ["Entiers"] },
+      "peasCarrots": { "name": "Petits pois & Carottes", "variants": ["Mélange 50/50"] },
+      "broccoli": { "name": "Brocoli", "variants": ["Fleurettes"] },
+      "cauliflower": { "name": "Chou-fleur", "variants": ["Fleurettes"] },
+      "fries": { "name": "Frites", "variants": ["9x9 mm", "10x10 mm"] },
+      "falafel": { "name": "Falafel", "variants": ["Boulettes (préformées)"] },
+      "beans": { "name": "Haricots verts", "variants": ["Coupés"] },
+      "molokhia": { "name": "Mélokhia (Feuilles de Corète)", "variants": ["Hachée"] },
+      "spinach": { "name": "Épinards", "variants": ["En branches", "Hachés"] },
+      "mixed": { "name": "Mélanges de légumes", "variants": ["Recettes standard et sur mesure"] }
+    },
+    "packaging": {
+      "title": "Emballage B2B & Spécifications logistiques",
+      "lead": "Chaque expédition est palettisée, équipée de enregistreurs de température et chargée sous stricte supervision. Fiches techniques fournies avec chaque devis.",
+      "cta": "Demander les spécifications d'emballage",
+      "bulk": {
+        "title": "Emballage en vrac (Bulk)",
+        "items": ["Carton de 10 kg", "4 × 2,5 kg sachets PE en carton master"]
+      },
+      "retail": {
+        "title": "Emballage de détail (Retail)",
+        "items": ["Sachets de 400 g, 1 kg et 2,5 kg", "Impression personnalisée / Marque de distributeur"]
+      },
+      "shipping": {
+        "title": "Stockage & Logistique",
+        "items": ["Conteneurs frigorifiques 40ft Reefer à -18 °C ou moins", "Durée de conservation : 24 mois"]
+      }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Qualité & Certifications",
+    "title": "Certifié pour les marchés les plus exigeants",
+    "lead": "Notre usine de transformation et nos agriculteurs partenaires font l'objet d'audits annuels indépendants. Certificats disponibles pour les acheteurs vérifiés.",
+    "cta": "Demander les certificats",
+    "certified": "Certifié",
+    "items": {
+      "iso": {
+        "title": "Système de management de la sécurité alimentaire (ISO 22000)",
+        "text": "Norme internationale garantissant la sécurité tout au long de la chaîne de transformation."
+      },
+      "haccp": {
+        "title": "Analyse des dangers et points critiques (HACCP)",
+        "text": "Contrôles préventifs à chaque étape clé – de la réception de la matière première au stockage frigorifique."
+      },
+      "globalgap": {
+        "title": "Bonnes pratiques agricoles (GlobalG.A.P.)",
+        "text": "Pratiques certifiées au niveau des exploitations pour une culture sûre, durable et traçable."
+      },
+      "fda": {
+        "title": "Enregistrement FDA (États-Unis)",
+        "text": "Établissement enregistré et conforme aux normes FSMA pour l'exportation directe vers les États-Unis."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contactez notre équipe export",
+    "title": "Discutons de votre prochaine expédition",
+    "lead": "Indiquez-nous le produit souhaité, le volume et le port de destination. Notre équipe export vous répondra sous 24 heures avec devis et disponibilités.",
+    "info": {
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "whatsapp": "WhatsApp",
+      "office": "Siège social",
+      "officeValue": "Zone Industrielle, Le Caire, Égypte",
+      "hours": "Heures d'ouverture",
+      "hoursValue": "Dimanche – Jeudi, 09:00 – 17:00 (EET)"
+    },
+    "form": {
+      "name": "Nom complet *",
+      "namePlaceholder": "Jean Dupont",
+      "company": "Société / Entreprise *",
+      "companyPlaceholder": "Dupont Alimentaire SAS",
+      "email": "E-mail professionnel *",
+      "emailPlaceholder": "jean@entreprise.fr",
+      "country": "Pays de destination *",
+      "countryPlaceholder": "France",
+      "product": "Gamme de produits",
+      "productOptions": ["Fruits", "Légumes", "Mélanges de légumes", "Marque de distributeur", "Autre"],
+      "volume": "Volume estimé",
+      "volumeOptions": ["Commande test (< 1 conteneur FCL)", "1 – 5 FCL / an", "5 – 20 FCL / an", "20+ FCL / an"],
+      "message": "Détails de la demande *",
+      "messagePlaceholder": "Spécifications des produits, coupes, type d'emballage, port de destination, Incoterms souhaités...",
+      "error": "Veuillez remplir tous les champs obligatoires et fournir une adresse e-mail valide.",
+      "privacy": "Nous respectons votre vie privée. Vos données sont exclusivement utilisées pour traiter votre demande B2B.",
+      "submit": "Envoyer la demande",
+      "success": "Merci ! Notre service export vous contactera sous un jour ouvrable."
+    }
+  },
+  "footer": {
+    "about": "Producteur, transformateur et exportateur égyptien de fruits et légumes surgelés IQF pour les importateurs, distributeurs et industriels du monde entier.",
+    "company": "Entreprise",
+    "aboutUs": "À propos",
+    "products": "Produits",
+    "packaging": "Spécifications d'emballage",
+    "ready": "Vous souhaitez commander un conteneur ?",
+    "readyText": "Obtenez les tarifs actuels et les disponibilités pour votre prochaine expédition.",
+    "rights": "Tous droits réservés.",
+    "proud": "Fièrement cultivé et surgelé en Égypte"
+  }
+}

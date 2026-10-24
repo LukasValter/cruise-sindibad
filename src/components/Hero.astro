@@ -1,0 +1,72 @@
+---
+import { ArrowRight, Sprout, Ship, ShieldCheck, Thermometer, Package } from 'lucide-astro';
+import { getLang, useTranslations } from '../i18n/utils';
+
+const t = useTranslations(getLang(Astro.currentLocale));
+const { stats, card } = t.hero;
+
+const statItems = [
+  { value: '40+', label: stats.markets },
+  { value: '25K t', label: stats.capacity },
+  { value: '-18°C', label: stats.coldChain },
+];
+
+const specs = [
+  { icon: Thermometer, title: card.freezing, text: card.freezingText },
+  { icon: Package, title: card.packing, text: card.packingText },
+  { icon: Ship, title: card.shipping, text: card.shippingText },
+  { icon: ShieldCheck, title: card.safety, text: card.safetyText },
+];
+---
+
+<section id="hero" class="relative overflow-hidden border-b border-slate-200 bg-white pt-32 pb-20 sm:pt-40 sm:pb-28">
+
+  <div class="container-x grid items-center gap-14 lg:grid-cols-12">
+    <div class="lg:col-span-7">
+      <span class="eyebrow"><Sprout size={14} /> {t.hero.eyebrow}</span>
+      <h1 class="mt-6 text-4xl font-bold leading-[1.1] sm:text-5xl lg:text-6xl">
+        {t.hero.titleBefore} {t.hero.titleHighlight} {t.hero.titleAfter}
+      </h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-700">{t.hero.lead}</p>
+
+      <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+        <a href="#contact" class="btn-primary px-6 py-3.5 text-base">
+          {t.hero.ctaPrimary} <ArrowRight size={18} class="rtl:-scale-x-100" />
+        </a>
+        <a href="#products" class="btn-secondary px-6 py-3.5 text-base">{t.hero.ctaSecondary}</a>
+      </div>
+
+      <dl class="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-slate-200 pt-8">
+        {
+          statItems.map((s) => (
+            <div>
+              <dt class="sr-only">{s.label}</dt>
+              <dd class="font-display text-2xl font-bold text-ink sm:text-3xl"><bdi dir="ltr">{s.value}</bdi></dd>
+              <dd class="mt-1 text-xs font-medium text-slate-700 sm:text-sm">{s.label}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+
+    <div class="lg:col-span-5">
+      <div class="rounded-lg bg-navy-900 p-8 text-white">
+        <p class="text-sm font-semibold uppercase tracking-widest text-slate-300">{card.title}</p>
+        <ul class="mt-4 divide-y divide-white/10">
+          {
+            specs.map(({ icon: Icon, title, text }) => (
+              <li class="flex gap-4 py-4">
+                <Icon size={20} class="mt-0.5 shrink-0 text-sky" />
+                <div>
+                  <p class="font-semibold">{title}</p>
+                  <p class="mt-0.5 text-sm text-slate-300">{text}</p>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="border-t border-white/10 pt-4 text-sm text-slate-300">{card.markets}</p>
+      </div>
+    </div>
+  </div>
+</section>

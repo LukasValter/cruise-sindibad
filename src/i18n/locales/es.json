@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Cruise Sindibad | Exportador Egipcio de Frutas y Verduras Congeladas IQF",
+    "description": "Cruise Sindibad cultiva, congela y exporta frutas y verduras IQF de primera calidad desde los fértiles campos de Egipto para importadores, distribuidores e industrias de todo el mundo."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "products": "Productos",
+    "certifications": "Certificaciones",
+    "contact": "Contacto",
+    "quote": "Solicitar presupuesto",
+    "tagline": "Productos Congelados",
+    "language": "Idioma",
+    "toggleMenu": "Abrir o cerrar menú",
+    "homeLabel": "Cruise Sindibad - Página de inicio"
+  },
+  "hero": {
+    "eyebrow": "Cultivado y congelado en Egipto",
+    "titleBefore": "Frutas y verduras",
+    "titleHighlight": "congeladas de Egipto",
+    "titleAfter": "de la máxima calidad",
+    "lead": "Cruise Sindibad suministra frutas y verduras congeladas de calidad premium a importadores, distribuidores e industrias alimentarias de todo el mundo. Congeladas a las pocas horas de su cosecha en Egipto, entregadas directamente en su almacén.",
+    "ctaPrimary": "Solicitar presupuesto",
+    "ctaSecondary": "Ver catálogo",
+    "stats": {
+      "markets": "Mercados de exportación",
+      "capacity": "Capacidad anual",
+      "coldChain": "Cadena de frío ininterrumpida del campo al puerto"
+    },
+    "card": {
+      "title": "Especificaciones de exportación",
+      "freezing": "Ultracongelación rápida (IQF) a -35 °C",
+      "freezingText": "Piezas congeladas sueltas sin bloques, conservando su color y textura naturales",
+      "packing": "Empaque al por mayor y Marca Blanca",
+      "packingText": "Cajas máster de 10 kg, bolsas de venta al menor de 400 g a 2,5 kg",
+      "shipping": "Transporte en contenedores refrigerados 40ft (FCL Reefer)",
+      "shippingText": "FOB Alejandría / Damietta o CIF hasta su puerto de destino",
+      "safety": "Seguridad alimentaria certificada",
+      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · Registro US FDA",
+      "markets": "Suministro a la UE, Reino Unido, Oriente Medio, América del Norte y Asia"
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre Cruise Sindibad",
+    "title": "Del delta del Nilo a las cadenas de frío de todo el mundo.",
+    "lead": "Unimos la fertilidad de la agricultura egipcia con los más estrictos estándares internacionales. Cruise Sindibad es un cultivador, procesador y exportador egipcio de frutas y verduras congeladas. En estrecha colaboración con los agricultores locales, seleccionamos las mejores cosechas del delta del Nilo. La ultracongelación inmediata tras la recolección mantiene el valor nutricional, sabor natural y frescura durante todo el año.",
+    "pillars": {
+      "iqf": {
+        "title": "Agricultura sostenible",
+        "text": "Promovemos el cultivo responsable, acortamos la cadena de suministro y reducimos activamente el desperdicio alimentario."
+      },
+      "farms": {
+        "title": "Control de calidad y seguridad",
+        "text": "Garantizamos la máxima higiene, trazabilidad completa de lotes y el cumplimiento estricto de la normativa alimentaria internacional."
+      },
+      "export": {
+        "title": "Exportación internacional confiable",
+        "text": "Aseguramos un suministro estable todo el año, empaques flexibles (gastro, industrial, marca propia) y envíos seguros a cualquier parte del mundo."
+      }
+    },
+    "whyTitle": "Por qué nos eligen los compradores",
+    "points": {
+      "harvest": "Calendario de cosecha y suministro los 365 días del año",
+      "residue": "Analizado contra residuos de plaguicidas (conforme a los LMR de la UE)",
+      "speed": "Del campo al congelador en menos de 6 horas"
+    }
+  },
+  "products": {
+    "eyebrow": "Nuestros Productos",
+    "title": "Catálogo de frutas y verduras",
+    "lead": "Clasificadas, calibradas y congeladas IQF según normas internacionales. Cortes, mezclas y envases personalizados bajo pedido.",
+    "fruits": "Frutas",
+    "vegetables": "Verduras",
+    "items": {
+      "strawberries": { "name": "Fresas", "variants": ["Enteras", "Láminas", "Dados"] },
+      "pomegranate": { "name": "Granada", "variants": ["Arilos (Semillas)"] },
+      "mango": { "name": "Mango", "variants": ["Dados / Trozos"] },
+      "okra": { "name": "Okra (Gombo)", "variants": ["Zero (Extra fina)", "Fina"] },
+      "artichoke": { "name": "Alcachofas", "variants": ["Fondos", "Corazones"] },
+      "peas": { "name": "Guisantes verdes", "variants": ["Enteros"] },
+      "peasCarrots": { "name": "Guisantes con zanahoria", "variants": ["Mezcla 50/50"] },
+      "broccoli": { "name": "Brócoli", "variants": ["Ramilletes"] },
+      "cauliflower": { "name": "Coliflor", "variants": ["Ramilletes"] },
+      "fries": { "name": "Patatas fritas", "variants": ["9x9 mm", "10x10 mm"] },
+      "falafel": { "name": "Faláfel", "variants": ["Bolas / Pastillas (preformadas)"] },
+      "beans": { "name": "Judías verdes", "variants": ["Troceadas"] },
+      "molokhia": { "name": "Molokhia (Hojas de yute)", "variants": ["Picada"] },
+      "spinach": { "name": "Espinacas", "variants": ["En hoja", "Picadas"] },
+      "mixed": { "name": "Verduras variadas", "variants": ["Mezclas estándar y formulaciones a medida"] }
+    },
+    "packaging": {
+      "title": "Empaque B2B y especificaciones logísticas",
+      "lead": "Cada envío se paletiza, se equipa con registradores de temperatura y se carga bajo estricta supervisión. Fichas técnicas incluidas en cada cotización.",
+      "cta": "Solicitar especificaciones de empaque",
+      "bulk": {
+        "title": "Empaque a granel (Bulk)",
+        "items": ["Caja de cartón de 10 kg", "4 × 2,5 kg bolsas PE en caja máster"]
+      },
+      "retail": {
+        "title": "Empaque al por menor (Retail)",
+        "items": ["Bolsas de 400 g, 1 kg y 2,5 kg", "Impresión personalizada / Marca blanca (Private Label)"]
+      },
+      "shipping": {
+        "title": "Almacenamiento y logística",
+        "items": ["Contenedores refrigerados 40ft Reefer a -18 °C o inferior", "Vida útil: 24 meses"]
+      }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Calidad y Certificaciones",
+    "title": "Certificado para los mercados más exigentes",
+    "lead": "Nuestra planta de procesamiento y agricultores asociados se someten a auditorías independientes anuales. Certificados disponibles para compradores verificados.",
+    "cta": "Solicitar certificados",
+    "certified": "Certificado",
+    "items": {
+      "iso": {
+        "title": "Gestión de la inocuidad alimentaria (ISO 22000)",
+        "text": "Sistema reconocido internacionalmente para garantizar la seguridad en toda la cadena de procesamiento."
+      },
+      "haccp": {
+        "title": "Análisis de peligros y puntos críticos de control (HACCP)",
+        "text": "Controles preventivos en cada punto crítico, desde la recepción de la materia prima hasta el almacenamiento en frío."
+      },
+      "globalgap": {
+        "title": "Buenas Prácticas Agrícolas (GlobalG.A.P.)",
+        "text": "Prácticas certificadas a nivel de campo para un cultivo seguro, sostenible y trazable."
+      },
+      "fda": {
+        "title": "Registro US FDA",
+        "text": "Instalación alimentaria registrada que cumple con la normativa FSMA para la exportación directa a EE. UU."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Póngase en contacto con nuestro equipo de exportación",
+    "title": "Hablemos de su próximo envío",
+    "lead": "Envíenos el producto deseado, el volumen y el puerto de destino. Nuestro equipo responderá en un plazo de 24 horas con presupuestos, especificaciones y disponibilidad.",
+    "info": {
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "whatsapp": "WhatsApp",
+      "office": "Sede central",
+      "officeValue": "Zona Industrial, El Cairo, Egipto",
+      "hours": "Horario de atención",
+      "hoursValue": "Domingo – Jueves, 09:00 – 17:00 (EET)"
+    },
+    "form": {
+      "name": "Nombre completo *",
+      "namePlaceholder": "Carlos García",
+      "company": "Empresa / Sociedad *",
+      "companyPlaceholder": "Alimentos García S.L.",
+      "email": "Correo corporativo *",
+      "emailPlaceholder": "carlos@empresa.es",
+      "country": "País de destino *",
+      "countryPlaceholder": "España",
+      "product": "Gama de productos",
+      "productOptions": ["Frutas", "Verduras", "Mezclas de verduras", "Marca Blanca (Private Label)", "Otro"],
+      "volume": "Volumen estimado",
+      "volumeOptions": ["Pedido de prueba (< 1 contenedor FCL)", "1 – 5 FCL / año", "5 – 20 FCL / año", "20+ FCL / año"],
+      "message": "Detalles de la consulta *",
+      "messagePlaceholder": "Especificaciones del producto, cortes requeridos, tipo de empaque, puerto de destino, Incoterms...",
+      "error": "Por favor, complete todos los campos obligatorios y proporcione un correo válido.",
+      "privacy": "Respetamos su privacidad. Sus datos se utilizarán exclusivamente para tramitar su solicitud B2B.",
+      "submit": "Enviar solicitud",
+      "success": "¡Gracias! Nuestro departamento de exportación se pondrá en contacto en un plazo de un día hábil."
+    }
+  },
+  "footer": {
+    "about": "Cultivador, procesador y exportador egipcio de frutas y verduras congeladas IQF de primera calidad para importadores, distribuidores e industrias de todo el mundo.",
+    "company": "Empresa",
+    "aboutUs": "Sobre nosotros",
+    "products": "Productos",
+    "packaging": "Especificaciones de empaque",
+    "ready": "¿Desea solicitar un contenedor?",
+    "readyText": "Obtenga listas de precios actualizadas y disponibilidad para su próximo pedido.",
+    "rights": "Todos los derechos reservados.",
+    "proud": "Orgullosamente cultivado y congelado en Egipto"
+  }
+}

@@ -1,0 +1,68 @@
+---
+import { Linkedin, Mail, Phone } from 'lucide-astro';
+import { getLang, useTranslations } from '../i18n/utils';
+
+const t = useTranslations(getLang(Astro.currentLocale));
+const year = new Date().getFullYear();
+
+const columns = [
+  {
+    title: t.footer.company,
+    links: [
+      { href: '#about', label: t.footer.aboutUs },
+      { href: '#certifications', label: t.nav.certifications },
+      { href: '#contact', label: t.nav.contact },
+    ],
+  },
+  {
+    title: t.footer.products,
+    links: [
+      { href: '#products', label: t.products.fruits },
+      { href: '#products', label: t.products.vegetables },
+      { href: '#products', label: t.footer.packaging },
+    ],
+  },
+];
+---
+
+<footer class="bg-navy-950 text-slate-300">
+  <div class="container-x grid gap-12 py-16 md:grid-cols-12">
+    <div class="md:col-span-5">
+      <a href="#hero" class="inline-flex rounded-md bg-white px-4 py-2.5" aria-label={t.nav.homeLabel}>
+        <img src="/images/logo.png" alt="Cruise Sindibad" width="800" height="185" loading="lazy" class="h-9 w-auto" />
+      </a>
+      <p class="mt-5 max-w-sm text-sm leading-relaxed">{t.footer.about}</p>
+      <div class="mt-6 flex gap-3">
+        <a href="#" aria-label="LinkedIn" class="grid size-10 place-items-center rounded-md border border-white/15 transition hover:bg-white/10 hover:text-white"><Linkedin size={18} /></a>
+        <a href="mailto:export@cruisesindibad.com" aria-label={t.contact.info.email} class="grid size-10 place-items-center rounded-md border border-white/15 transition hover:bg-white/10 hover:text-white"><Mail size={18} /></a>
+        <a href="tel:+201000000000" aria-label={t.contact.info.phone} class="grid size-10 place-items-center rounded-md border border-white/15 transition hover:bg-white/10 hover:text-white"><Phone size={18} /></a>
+      </div>
+    </div>
+
+    {
+      columns.map((col) => (
+        <div class="md:col-span-2">
+          <h3 class="text-sm font-semibold text-white">{col.title}</h3>
+          <ul class="mt-4 space-y-3 text-sm">
+            {col.links.map((l) => (
+              <li><a href={l.href} class="transition hover:text-white">{l.label}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+
+    <div class="md:col-span-3">
+      <h3 class="text-sm font-semibold text-white">{t.footer.ready}</h3>
+      <p class="mt-4 text-sm">{t.footer.readyText}</p>
+      <a href="#contact" class="btn-primary mt-5">{t.nav.quote}</a>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="container-x flex flex-col gap-2 py-6 text-xs sm:flex-row sm:items-center sm:justify-between">
+      <p>&copy; {year} Cruise Sindibad. {t.footer.rights}</p>
+      <p>{t.footer.proud}</p>
+    </div>
+  </div>
+</footer>

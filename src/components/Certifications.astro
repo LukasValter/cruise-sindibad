@@ -1,0 +1,47 @@
+---
+import { ShieldCheck, Award, Sprout, BadgeCheck, FileCheck } from 'lucide-astro';
+import { getLang, useTranslations } from '../i18n/utils';
+
+const t = useTranslations(getLang(Astro.currentLocale));
+const { items } = t.certifications;
+
+const certs = [
+  { icon: ShieldCheck, name: 'ISO 22000', ...items.iso },
+  { icon: FileCheck, name: 'HACCP', ...items.haccp },
+  { icon: Sprout, name: 'GlobalG.A.P.', ...items.globalgap },
+  { icon: BadgeCheck, name: 'FDA', ...items.fda },
+];
+---
+
+<section id="certifications" class="bg-slate-50 py-20 sm:py-28">
+  <div class="container-x">
+    <div class="grid gap-12 lg:grid-cols-12">
+      <div class="lg:col-span-4">
+        <span class="eyebrow"><Award size={14} /> {t.certifications.eyebrow}</span>
+        <h2 class="mt-5 text-3xl font-bold sm:text-4xl">{t.certifications.title}</h2>
+        <p class="mt-5 text-lg leading-relaxed text-slate-700">{t.certifications.lead}</p>
+        <a href="#contact" class="btn-secondary mt-8">{t.certifications.cta}</a>
+      </div>
+
+      <div class="grid gap-5 sm:grid-cols-2 lg:col-span-8">
+        {
+          certs.map(({ icon: Icon, name, title, text }) => (
+            <article class="card relative overflow-hidden p-7">
+              <div class="relative flex items-center gap-4">
+                <span class="grid size-14 place-items-center rounded-md border border-slate-300 bg-slate-100 text-ink">
+                  <Icon size={26} />
+                </span>
+                <div>
+                  <p class="font-display text-xl font-bold text-ink">{name}</p>
+                  <p class="mt-1 inline-block rounded-sm bg-leaf-600 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-white">{t.certifications.certified}</p>
+                </div>
+              </div>
+              <h3 class="relative mt-6 text-base font-semibold">{title}</h3>
+              <p class="relative mt-2 text-sm leading-relaxed text-slate-700">{text}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

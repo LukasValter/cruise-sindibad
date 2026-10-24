@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Cruise Sindibad | Egyptský exportér mraženého ovoce a zeleniny IQF",
+    "description": "Cruise Sindibad pěstuje, mrazí a exportuje prémiové ovoce a zeleninu IQF z úrodných egyptských polí pro dovozce, distributory a potravinářské výrobce po celém světě."
+  },
+  "nav": {
+    "home": "Domů",
+    "about": "O nás",
+    "products": "Produkty",
+    "certifications": "Certifikáty",
+    "contact": "Kontakt",
+    "quote": "Poptat nabídku",
+    "tagline": "Mražené produkty",
+    "language": "Jazyk",
+    "toggleMenu": "Otevřít nebo zavřít menu",
+    "homeLabel": "Cruise Sindibad - úvodní stránka"
+  },
+  "hero": {
+    "eyebrow": "Vypěstováno a zmraženo v Egyptě",
+    "titleBefore": "Egypské mražené",
+    "titleHighlight": "ovoce a zelenina",
+    "titleAfter": "nejvyšší kvality",
+    "lead": "Cruise Sindibad dodává prémiové mražené ovoce a zeleninu pro dovozce, distributory a potravinářské zpracovatele. Zmrazeno do pár hodin od sklizně v Egyptě, doručeno v plné kvalitě přímo k vám.",
+    "ctaPrimary": "Poptat nabídku",
+    "ctaSecondary": "Zobrazit katalog",
+    "stats": {
+      "markets": "Exportních trhů",
+      "capacity": "Roční kapacita",
+      "coldChain": "Nepřerušený chladový řetězec z pole do přístavu"
+    },
+    "card": {
+      "title": "Exportní specifikace",
+      "freezing": "Šokově zmraženo (IQF) při -35 °C",
+      "freezingText": "Volně sypané hluboce zmražené kusy bez hrudek, přirozená barva a textura",
+      "packing": "Velkoobchodní balení a privátní značky",
+      "packingText": "Master kartony 10 kg, maloobchodní sáčky 400 g – 2,5 kg",
+      "shipping": "Přeprava v mrazírenských kontejnerech 40ft Reefer (FCL)",
+      "shippingText": "FOB Alexandrie / Damietta nebo CIF do vašeho cílového přístavu",
+      "safety": "Certifikovaná bezpečnost potravin",
+      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · Registrace u US FDA",
+      "markets": "Dodáváme do EU, Velké Británie, Blízkého východu, Severní Ameriky a Asie"
+    }
+  },
+  "about": {
+    "eyebrow": "O Cruise Sindibad",
+    "title": "Z delty Nilu do mrazírenských řetězců celého světa.",
+    "lead": "Propojujeme úrodnost egyptské půdy s přísnými evropskými standardy. Cruise Sindibad je egyptský pěstitel, zpracovatel a exportér mraženého ovoce a zeleniny. V úzkém partnerství s místními zemědělci vybíráme to nejlepší ovoce a zelenunu z úrodných polí v deltě Nilu. Díky šokovému mrazení bezprostředně po sklizni uchováváme v plodech plnou nutriční hodnotu, přirozenou chuť a čerstvost po celý rok.",
+    "pillars": {
+      "iqf": {
+        "title": "Odpovědné zemědělství a udržitelnost",
+        "text": "Podporujeme šetrné pěstování, zkracujeme dodavatelský řetězec a aktivně minimalizujeme plýtvání potravinami od pole až po finální balení."
+      },
+      "farms": {
+        "title": "Kontrola kvality a bezpečnost",
+        "text": "Garantujeme přísnou hygienu balení, plnou dohledatelnost původu každé šarže a striktní dodržování mezinárodních potravinářských normativů."
+      },
+      "export": {
+        "title": "Spolehlivý mezinárodní export",
+        "text": "Zajišťujeme stabilní celoroční dodávky, flexibilní specifikace balení (gastro/industrial/private label) a bezpečné doručení do kteréhokoliv koutu světa."
+      }
+    },
+    "whyTitle": "Proč si nás odběratelé vybírají",
+    "points": {
+      "harvest": "Celoroční sklizňový kalendář",
+      "residue": "Testováno na rezidua pesticidů (v souladu s MRL limity)",
+      "speed": "Z pole do mrazáku za méně než 6 hodin"
+    }
+  },
+  "products": {
+    "eyebrow": "Naše produkty",
+    "title": "Katalog ovoce a zeleniny",
+    "lead": "Tříděno, kalibrováno a šokově mraženo podle mezinárodních norem. Řezy, poměry směsí a balení na míru podle vašich požadavků.",
+    "fruits": "Ovoce",
+    "vegetables": "Zelenina",
+  "items": {
+      "strawberries": { "name": "Jahody", "variants": ["Celé", "Plátky", "Kostky"] },
+      "pomegranate": { "name": "Granátové jablko", "variants": ["Sypaná zrna"] },
+      "mango": { "name": "Mango", "variants": ["Kostky"] },
+      "okra": { "name": "Okra (Ibišek jedlý)", "variants": ["Zero (Extra jemná)", "Fine (Jemná)"] },
+      "artichoke": { "name": "Artyčoky", "variants": ["Dna artyčoků", "Srdíčka artyčoků"] },
+      "peas": { "name": "Zelený hrášek", "variants": ["Celý"] },
+      "peasCarrots": { "name": "Hrášek s mrkví", "variants": ["Směs 50/50"] },
+      "broccoli": { "name": "Brokolice", "variants": ["Růžičky"] },
+      "cauliflower": { "name": "Květák", "variants": ["Růžičky"] },
+      "fries": { "name": "Hranolky", "variants": ["9x9 mm", "10x10 mm"] },
+      "falafel": { "name": "Falafel", "variants": ["Kuličky (předpečené)"] },
+      "beans": { "name": "Zelené fazolky", "variants": ["Řezané"] },
+      "molokhia": { "name": "Molochija (listy jutovníku)", "variants": ["Sekaná"] },
+      "spinach": { "name": "Špenát", "variants": ["Listový", "Sekaný"] },
+      "mixed": { "name": "Zeleninové směsi", "variants": ["Standardní i receptury na míru"] }
+    },
+    "packaging": {
+      "title": "B2B balení a přepravní specifikace",
+      "lead": "Každá zásilka je paletizována, opatřena záznamníkem teploty a nakládána pod přísným dohledem. Kompletní specifikace dodáváme ke každé cenové nabídce.",
+      "cta": "Vyžádat specifikace balení",
+      "bulk": {
+        "title": "Velkoobchodní balení (Bulk)",
+        "items": ["Karton 10 kg", "4 × 2,5 kg PE sáčky v master kartonu"]
+      },
+      "retail": {
+        "title": "Maloobchodní balení (Retail)",
+        "items": ["Sáčky 400 g, 1 kg a 2,5 kg", "Vlastní potisk / Privátní značka (Private Label)"]
+      },
+      "shipping": {
+        "title": "Skladování a logistika",
+        "items": ["Mrazírenské kontejnery 40ft Reefer při -18 °C nebo nižší", "Minimální trvanlivost: 24 měsíců"]
+      }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Kvalita a certifikace",
+    "title": "Certifikováno pro nejnáročnější trhy světa",
+    "lead": "Náš zpracovatelský závod i smluvní pěstitelé procházejí každý rok nezávislým auditem. Certifikáty a auditní zprávy poskytneme ověřeným odběratelům na vyžádání.",
+    "cta": "Vyžádat certifikáty",
+    "certified": "Certifikováno",
+    "items": {
+      "iso": {
+        "title": "Systém managementu bezpečnosti potravin (ISO 22000)",
+        "text": "Mezinárodně uznávaný systém managementu bezpečnosti potravin pokrývající celý zpracovatelský řetězec."
+      },
+      "haccp": {
+        "title": "Analýza rizik a kritické kontrolní body (HACCP)",
+        "text": "Preventivní kontroly v každém kritickém bodě – od příjmu čerstvé suroviny po chladírenské skladování."
+      },
+      "globalgap": {
+        "title": "Správná zemědělská praxe (GlobalG.A.P.)",
+        "text": "Certifikované postupy na úrovni farem pro bezpečné, udržitelné a plně dohledatelné pěstování."
+      },
+      "fda": {
+        "title": "Registrace u americké FDA",
+        "text": "Registrované potravinářské zařízení splňující požadavky FSMA pro přímý export do USA."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontaktujte náš exportní tým",
+    "title": "Projednejme vaši další zásilku",
+    "lead": "Napište nám požadovaný produkt, objem a cílový přístav. Náš exportní tým odpoví do 24 hodin s cenovou nabídkou, specifikacemi a dostupností.",
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp",
+      "office": "Sídlo společnosti",
+      "officeValue": "Průmyslová zóna, Káhira, Egypt",
+      "hours": "Provozní doba",
+      "hoursValue": "Neděle – Čtvrtek, 09:00 – 17:00 (EET)"
+    },
+    "form": {
+      "name": "Celé jméno *",
+      "namePlaceholder": "Jan Novák",
+      "company": "Společnost / Firma *",
+      "companyPlaceholder": "Potraviny Novák s.r.o.",
+      "email": "Firemní e-mail *",
+      "emailPlaceholder": "jan@firma.cz",
+      "country": "Země určení *",
+      "countryPlaceholder": "Česká republika",
+      "product": "Požadovaný sortiment",
+      "productOptions": ["Ovoce", "Zelenina", "Zeleninové směsi", "Privátní značka (Private Label)", "Jiné"],
+      "volume": "Předpokládaný objem",
+      "volumeOptions": ["Zkušební objednávka (< 1 FCL kontejner)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
+      "message": "Detailní poptávka *",
+      "messagePlaceholder": "Specifikace produktů, požadované řezy, typ balení, cílový přístav, dodací podmínky Incoterms…",
+      "error": "Vyplňte prosím všechna povinná pole a platnou e-mailovou adresu.",
+      "privacy": "Respektujeme vaše soukromí. Údaje slouží výhradně k vyřízení vaší B2B poptávky.",
+      "submit": "Odeslat poptávku",
+      "success": "Děkujeme! Náš exportní tým se vám ozve nejpozději do jednoho pracovního dne."
+    }
+  },
+  "footer": {
+    "about": "Egyptský pěstitel, zpracovatel a exportér prémiového mraženého ovoce a zeleniny pro dovozce, distributory a potravinářský průmysl po celém světě.",
+    "company": "Společnost",
+    "aboutUs": "O nás",
+    "products": "Produkty",
+    "packaging": "Specifikace balení",
+    "ready": "Chcete poptat kontejner?",
+    "readyText": "Získejte aktuální ceník a kapacitní možnosti pro vaši další zásilku.",
+    "rights": "Všechna práva vyhrazena.",
+    "proud": "S hrdostí vypěstováno a zmraženo v Egyptě"
+  }
+}

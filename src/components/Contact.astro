@@ -1,0 +1,122 @@
+---
+import { Mail, Phone, MapPin, Clock, Send, MessageCircle, CircleCheck } from 'lucide-astro';
+import { getLang, useTranslations } from '../i18n/utils';
+
+const t = useTranslations(getLang(Astro.currentLocale));
+const { info, form } = t.contact;
+
+const infoItems = [
+  { icon: Mail, label: info.email, value: 'export@cruisesindibad.com', href: 'mailto:export@cruisesindibad.com', ltr: true },
+  { icon: Phone, label: info.phone, value: '+20 100 000 0000', href: 'tel:+201000000000', ltr: true },
+  { icon: MessageCircle, label: info.whatsapp, value: '+20 100 000 0000', href: 'https://wa.me/201000000000', ltr: true },
+  { icon: MapPin, label: info.office, value: info.officeValue },
+  { icon: Clock, label: info.hours, value: info.hoursValue },
+];
+---
+
+<section id="contact" class="bg-white py-20 sm:py-28">
+  <div class="container-x">
+    <div class="grid gap-12 lg:grid-cols-12">
+      <div class="lg:col-span-5">
+        <span class="eyebrow">{t.contact.eyebrow}</span>
+        <h2 class="mt-5 text-3xl font-bold sm:text-4xl">{t.contact.title}</h2>
+        <p class="mt-5 text-lg leading-relaxed text-slate-700">{t.contact.lead}</p>
+
+        <ul class="mt-10 space-y-5">
+          {
+            infoItems.map(({ icon: Icon, label, value, href, ltr }) => (
+              <li class="flex items-start gap-4">
+                <span class="grid size-11 shrink-0 place-items-center rounded-md bg-slate-100 text-ink">
+                  <Icon size={20} />
+                </span>
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{label}</p>
+                  {href ? (
+                    <a href={href} class="font-medium text-ink hover:text-navy-700 hover:underline">
+                      <bdi dir={ltr ? 'ltr' : undefined}>{value}</bdi>
+                    </a>
+                  ) : (
+                    <p class="font-medium text-ink">{value}</p>
+                  )}
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div class="lg:col-span-7">
+        <form id="inquiry-form" class="rounded-lg border border-slate-200 bg-slate-50 p-6 sm:p-10" novalidate>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <label class="block">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.name}</span>
+              <input name="name" type="text" required autocomplete="name" class="field" placeholder={form.namePlaceholder} />
+            </label>
+            <label class="block">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.company}</span>
+              <input name="company" type="text" required autocomplete="organization" class="field" placeholder={form.companyPlaceholder} />
+            </label>
+            <label class="block">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.email}</span>
+              <input name="email" type="email" required autocomplete="email" dir="ltr" class="field rtl:text-end" placeholder={form.emailPlaceholder} />
+            </label>
+            <label class="block">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.country}</span>
+              <input name="country" type="text" required autocomplete="country-name" class="field" placeholder={form.countryPlaceholder} />
+            </label>
+            <label class="block">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.product}</span>
+              <select name="product" class="field">
+                {form.productOptions.map((o) => <option>{o}</option>)}
+              </select>
+            </label>
+            <label class="block">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.volume}</span>
+              <select name="volume" class="field">
+                {form.volumeOptions.map((o) => <option>{o}</option>)}
+              </select>
+            </label>
+            <label class="block sm:col-span-2">
+              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.message}</span>
+              <textarea name="message" rows="5" required class="field resize-y" placeholder={form.messagePlaceholder}></textarea>
+            </label>
+          </div>
+
+          <p id="form-error" class="mt-4 hidden text-sm font-medium text-red-600" role="alert">{form.error}</p>
+
+          <div class="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <p class="text-xs text-slate-700">{form.privacy}</p>
+            <button type="submit" class="btn-primary shrink-0 px-6">
+              {form.submit} <Send size={16} class="rtl:-scale-x-100" />
+            </button>
+          </div>
+
+          <div id="form-success" class="mt-6 hidden items-center gap-3 rounded-md border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-ink" role="status">
+            <CircleCheck size={18} class="shrink-0 text-leaf-600" /> {form.success}
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // No backend yet: validates client-side and shows a confirmation.
+  // To go live, POST the FormData to your form endpoint (e.g. Formspree, Netlify Forms, or an API route).
+  const form = document.getElementById('inquiry-form') as HTMLFormElement;
+  const error = document.getElementById('form-error')!;
+  const success = document.getElementById('form-success')!;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (!form.checkValidity()) {
+      error.classList.remove('hidden');
+      form.reportValidity();
+      return;
+    }
+    error.classList.add('hidden');
+    success.classList.remove('hidden');
+    success.classList.add('flex');
+    form.reset();
+  });
+</script>

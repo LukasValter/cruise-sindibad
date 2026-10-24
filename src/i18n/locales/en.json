@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Cruise Sindibad | Egyptian IQF Frozen Fruits & Vegetables Exporter",
+    "description": "Cruise Sindibad grows, freezes, and exports premium IQF fruits and vegetables from Egypt's fertile lands for importers, distributors, and food manufacturers worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "quote": "Request a Quote",
+    "tagline": "Frozen Produce",
+    "language": "Language",
+    "toggleMenu": "Toggle navigation menu",
+    "homeLabel": "Cruise Sindibad - Homepage"
+  },
+  "hero": {
+    "eyebrow": "Grown & Frozen in Egypt",
+    "titleBefore": "Egyptian Frozen",
+    "titleHighlight": "Fruits & Vegetables",
+    "titleAfter": "of the Highest Quality",
+    "lead": "Cruise Sindibad supplies premium frozen fruits and vegetables to importers, distributors, and food processors worldwide. Frozen within hours of harvest in Egypt, delivered directly to you with uncompromised quality.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "View Catalog",
+    "stats": {
+      "markets": "Export Markets",
+      "capacity": "Annual Capacity",
+      "coldChain": "Unbroken cold chain from farm to port"
+    },
+    "card": {
+      "title": "Export Specifications",
+      "freezing": "Flash Frozen (IQF) at -35 °C",
+      "freezingText": "Free-flowing deep-frozen pieces, lump-free, natural color and texture preserved",
+      "packing": "Bulk Packaging & Private Labeling",
+      "packingText": "10 kg master cartons, retail bags from 400 g to 2.5 kg",
+      "shipping": "40ft Reefer Container Shipping (FCL)",
+      "shippingText": "FOB Alexandria / Damietta or CIF to your destination port",
+      "safety": "Certified Food Safety",
+      "safetyText": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA Registered",
+      "markets": "Supplying the EU, UK, Middle East, North America & Asia"
+    }
+  },
+  "about": {
+    "eyebrow": "About Cruise Sindibad",
+    "title": "From the Nile Delta to Global Cold Chains.",
+    "lead": "Connecting the fertility of Egyptian agriculture with strict international standards. Cruise Sindibad is a direct grower, processor, and exporter of frozen fruits and vegetables. Working closely with local farmers, we select the finest produce from the fertile Nile Delta. Flash freezing immediately after harvest preserves full nutritional value, natural taste, and year-round freshness.",
+    "pillars": {
+      "iqf": {
+        "title": "Sustainable Farming & Sourcing",
+        "text": "We promote responsible agriculture, shorten the supply chain, and actively minimize food waste from the fields to final packaging."
+      },
+      "farms": {
+        "title": "Quality Control & Food Safety",
+        "text": "We guarantee strict packaging hygiene, full batch traceability, and rigorous compliance with global food safety standards."
+      },
+      "export": {
+        "title": "Reliable International Export",
+        "text": "We offer stable year-round supply, flexible packing options (gastro, industrial, private label), and safe shipping anywhere in the world."
+      }
+    },
+    "whyTitle": "Why Buyers Choose Us",
+    "points": {
+      "harvest": "365-day harvesting and supply calendar",
+      "residue": "Strictly tested for pesticide residues (EU MRL compliant)",
+      "speed": "From field to freezer in under 6 hours"
+    }
+  },
+  "products": {
+    "eyebrow": "Our Products",
+    "title": "Fruit & Vegetable Catalog",
+    "lead": "Sorted, calibrated, and IQF flash-frozen to meet international standards. Custom cuts, mix ratios, and tailored packaging available upon request.",
+    "fruits": "Fruits",
+    "vegetables": "Vegetables",
+    "items": {
+      "strawberries": { "name": "Strawberries", "variants": ["Whole", "Slices", "Diced"] },
+      "pomegranate": { "name": "Pomegranate", "variants": ["Arils (Seeds)"] },
+      "mango": { "name": "Mango", "variants": ["Diced / Chunks"] },
+      "okra": { "name": "Okra", "variants": ["Zero (Extra Fine)", "Fine"] },
+      "artichoke": { "name": "Artichokes", "variants": ["Bottoms", "Hearts"] },
+      "peas": { "name": "Green Peas", "variants": ["Whole"] },
+      "peasCarrots": { "name": "Peas & Carrots", "variants": ["50/50 Mix"] },
+      "broccoli": { "name": "Broccoli", "variants": ["Florets"] },
+      "cauliflower": { "name": "Cauliflower", "variants": ["Florets"] },
+      "fries": { "name": "French Fries", "variants": ["9x9 mm", "10x10 mm"] },
+      "falafel": { "name": "Falafel", "variants": ["Patties / Balls (Pre-formed)"] },
+      "beans": { "name": "Green Beans", "variants": ["Cut"] },
+      "molokhia": { "name": "Molokhia (Jute Leaves)", "variants": ["Minced"] },
+      "spinach": { "name": "Spinach", "variants": ["Whole Leaf", "Chopped"] },
+      "mixed": { "name": "Vegetable Mixes", "variants": ["Standard & Custom Ratios"] }
+    },
+    "packaging": {
+      "title": "B2B Packaging & Logistics Specs",
+      "lead": "Every shipment is palletized, equipped with temperature data loggers, and loaded under strict supervision. Complete technical specification sheets accompany every quotation.",
+      "cta": "Request Packaging Specs",
+      "bulk": {
+        "title": "Bulk Packaging",
+        "items": ["10 kg cartons", "4 × 2.5 kg PE bags in master carton"]
+      },
+      "retail": {
+        "title": "Retail Packaging",
+        "items": ["400 g, 1 kg, and 2.5 kg bags", "Custom printing / Private Label services"]
+      },
+      "shipping": {
+        "title": "Storage & Logistics",
+        "items": ["40ft Reefer containers at -18 °C or below", "Shelf life: 24 months"]
+      }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Quality & Certifications",
+    "title": "Certified for the World's Most Demanding Markets",
+    "lead": "Our processing facilities and contracted farms undergo annual independent third-party audits. Certificates and full audit reports are available to verified buyers upon request.",
+    "cta": "Request Certificates",
+    "certified": "Certified",
+    "items": {
+      "iso": {
+        "title": "Food Safety Management System (ISO 22000)",
+        "text": "Internationally recognized system ensuring safety across the entire processing chain."
+      },
+      "haccp": {
+        "title": "Hazard Analysis Critical Control Point (HACCP)",
+        "text": "Preventive monitoring at every critical stage—from raw material intake to cold storage."
+      },
+      "globalgap": {
+        "title": "Good Agricultural Practice (GlobalG.A.P.)",
+        "text": "Certified farm-level practices for safe, sustainable, and fully traceable crop cultivation."
+      },
+      "fda": {
+        "title": "US FDA Registration",
+        "text": "Registered food facility compliant with FSMA regulations for direct export to North America."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact Our Export Team",
+    "title": "Let’s Discuss Your Next Shipment",
+    "lead": "Send us your required products, volumes, and destination port. Our export sales team will reply within 24 hours with pricing, specs, and current seasonal availability.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "office": "Head Office",
+      "officeValue": "Industrial Zone, Cairo, Egypt",
+      "hours": "Working Hours",
+      "hoursValue": "Sunday – Thursday, 09:00 – 17:00 (EET)"
+    },
+    "form": {
+      "name": "Full Name *",
+      "namePlaceholder": "John Smith",
+      "company": "Company Name *",
+      "companyPlaceholder": "Global Foods Ltd.",
+      "email": "Business Email *",
+      "emailPlaceholder": "john@company.com",
+      "country": "Destination Country *",
+      "countryPlaceholder": "United States",
+      "product": "Product Category",
+      "productOptions": ["Fruits", "Vegetables", "Vegetable Mixes", "Private Label", "Other"],
+      "volume": "Estimated Volume",
+      "volumeOptions": ["Trial Order (< 1 FCL)", "1 – 5 FCL / year", "5 – 20 FCL / year", "20+ FCL / year"],
+      "message": "Inquiry Details *",
+      "messagePlaceholder": "Product specs, required cut sizes, packaging type, destination port, preferred Incoterms...",
+      "error": "Please complete all required fields and provide a valid business email address.",
+      "privacy": "We respect your privacy. Your details are strictly used to process your B2B inquiry.",
+      "submit": "Send Inquiry",
+      "success": "Thank you! Our export desk will get back to you within one business day."
+    }
+  },
+  "footer": {
+    "about": "Egyptian grower, processor, and exporter of premium IQF frozen fruits and vegetables serving global importers, distributors, and industrial food buyers.",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "products": "Products",
+    "packaging": "Packaging Specs",
+    "ready": "Ready to book a container?",
+    "readyText": "Get current price lists and seasonal allocation for your upcoming order.",
+    "rights": "All rights reserved.",
+    "proud": "Proudly Grown & Frozen in Egypt"
+  }
+}
