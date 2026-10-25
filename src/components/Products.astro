@@ -1,10 +1,22 @@
 ---
-import { Snowflake, ArrowRight, Check } from 'lucide-astro';
+import { Snowflake, X, Check, ArrowRight } from 'lucide-astro';
 import { getLang, useTranslations } from '../i18n/utils';
 import { products } from '../data/products';
 
 const t = useTranslations(getLang(Astro.currentLocale));
-const { items, packaging } = t.products;
+const { items, specs } = t.products;
+const specGroups = [specs.bulk, specs.retail, specs.shipping];
+
+const fmt = (n: number) => n.toLocaleString(getLang(Astro.currentLocale), { minimumFractionDigits: 0, maximumFractionDigits: 1 });
+const nutritionRows = (n: { kcal: number; fat: number; carbs: number; sugars: number; fibre: number; protein: number; salt: number }) => [
+  { label: specs.energy, value: `${Math.round(n.kcal * 4.184)} kJ / ${n.kcal} kcal`, strong: true },
+  { label: specs.fat, value: `${fmt(n.fat)} g` },
+  { label: specs.carbs, value: `${fmt(n.carbs)} g` },
+  { label: specs.sugars, value: `${fmt(n.sugars)} g`, sub: true },
+  { label: specs.fibre, value: `${fmt(n.fibre)} g` },
+  { label: specs.protein, value: `${fmt(n.protein)} g` },
+  { label: specs.salt, value: `${fmt(n.salt)} g` },
+];
 
 const groups = [
   { key: 'fruits', title: t.products.fruits, cols: 'sm:grid-cols-2 lg:grid-cols-3' },
@@ -13,8 +25,6 @@ const groups = [
   ...g,
   products: products.filter((p) => p.category === g.key).map((p) => ({ ...p, ...items[p.id] })),
 }));
-
-const packagingGroups = [packaging.bulk, packaging.retail, packaging.shipping];
 ---
 
 <section id="products" class="bg-white py-20 sm:py-28">
@@ -34,19 +44,18 @@ const packagingGroups = [packaging.bulk, packaging.retail, packaging.shipping];
               <span class="h-px flex-1 bg-slate-200" />
             </h3>
             <div class:list={['grid gap-6', cols]}>
-              {products.map(({ name, variants, image }) => (
+              {products.map(({ id, name, variants, image }) => (
                 <article class="card group overflow-hidden transition hover:border-slate-400">
-                  <div class="relative aspect-[4/3] overflow-hidden bg-slate-100">
-                    <Snowflake size={32} class="absolute inset-0 m-auto text-slate-300" />
+                  <div class="relative aspect-square overflow-hidden bg-slate-100 p-4 sm:p-6">
                     <img
                       src={image}
                       alt={name}
-                      width="800"
+                      width="600"
                       height="600"
                       loading="lazy"
                       decoding="async"
                       onerror="this.style.display='none'"
-                      class="relative size-full object-cover"
+                      class="relative size-full object-contain mix-blend-multiply"
                     />
                   </div>
                   <div class="p-5">
@@ -56,6 +65,9 @@ const packagingGroups = [packaging.bulk, packaging.retail, packaging.shipping];
                         <li class="rounded-sm bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-800">{v}</li>
                       ))}
                     </ul>
+                    <button type="button" data-open-dialog={`product-${id}`} class="btn-secondary mt-5 w-full px-4 py-2.5">
+                      {specs.view}
+                    </button>
                   </div>
                 </article>
               ))}
@@ -65,32 +77,123 @@ const packagingGroups = [packaging.bulk, packaging.retail, packaging.shipping];
       }
     </div>
 
-    <div class="mt-20 rounded-lg bg-navy-900 p-8 text-white sm:p-10">
-      <div class="grid gap-10 lg:grid-cols-12">
-        <div class="lg:col-span-4">
-          <h3 class="text-2xl font-bold text-white">{packaging.title}</h3>
-          <p class="mt-3 leading-relaxed text-slate-300">{packaging.lead}</p>
-          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-white underline underline-offset-4 hover:text-slate-300">
-            {packaging.cta} <ArrowRight size={16} class="rtl:-scale-x-100" />
-          </a>
-        </div>
-        <div class="grid gap-8 sm:grid-cols-3 sm:gap-0 sm:divide-x sm:divide-white/10 lg:col-span-8">
-          {
-            packagingGroups.map(({ title, items }) => (
-              <div class="sm:px-6 sm:first:ps-0 sm:last:pe-0">
-                <p class="text-sm font-semibold uppercase tracking-wider text-slate-300">{title}</p>
-                <ul class="mt-4 space-y-3">
-                  {items.map((item) => (
-                    <li class="flex gap-2.5 text-sm leading-snug text-white">
-                      <Check size={16} class="mt-0.5 shrink-0 text-slate-400" /> {item}
-                    </li>
+    {
+      groups.flatMap((g) => g.products).map(({ id, name, variants, image, nutrition }) => (
+        <dialog
+          id={`product-${id}`}
+          aria-labelledby={`product-${id}-title`}
+          class="m-auto max-h-[calc(100dvh-2rem)] w-[calc(100%-2rem)] max-w-3xl overflow-y-auto rounded-lg bg-white p-0 text-ink shadow-2xl backdrop:bg-ink/60 backdrop:backdrop-blur-sm"
+        >
+          <form method="dialog" class="absolute end-3 top-3 z-10">
+            <button type="submit" aria-label={specs.close} class="grid size-10 place-items-center rounded-full bg-white/90 text-ink shadow transition hover:bg-slate-100 focus-visible:outline-2 focus-visible:outline-ink">
+              <X size={20} />
+            </button>
+          </form>
+          <div class="grid sm:grid-cols-5">
+            <div class="aspect-square bg-slate-100 p-6 sm:col-span-2 sm:aspect-auto sm:min-h-full">
+              <img src={image} alt={name} width="600" height="600" loading="lazy" decoding="async" class="size-full max-h-72 object-contain mix-blend-multiply sm:max-h-none" />
+            </div>
+            <div class="p-6 sm:col-span-3 sm:p-8">
+              <h3 id={`product-${id}-title`} class="pe-10 text-2xl font-bold">{name}</h3>
+              <div role="tablist" class="mt-5 flex gap-1 rounded-md bg-slate-100 p-1 text-sm font-semibold">
+                <button type="button" role="tab" id={`product-${id}-tab-specs`} aria-controls={`product-${id}-panel-specs`} aria-selected="true" data-tab="specs" class="flex-1 rounded px-3 py-1.5 text-slate-700 transition aria-selected:bg-white aria-selected:text-ink aria-selected:shadow-sm">
+                  {specs.tabSpecs}
+                </button>
+                <button type="button" role="tab" id={`product-${id}-tab-nutrition`} aria-controls={`product-${id}-panel-nutrition`} aria-selected="false" tabindex="-1" data-tab="nutrition" class="flex-1 rounded px-3 py-1.5 text-slate-700 transition aria-selected:bg-white aria-selected:text-ink aria-selected:shadow-sm">
+                  {specs.tabNutrition}
+                </button>
+              </div>
+
+              <div role="tabpanel" id={`product-${id}-panel-specs`} aria-labelledby={`product-${id}-tab-specs`} data-panel="specs" class="mt-6">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{specs.forms}</p>
+                <ul class="mt-2 flex flex-wrap gap-1.5">
+                  {variants.map((v) => (
+                    <li class="rounded-sm bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-800">{v}</li>
                   ))}
                 </ul>
+                <div class="mt-6 space-y-5">
+                  {specGroups.map(({ title, items }) => (
+                    <div>
+                      <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{title}</p>
+                      <ul class="mt-2 space-y-1.5">
+                        {items.map((item) => (
+                          <li class="flex gap-2.5 text-sm leading-snug">
+                            <Check size={16} class="mt-0.5 shrink-0 text-leaf-600" /> {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </div>
-            ))
-          }
-        </div>
-      </div>
-    </div>
+
+              <div role="tabpanel" id={`product-${id}-panel-nutrition`} aria-labelledby={`product-${id}-tab-nutrition`} data-panel="nutrition" hidden class="mt-6">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{specs.tabNutrition} · {specs.per100}</p>
+                <dl class="mt-2 text-sm">
+                  {nutritionRows(nutrition).map(({ label, value, strong, sub }) => (
+                    <div class:list={['flex justify-between gap-4 border-b border-slate-200 py-2', sub && 'ps-4 text-slate-700']}>
+                      <dt class:list={[strong && 'font-semibold']}>{label}</dt>
+                      <dd class:list={['text-end tabular-nums', strong && 'font-semibold']}>
+                        <bdi dir="ltr">{value}</bdi>
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+                <p class="mt-3 text-xs leading-relaxed text-slate-700">{specs.note}</p>
+              </div>
+              <a href="#contact" data-close-dialog class="btn-primary mt-7 w-full">
+                {specs.quote} <ArrowRight size={16} class="rtl:-scale-x-100" />
+              </a>
+            </div>
+          </div>
+        </dialog>
+      ))
+    }
   </div>
 </section>
+
+<script>
+  // Native <dialog>: Esc and focus handling come for free; we add backdrop-click close and scroll lock.
+  const lock = (on: boolean) => document.documentElement.classList.toggle('overflow-hidden', on);
+
+  document.querySelectorAll<HTMLButtonElement>('[data-open-dialog]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const dlg = document.getElementById(btn.dataset.openDialog!) as HTMLDialogElement | null;
+      if (!dlg) return;
+      dlg.showModal();
+      lock(true);
+    });
+  });
+
+  document.querySelectorAll<HTMLDialogElement>('dialog[id^="product-"]').forEach((dlg) => {
+    // Content fills the dialog (p-0), so a click whose target is the dialog itself hit the backdrop.
+    dlg.addEventListener('click', (e) => {
+      if (e.target === dlg) dlg.close();
+    });
+    dlg.addEventListener('close', () => {
+      lock(false);
+      select('specs'); // always reopen on the packaging view
+    });
+
+    const tabs = dlg.querySelectorAll<HTMLButtonElement>('[role="tab"]');
+    const panels = dlg.querySelectorAll<HTMLElement>('[data-panel]');
+    function select(name: string) {
+      tabs.forEach((t) => {
+        const on = t.dataset.tab === name;
+        t.setAttribute('aria-selected', String(on));
+        t.tabIndex = on ? 0 : -1;
+      });
+      panels.forEach((p) => (p.hidden = p.dataset.panel !== name));
+    }
+    tabs.forEach((t, i) => {
+      t.addEventListener('click', () => select(t.dataset.tab!));
+      t.addEventListener('keydown', (e) => {
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+        next.focus();
+        select(next.dataset.tab!);
+      });
+    });
+    dlg.querySelector('[data-close-dialog]')?.addEventListener('click', () => dlg.close());
+  });
+</script>

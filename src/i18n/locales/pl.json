@@ -62,6 +62,44 @@
     "lead": "Sortowane, kalibrowane i mrożone metoda IQF zgodnie z międzynarodowymi normami. Krojenie, proporcje mieszanek i opakowania na zamówienie.",
     "fruits": "Owoce",
     "vegetables": "Warzywa",
+    "specs": {
+      "tabSpecs": "Opakowanie i specyfikacja",
+      "tabNutrition": "Wartości odżywcze",
+      "per100": "na 100 g",
+      "energy": "Energia",
+      "fat": "Tłuszcz",
+      "carbs": "Węglowodany",
+      "sugars": "w tym cukry",
+      "fibre": "Błonnik",
+      "protein": "Białko",
+      "salt": "Sól",
+      "note": "Typowe wartości dla mrożonego produktu bez przypraw. Mogą się różnić w zależności od sezonu i partii; oficjalna karta specyfikacji jest dostępna na życzenie.",
+      "view": "Zobacz specyfikację",
+      "close": "Zamknij",
+      "forms": "Dostępne formy",
+      "quote": "Zapytaj o ofertę na ten produkt",
+      "bulk": {
+        "title": "Opakowania hurtowe (Bulk)",
+        "items": [
+          "Karton 10 kg",
+          "4 × 2,5 kg woreczki PE w kartonie zbiorczym"
+        ]
+      },
+      "retail": {
+        "title": "Opakowania detaliczne (Retail)",
+        "items": [
+          "Woreczki 400 g, 1 kg i 2,5 kg",
+          "Nadruk indywidualny / Marka Własna (Private Label)"
+        ]
+      },
+      "shipping": {
+        "title": "Przechowywanie i logistyka",
+        "items": [
+          "Kontenery chłodnicze 40ft Reefer w temp. -18 °C lub niższej",
+          "Okres przydatności: 24 miesiące"
+        ]
+      }
+    },
     "items": {
       "strawberries": { "name": "Truskawki", "variants": ["Całe", "Plastry", "Kostka"] },
       "pomegranate": { "name": "Granat", "variants": ["Pestki (Arille)"] },
@@ -131,11 +169,10 @@
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
       "office": "Siedziba główna",
-      "officeValue": "Strefa Przemysłowa, Kair, Egipt",
-      "hours": "Godziny pracy",
-      "hoursValue": "Niedziela – Czwartek, 09:00 – 17:00 (EET)"
+      "officeValue": "Strefa Przemysłowa, Kair, Egipt"
     },
     "form": {
+      "heading": "Wolisz napisać? Wyślij szczegółowe zapytanie",
       "name": "Imię i nazwisko *",
       "namePlaceholder": "Jan Kowalski",
       "company": "Firma / Przedsiębiorstwo *",
@@ -144,8 +181,6 @@
       "emailPlaceholder": "jan@firma.pl",
       "country": "Kraj docelowy *",
       "countryPlaceholder": "Polska",
-      "product": "Kategoria produktów",
-      "productOptions": ["Owoce", "Warzywa", "Mieszanki warzywne", "Marka Własna (Private Label)", "Inne"],
       "volume": "Szacowany wolumen",
       "volumeOptions": ["Zamówienie próbne (< 1 kontener FCL)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
       "message": "Szczegóły zapytania *",
@@ -161,7 +196,6 @@
     "company": "Firma",
     "aboutUs": "O nas",
     "products": "Produkty",
-    "packaging": "Specyfikacja opakowań",
     "ready": "Chcą Państwo zamówić kontener?",
     "readyText": "Uzyskaj aktualne cenniki i dostępność dla swojego kolejnego zamówienia.",
     "rights": "Wszelkie prawa zastrzeżone.",

@@ -62,6 +62,44 @@
     "lead": "Sortiert, kalibriert und nach internationalen Normen schockgefrostet. Kundenspezifische Schnitte, Mischungsverhältnisse und Verpackungen auf Anfrage.",
     "fruits": "Obst",
     "vegetables": "Gemüse",
+    "specs": {
+      "tabSpecs": "Verpackung & Specs",
+      "tabNutrition": "Nährwerte",
+      "per100": "pro 100 g",
+      "energy": "Energie",
+      "fat": "Fett",
+      "carbs": "Kohlenhydrate",
+      "sugars": "davon Zucker",
+      "fibre": "Ballaststoffe",
+      "protein": "Eiweiß",
+      "salt": "Salz",
+      "note": "Typische Werte für das tiefgekühlte, ungewürzte Produkt. Sie können je nach Saison und Charge variieren; das offizielle Spezifikationsblatt erhalten Sie auf Anfrage.",
+      "view": "Spezifikationen ansehen",
+      "close": "Schließen",
+      "forms": "Verfügbare Formen",
+      "quote": "Angebot für dieses Produkt anfragen",
+      "bulk": {
+        "title": "Großhandelsverpackung (Bulk)",
+        "items": [
+          "10 kg Karton",
+          "4 × 2,5 kg PE-Beutel im Masterkarton"
+        ]
+      },
+      "retail": {
+        "title": "Einzelhandelsverpackung (Retail)",
+        "items": [
+          "Beutel à 400 g, 1 kg und 2,5 kg",
+          "Eigenmarkenbedruckung (Private Label)"
+        ]
+      },
+      "shipping": {
+        "title": "Lagerung & Logistik",
+        "items": [
+          "40ft Kühlcontainer bei -18 °C oder kälter",
+          "Mindesthaltbarkeit: 24 Monate"
+        ]
+      }
+    },
     "items": {
       "strawberries": { "name": "Erdbeeren", "variants": ["Ganz", "Scheiben", "Würfel"] },
       "pomegranate": { "name": "Granatapfel", "variants": ["Kerne"] },
@@ -131,11 +169,10 @@
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
       "office": "Unternehmenssitz",
-      "officeValue": "Industriezone, Kairo, Ägypten",
-      "hours": "Betriebszeiten",
-      "hoursValue": "Sonntag – Donnerstag, 09:00 – 17:00 (EET)"
+      "officeValue": "Industriezone, Kairo, Ägypten"
     },
     "form": {
+      "heading": "Lieber schriftlich? Senden Sie eine ausführliche Anfrage",
       "name": "Vollständiger Name *",
       "namePlaceholder": "Max Mustermann",
       "company": "Firma / Unternehmen *",
@@ -144,8 +181,6 @@
       "emailPlaceholder": "max@firma.de",
       "country": "Zielland *",
       "countryPlaceholder": "Deutschland",
-      "product": "Gewünschtes Sortiment",
-      "productOptions": ["Obst", "Gemüse", "Gemüsemischungen", "Eigenmarke (Private Label)", "Sonstiges"],
       "volume": "Geschätztes Volumen",
       "volumeOptions": ["Testbestellung (< 1 FCL Container)", "1 – 5 FCL / Jahr", "5 – 20 FCL / Jahr", "20+ FCL / Jahr"],
       "message": "Detaillierte Anfrage *",
@@ -161,7 +196,6 @@
     "company": "Unternehmen",
     "aboutUs": "Über uns",
     "products": "Produkte",
-    "packaging": "Verpackungsspezifikationen",
     "ready": "Möchten Sie einen Container anfragen?",
     "readyText": "Erhalten Sie aktuelle Preislisten und Kapazitäten für Ihre nächste Lieferung.",
     "rights": "Alle Rechte vorbehalten.",

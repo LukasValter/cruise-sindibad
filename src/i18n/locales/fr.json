@@ -62,6 +62,44 @@
     "lead": "Tries, calibrés et surgelés selon les normes internationales. Coupes, mélanges et conditionnements personnalisés sur demande.",
     "fruits": "Fruits",
     "vegetables": "Légumes",
+    "specs": {
+      "tabSpecs": "Emballage et specs",
+      "tabNutrition": "Valeurs nutritionnelles",
+      "per100": "pour 100 g",
+      "energy": "Énergie",
+      "fat": "Matières grasses",
+      "carbs": "Glucides",
+      "sugars": "dont sucres",
+      "fibre": "Fibres",
+      "protein": "Protéines",
+      "salt": "Sel",
+      "note": "Valeurs typiques du produit surgelé non assaisonné. Elles peuvent varier selon la saison et le lot ; la fiche technique officielle est disponible sur demande.",
+      "view": "Voir les spécifications",
+      "close": "Fermer",
+      "forms": "Formats disponibles",
+      "quote": "Demander un devis pour ce produit",
+      "bulk": {
+        "title": "Emballage en vrac (Bulk)",
+        "items": [
+          "Carton de 10 kg",
+          "4 × 2,5 kg sachets PE en carton master"
+        ]
+      },
+      "retail": {
+        "title": "Emballage de détail (Retail)",
+        "items": [
+          "Sachets de 400 g, 1 kg et 2,5 kg",
+          "Impression personnalisée / Marque de distributeur"
+        ]
+      },
+      "shipping": {
+        "title": "Stockage & Logistique",
+        "items": [
+          "Conteneurs frigorifiques 40ft Reefer à -18 °C ou moins",
+          "Durée de conservation : 24 mois"
+        ]
+      }
+    },
     "items": {
       "strawberries": { "name": "Fraises", "variants": ["Entières", "Tranches", "Dés"] },
       "pomegranate": { "name": "Grenade", "variants": ["Arilles (Graines)"] },
@@ -131,11 +169,10 @@
       "phone": "Téléphone",
       "whatsapp": "WhatsApp",
       "office": "Siège social",
-      "officeValue": "Zone Industrielle, Le Caire, Égypte",
-      "hours": "Heures d'ouverture",
-      "hoursValue": "Dimanche – Jeudi, 09:00 – 17:00 (EET)"
+      "officeValue": "Zone Industrielle, Le Caire, Égypte"
     },
     "form": {
+      "heading": "Vous préférez écrire ? Envoyez une demande détaillée",
       "name": "Nom complet *",
       "namePlaceholder": "Jean Dupont",
       "company": "Société / Entreprise *",
@@ -144,8 +181,6 @@
       "emailPlaceholder": "jean@entreprise.fr",
       "country": "Pays de destination *",
       "countryPlaceholder": "France",
-      "product": "Gamme de produits",
-      "productOptions": ["Fruits", "Légumes", "Mélanges de légumes", "Marque de distributeur", "Autre"],
       "volume": "Volume estimé",
       "volumeOptions": ["Commande test (< 1 conteneur FCL)", "1 – 5 FCL / an", "5 – 20 FCL / an", "20+ FCL / an"],
       "message": "Détails de la demande *",
@@ -161,7 +196,6 @@
     "company": "Entreprise",
     "aboutUs": "À propos",
     "products": "Produits",
-    "packaging": "Spécifications d'emballage",
     "ready": "Vous souhaitez commander un conteneur ?",
     "readyText": "Obtenez les tarifs actuels et les disponibilités pour votre prochaine expédition.",
     "rights": "Tous droits réservés.",

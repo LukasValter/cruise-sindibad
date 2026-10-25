@@ -62,6 +62,44 @@
     "lead": "Sorted, calibrated, and IQF flash-frozen to meet international standards. Custom cuts, mix ratios, and tailored packaging available upon request.",
     "fruits": "Fruits",
     "vegetables": "Vegetables",
+    "specs": {
+      "tabSpecs": "Packaging & Specs",
+      "tabNutrition": "Nutrition Facts",
+      "per100": "per 100 g",
+      "energy": "Energy",
+      "fat": "Fat",
+      "carbs": "Carbohydrates",
+      "sugars": "of which sugars",
+      "fibre": "Fibre",
+      "protein": "Protein",
+      "salt": "Salt",
+      "note": "Typical values for the frozen, unseasoned product. They may vary with season and batch.",
+      "view": "View Specs",
+      "close": "Close",
+      "forms": "Available forms",
+      "quote": "Request a quote for this product",
+      "bulk": {
+        "title": "Bulk Packaging",
+        "items": [
+          "10 kg cartons",
+          "4 × 2.5 kg PE bags in master carton"
+        ]
+      },
+      "retail": {
+        "title": "Retail Packaging",
+        "items": [
+          "400 g, 1 kg, and 2.5 kg bags",
+          "Custom printing / Private Label services"
+        ]
+      },
+      "shipping": {
+        "title": "Storage & Logistics",
+        "items": [
+          "40ft Reefer containers at -18 °C or below",
+          "Shelf life: 24 months"
+        ]
+      }
+    },
     "items": {
       "strawberries": { "name": "Strawberries", "variants": ["Whole", "Slices", "Diced"] },
       "pomegranate": { "name": "Pomegranate", "variants": ["Arils (Seeds)"] },
@@ -78,42 +116,25 @@
       "molokhia": { "name": "Molokhia (Jute Leaves)", "variants": ["Minced"] },
       "spinach": { "name": "Spinach", "variants": ["Whole Leaf", "Chopped"] },
       "mixed": { "name": "Vegetable Mixes", "variants": ["Standard & Custom Ratios"] }
-    },
-    "packaging": {
-      "title": "B2B Packaging & Logistics Specs",
-      "lead": "Every shipment is palletized, equipped with temperature data loggers, and loaded under strict supervision. Complete technical specification sheets accompany every quotation.",
-      "cta": "Request Packaging Specs",
-      "bulk": {
-        "title": "Bulk Packaging",
-        "items": ["10 kg cartons", "4 × 2.5 kg PE bags in master carton"]
-      },
-      "retail": {
-        "title": "Retail Packaging",
-        "items": ["400 g, 1 kg, and 2.5 kg bags", "Custom printing / Private Label services"]
-      },
-      "shipping": {
-        "title": "Storage & Logistics",
-        "items": ["40ft Reefer containers at -18 °C or below", "Shelf life: 24 months"]
-      }
     }
   },
   "certifications": {
     "eyebrow": "Quality & Certifications",
     "title": "Certified for the World's Most Demanding Markets",
-    "lead": "Our processing facilities and contracted farms undergo annual independent third-party audits. Certificates and full audit reports are available to verified buyers upon request.",
+    "lead": "Our processing facilities and contracted farms undergo independent third-party audits. Certificates and full audit reports are available to verified buyers upon request.",
     "cta": "Request Certificates",
     "certified": "Certified",
     "items": {
       "iso": {
-        "title": "Food Safety Management System (ISO 22000)",
+        "title": "Food Safety Management System",
         "text": "Internationally recognized system ensuring safety across the entire processing chain."
       },
       "haccp": {
-        "title": "Hazard Analysis Critical Control Point (HACCP)",
-        "text": "Preventive monitoring at every critical stage—from raw material intake to cold storage."
+        "title": "Hazard Analysis Critical Control Point",
+        "text": "Preventive monitoring at every critical stage - from raw material intake to cold storage."
       },
       "globalgap": {
-        "title": "Good Agricultural Practice (GlobalG.A.P.)",
+        "title": "Good Agricultural Practice",
         "text": "Certified farm-level practices for safe, sustainable, and fully traceable crop cultivation."
       },
       "fda": {
@@ -123,19 +144,18 @@
     }
   },
   "contact": {
-    "eyebrow": "Contact Our Export Team",
+    "eyebrow": "Contact Us",
     "title": "Let’s Discuss Your Next Shipment",
-    "lead": "Send us your required products, volumes, and destination port. Our export sales team will reply within 24 hours with pricing, specs, and current seasonal availability.",
+    "lead": "Feel free to reach out directly via phone, WhatsApp, or email. Tell us what products and volumes you need, and we can talk about pricing and availability.",
     "info": {
       "email": "Email",
       "phone": "Phone",
       "whatsapp": "WhatsApp",
       "office": "Head Office",
-      "officeValue": "Industrial Zone, Cairo, Egypt",
-      "hours": "Working Hours",
-      "hoursValue": "Sunday – Thursday, 09:00 – 17:00 (EET)"
+      "officeValue": "Industrial Zone, Cairo, Egypt"
     },
     "form": {
+      "heading": "Prefer to write? Send a detailed inquiry",
       "name": "Full Name *",
       "namePlaceholder": "John Smith",
       "company": "Company Name *",
@@ -144,16 +164,14 @@
       "emailPlaceholder": "john@company.com",
       "country": "Destination Country *",
       "countryPlaceholder": "United States",
-      "product": "Product Category",
-      "productOptions": ["Fruits", "Vegetables", "Vegetable Mixes", "Private Label", "Other"],
       "volume": "Estimated Volume",
-      "volumeOptions": ["Trial Order (< 1 FCL)", "1 – 5 FCL / year", "5 – 20 FCL / year", "20+ FCL / year"],
+      "volumeOptions": ["Trial Order (1 FCL)", "1 - 5 FCL / year", "5 - 20 FCL / year", "20+ FCL / year"],
       "message": "Inquiry Details *",
       "messagePlaceholder": "Product specs, required cut sizes, packaging type, destination port, preferred Incoterms...",
       "error": "Please complete all required fields and provide a valid business email address.",
       "privacy": "We respect your privacy. Your details are strictly used to process your B2B inquiry.",
       "submit": "Send Inquiry",
-      "success": "Thank you! Our export desk will get back to you within one business day."
+      "success": "Thank you! We will get back to you as soon as possible."
     }
   },
   "footer": {
@@ -161,7 +179,6 @@
     "company": "Company",
     "aboutUs": "About Us",
     "products": "Products",
-    "packaging": "Packaging Specs",
     "ready": "Ready to book a container?",
     "readyText": "Get current price lists and seasonal allocation for your upcoming order.",
     "rights": "All rights reserved.",

@@ -1,52 +1,61 @@
 ---
-import { Mail, Phone, MapPin, Clock, Send, MessageCircle, CircleCheck } from 'lucide-astro';
+import { Mail, Phone, MapPin, Send, CircleCheck } from 'lucide-astro';
+import WhatsAppIcon from './WhatsAppIcon.astro';
 import { getLang, useTranslations } from '../i18n/utils';
 
 const t = useTranslations(getLang(Astro.currentLocale));
 const { info, form } = t.contact;
 
-const infoItems = [
-  { icon: Mail, label: info.email, value: 'export@cruisesindibad.com', href: 'mailto:export@cruisesindibad.com', ltr: true },
-  { icon: Phone, label: info.phone, value: '+20 100 000 0000', href: 'tel:+201000000000', ltr: true },
-  { icon: MessageCircle, label: info.whatsapp, value: '+20 100 000 0000', href: 'https://wa.me/201000000000', ltr: true },
-  { icon: MapPin, label: info.office, value: info.officeValue },
-  { icon: Clock, label: info.hours, value: info.hoursValue },
+const directItems = [
+  { icon: Mail, label: info.email, value: 'export@cruisesindibad.com', href: 'mailto:export@cruisesindibad.com' },
+  { icon: Phone, label: info.phone, value: '+20 100 000 0000', href: 'tel:+201000000000' },
+  { icon: WhatsAppIcon, label: info.whatsapp, value: '+20 100 000 0000', href: 'https://wa.me/201000000000' },
 ];
 ---
 
 <section id="contact" class="bg-white py-20 sm:py-28">
   <div class="container-x">
-    <div class="grid gap-12 lg:grid-cols-12">
-      <div class="lg:col-span-5">
-        <span class="eyebrow">{t.contact.eyebrow}</span>
-        <h2 class="mt-5 text-3xl font-bold sm:text-4xl">{t.contact.title}</h2>
-        <p class="mt-5 text-lg leading-relaxed text-slate-700">{t.contact.lead}</p>
+    <div class="mx-auto max-w-2xl text-center">
+      <span class="eyebrow">{t.contact.eyebrow}</span>
+      <h2 class="mt-5 text-3xl font-bold sm:text-4xl lg:text-5xl">{t.contact.title}</h2>
+      <p class="mt-5 text-lg leading-relaxed text-slate-700">{t.contact.lead}</p>
+    </div>
 
-        <ul class="mt-10 space-y-5">
-          {
-            infoItems.map(({ icon: Icon, label, value, href, ltr }) => (
-              <li class="flex items-start gap-4">
-                <span class="grid size-11 shrink-0 place-items-center rounded-md bg-slate-100 text-ink">
-                  <Icon size={20} />
-                </span>
-                <div>
-                  <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{label}</p>
-                  {href ? (
-                    <a href={href} class="font-medium text-ink hover:text-navy-700 hover:underline">
-                      <bdi dir={ltr ? 'ltr' : undefined}>{value}</bdi>
-                    </a>
-                  ) : (
-                    <p class="font-medium text-ink">{value}</p>
-                  )}
-                </div>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
+    <!-- Primary: direct contact methods -->
+    <ul class="mx-auto mt-12 grid max-w-5xl gap-4 sm:grid-cols-3 sm:gap-6">
+      {
+        directItems.map(({ icon: Icon, label, value, href }) => (
+          <li>
+            <a
+              href={href}
+              class="group flex h-full flex-col items-center gap-3 rounded-lg border border-slate-200 bg-slate-50 p-6 text-center transition hover:border-navy-700 hover:bg-white hover:shadow-md sm:p-8"
+            >
+              <span class="grid size-14 place-items-center rounded-full bg-navy-900 text-white">
+                <Icon size={26} />
+              </span>
+              <span class="text-xs font-semibold uppercase tracking-wider text-slate-700">{label}</span>
+              <span class="max-w-full break-words text-lg font-bold text-ink group-hover:underline sm:text-xl">
+                <bdi dir="ltr">{value}</bdi>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
 
-      <div class="lg:col-span-7">
-        <form id="inquiry-form" class="rounded-lg border border-slate-200 bg-slate-50 p-6 sm:p-10" novalidate>
+    <p class="mt-8 flex items-center justify-center gap-2 text-center text-slate-700">
+      <MapPin size={18} class="shrink-0" />
+      <span><span class="font-semibold">{info.office}:</span> {info.officeValue}</span>
+    </p>
+
+    <!-- Secondary: written inquiry -->
+    <div class="mx-auto mt-16 max-w-3xl">
+      <h3 class="mb-5 flex items-center gap-4 text-lg font-bold text-slate-800">
+        <span class="h-px flex-1 bg-slate-200"></span>
+        <span class="text-center">{form.heading}</span>
+        <span class="h-px flex-1 bg-slate-200"></span>
+      </h3>
+      <form id="inquiry-form" class="rounded-lg border border-slate-200 bg-white p-6 sm:p-8" novalidate>
           <div class="grid gap-5 sm:grid-cols-2">
             <label class="block">
               <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.name}</span>
@@ -64,13 +73,7 @@ const infoItems = [
               <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.country}</span>
               <input name="country" type="text" required autocomplete="country-name" class="field" placeholder={form.countryPlaceholder} />
             </label>
-            <label class="block">
-              <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.product}</span>
-              <select name="product" class="field">
-                {form.productOptions.map((o) => <option>{o}</option>)}
-              </select>
-            </label>
-            <label class="block">
+            <label class="block sm:col-span-2">
               <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.volume}</span>
               <select name="volume" class="field">
                 {form.volumeOptions.map((o) => <option>{o}</option>)}
@@ -94,8 +97,7 @@ const infoItems = [
           <div id="form-success" class="mt-6 hidden items-center gap-3 rounded-md border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-ink" role="status">
             <CircleCheck size={18} class="shrink-0 text-leaf-600" /> {form.success}
           </div>
-        </form>
-      </div>
+      </form>
     </div>
   </div>
 </section>

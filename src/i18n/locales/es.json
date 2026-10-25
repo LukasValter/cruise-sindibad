@@ -62,6 +62,44 @@
     "lead": "Clasificadas, calibradas y congeladas IQF según normas internacionales. Cortes, mezclas y envases personalizados bajo pedido.",
     "fruits": "Frutas",
     "vegetables": "Verduras",
+    "specs": {
+      "tabSpecs": "Envase y especificaciones",
+      "tabNutrition": "Información nutricional",
+      "per100": "por 100 g",
+      "energy": "Energía",
+      "fat": "Grasas",
+      "carbs": "Hidratos de carbono",
+      "sugars": "de los cuales azúcares",
+      "fibre": "Fibra",
+      "protein": "Proteínas",
+      "salt": "Sal",
+      "note": "Valores típicos del producto congelado y sin condimentar. Pueden variar según la temporada y el lote; la ficha técnica oficial está disponible bajo petición.",
+      "view": "Ver especificaciones",
+      "close": "Cerrar",
+      "forms": "Presentaciones disponibles",
+      "quote": "Solicitar presupuesto de este producto",
+      "bulk": {
+        "title": "Empaque a granel (Bulk)",
+        "items": [
+          "Caja de cartón de 10 kg",
+          "4 × 2,5 kg bolsas PE en caja máster"
+        ]
+      },
+      "retail": {
+        "title": "Empaque al por menor (Retail)",
+        "items": [
+          "Bolsas de 400 g, 1 kg y 2,5 kg",
+          "Impresión personalizada / Marca blanca (Private Label)"
+        ]
+      },
+      "shipping": {
+        "title": "Almacenamiento y logística",
+        "items": [
+          "Contenedores refrigerados 40ft Reefer a -18 °C o inferior",
+          "Vida útil: 24 meses"
+        ]
+      }
+    },
     "items": {
       "strawberries": { "name": "Fresas", "variants": ["Enteras", "Láminas", "Dados"] },
       "pomegranate": { "name": "Granada", "variants": ["Arilos (Semillas)"] },
@@ -131,11 +169,10 @@
       "phone": "Teléfono",
       "whatsapp": "WhatsApp",
       "office": "Sede central",
-      "officeValue": "Zona Industrial, El Cairo, Egipto",
-      "hours": "Horario de atención",
-      "hoursValue": "Domingo – Jueves, 09:00 – 17:00 (EET)"
+      "officeValue": "Zona Industrial, El Cairo, Egipto"
     },
     "form": {
+      "heading": "¿Prefiere escribir? Envíe una consulta detallada",
       "name": "Nombre completo *",
       "namePlaceholder": "Carlos García",
       "company": "Empresa / Sociedad *",
@@ -144,8 +181,6 @@
       "emailPlaceholder": "carlos@empresa.es",
       "country": "País de destino *",
       "countryPlaceholder": "España",
-      "product": "Gama de productos",
-      "productOptions": ["Frutas", "Verduras", "Mezclas de verduras", "Marca Blanca (Private Label)", "Otro"],
       "volume": "Volumen estimado",
       "volumeOptions": ["Pedido de prueba (< 1 contenedor FCL)", "1 – 5 FCL / año", "5 – 20 FCL / año", "20+ FCL / año"],
       "message": "Detalles de la consulta *",
@@ -161,7 +196,6 @@
     "company": "Empresa",
     "aboutUs": "Sobre nosotros",
     "products": "Productos",
-    "packaging": "Especificaciones de empaque",
     "ready": "¿Desea solicitar un contenedor?",
     "readyText": "Obtenga listas de precios actualizadas y disponibilidad para su próximo pedido.",
     "rights": "Todos los derechos reservados.",

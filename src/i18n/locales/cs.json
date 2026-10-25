@@ -103,6 +103,44 @@
     "lead": "Náš zpracovatelský závod i smluvní pěstitelé procházejí každý rok nezávislým auditem. Certifikáty a auditní zprávy poskytneme ověřeným odběratelům na vyžádání.",
     "cta": "Vyžádat certifikáty",
     "certified": "Certifikováno",
+    "specs": {
+      "tabSpecs": "Balení a specifikace",
+      "tabNutrition": "Nutriční hodnoty",
+      "per100": "na 100 g",
+      "energy": "Energie",
+      "fat": "Tuky",
+      "carbs": "Sacharidy",
+      "sugars": "z toho cukry",
+      "fibre": "Vláknina",
+      "protein": "Bílkoviny",
+      "salt": "Sůl",
+      "note": "Typické hodnoty mraženého nekořeněného produktu. Mohou se lišit podle sezóny a šarže; oficiální specifikace je k dispozici na vyžádání.",
+      "view": "Zobrazit specifikace",
+      "close": "Zavřít",
+      "forms": "Dostupné formy",
+      "quote": "Poptat tento produkt",
+      "bulk": {
+        "title": "Velkoobchodní balení (Bulk)",
+        "items": [
+          "Karton 10 kg",
+          "4 × 2,5 kg PE sáčky v master kartonu"
+        ]
+      },
+      "retail": {
+        "title": "Maloobchodní balení (Retail)",
+        "items": [
+          "Sáčky 400 g, 1 kg a 2,5 kg",
+          "Vlastní potisk / Privátní značka (Private Label)"
+        ]
+      },
+      "shipping": {
+        "title": "Skladování a logistika",
+        "items": [
+          "Mrazírenské kontejnery 40ft Reefer při -18 °C nebo nižší",
+          "Minimální trvanlivost: 24 měsíců"
+        ]
+      }
+    },
     "items": {
       "iso": {
         "title": "Systém managementu bezpečnosti potravin (ISO 22000)",
@@ -131,11 +169,10 @@
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
       "office": "Sídlo společnosti",
-      "officeValue": "Průmyslová zóna, Káhira, Egypt",
-      "hours": "Provozní doba",
-      "hoursValue": "Neděle – Čtvrtek, 09:00 – 17:00 (EET)"
+      "officeValue": "Průmyslová zóna, Káhira, Egypt"
     },
     "form": {
+      "heading": "Raději písemně? Pošlete podrobnou poptávku",
       "name": "Celé jméno *",
       "namePlaceholder": "Jan Novák",
       "company": "Společnost / Firma *",
@@ -144,8 +181,6 @@
       "emailPlaceholder": "jan@firma.cz",
       "country": "Země určení *",
       "countryPlaceholder": "Česká republika",
-      "product": "Požadovaný sortiment",
-      "productOptions": ["Ovoce", "Zelenina", "Zeleninové směsi", "Privátní značka (Private Label)", "Jiné"],
       "volume": "Předpokládaný objem",
       "volumeOptions": ["Zkušební objednávka (< 1 FCL kontejner)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
       "message": "Detailní poptávka *",
@@ -161,7 +196,6 @@
     "company": "Společnost",
     "aboutUs": "O nás",
     "products": "Produkty",
-    "packaging": "Specifikace balení",
     "ready": "Chcete poptat kontejner?",
     "readyText": "Získejte aktuální ceník a kapacitní možnosti pro vaši další zásilku.",
     "rights": "Všechna práva vyhrazena.",
