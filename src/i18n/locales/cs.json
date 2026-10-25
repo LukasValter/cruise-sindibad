@@ -25,23 +25,23 @@
     "ctaSecondary": "Zobrazit katalog",
     "points": {
       "cold": { "title": "-18 °C a chladicí řetězec", "text": "Nepřerušený chladicí řetězec z pole do přístavu." },
-      "packaging": { "title": "Flexibilní balení", "text": "Kartony 10 kg, maloobchodní sáčky od 400 g do 2,5 kg (včetně privátní značky)." },
-      "fcl": { "title": "Logistika FCL", "text": "40stopé chladicí kontejnery, FOB Alexandrie / Damietta nebo CIF do cílového přístavu." },
-      "quality": { "title": "Certifikovaná kvalita", "text": "ISO 22000 · HACCP · GlobalG.A.P. · registrace u US FDA." },
+      "packaging": { "title": "Flexibilní balení", "text": "Velkoobchodní a maloobchodní balení (400g - 10kg)." },
+      "fcl": { "title": "Logistika FCL", "text": "40stopé chladicí kontejnery (FOB / CIF)." },
+      "quality": { "title": "Certifikovaná kvalita", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA" },
       "markets": { "title": "Světové exportní trhy", "text": "Spolehlivě zásobujeme zákazníky v EU, Velké Británii, na Blízkém východě, v Severní Americe a v Asii." }
     }
   },
   "about": {
     "eyebrow": "O Cruise Sindibad",
     "title": "Z delty Nilu do mrazírenských řetězců celého světa.",
-    "lead": "Propojujeme úrodnost egyptské půdy s přísnými evropskými standardy. Cruise Sindibad je egyptský pěstitel, zpracovatel a exportér mraženého ovoce a zeleniny. V úzkém partnerství s místními zemědělci vybíráme to nejlepší ovoce a zelenunu z úrodných polí v deltě Nilu. Díky šokovému mrazení bezprostředně po sklizni uchováváme v plodech plnou nutriční hodnotu, přirozenou chuť a čerstvost po celý rok.",
+    "lead": "Propojujeme úrodnost egyptské půdy s přísnými mezinárodními standardy. Cruise Sindibad je přímý pěstitel, zpracovatel a exportér mraženého ovoce a zeleniny. V úzkém partnerství s místními zemědělci vybíráme to nejlepší ovoce a zeleninu z úrodných polí v deltě Nilu. Díky šokovému mrazení bezprostředně po sklizni uchováváme v plodech plnou nutriční hodnotu, přirozenou chuť a čerstvost po celý rok.",
     "pillars": {
       "iqf": {
         "title": "Odpovědné zemědělství a udržitelnost",
         "text": "Podporujeme šetrné pěstování, zkracujeme dodavatelský řetězec a aktivně minimalizujeme plýtvání potravinami od pole až po finální balení."
       },
       "farms": {
-        "title": "Kontrola kvality a bezpečnost",
+        "title": "Kontrola kvality a bezpečnost potravin",
         "text": "Garantujeme přísnou hygienu balení, plnou dohledatelnost původu každé šarže a striktní dodržování mezinárodních potravinářských normativů."
       },
       "export": {
@@ -51,58 +51,17 @@
     },
     "whyTitle": "Proč si nás odběratelé vybírají",
     "points": {
-      "harvest": "Celoroční sklizňový kalendář",
-      "residue": "Testováno na rezidua pesticidů (v souladu s MRL limity)",
+      "harvest": "Celoroční sklizňový a dodavatelský kalendář",
+      "residue": "Přísně testováno na rezidua pesticidů (v souladu s MRL limity EU)",
       "speed": "Z pole do mrazáku za méně než 6 hodin"
     }
   },
   "products": {
     "eyebrow": "Naše produkty",
     "title": "Katalog ovoce a zeleniny",
-    "lead": "Tříděno, kalibrováno a šokově mraženo podle mezinárodních norem. Řezy, poměry směsí a balení na míru podle vašich požadavků.",
+    "lead": "Tříděno, kalibrováno a šokově mraženo podle mezinárodních norem. Řezy, poměry směsí a balení na míru podle vašich požadavků[cite: 8].",
     "fruits": "Ovoce",
     "vegetables": "Zelenina",
-  "items": {
-      "strawberries": { "name": "Jahody", "variants": ["Celé", "Plátky", "Kostky"] },
-      "pomegranate": { "name": "Granátové jablko", "variants": ["Sypaná zrna"] },
-      "mango": { "name": "Mango", "variants": ["Kostky"] },
-      "okra": { "name": "Okra (Ibišek jedlý)", "variants": ["Zero (Extra jemná)", "Fine (Jemná)"] },
-      "artichoke": { "name": "Artyčoky", "variants": ["Dna artyčoků", "Srdíčka artyčoků"] },
-      "peas": { "name": "Zelený hrášek", "variants": ["Celý"] },
-      "peasCarrots": { "name": "Hrášek s mrkví", "variants": ["Směs 50/50"] },
-      "broccoli": { "name": "Brokolice", "variants": ["Růžičky"] },
-      "cauliflower": { "name": "Květák", "variants": ["Růžičky"] },
-      "fries": { "name": "Hranolky", "variants": ["9x9 mm", "10x10 mm"] },
-      "falafel": { "name": "Falafel", "variants": ["Kuličky (předpečené)"] },
-      "beans": { "name": "Zelené fazolky", "variants": ["Řezané"] },
-      "molokhia": { "name": "Molochija (listy jutovníku)", "variants": ["Sekaná"] },
-      "spinach": { "name": "Špenát", "variants": ["Listový", "Sekaný"] },
-      "mixed": { "name": "Zeleninové směsi", "variants": ["Standardní i receptury na míru"] }
-    },
-    "packaging": {
-      "title": "B2B balení a přepravní specifikace",
-      "lead": "Každá zásilka je paletizována, opatřena záznamníkem teploty a nakládána pod přísným dohledem. Kompletní specifikace dodáváme ke každé cenové nabídce.",
-      "cta": "Vyžádat specifikace balení",
-      "bulk": {
-        "title": "Velkoobchodní balení (Bulk)",
-        "items": ["Karton 10 kg", "4 × 2,5 kg PE sáčky v master kartonu"]
-      },
-      "retail": {
-        "title": "Maloobchodní balení (Retail)",
-        "items": ["Sáčky 400 g, 1 kg a 2,5 kg", "Vlastní potisk / Privátní značka (Private Label)"]
-      },
-      "shipping": {
-        "title": "Skladování a logistika",
-        "items": ["Mrazírenské kontejnery 40ft Reefer při -18 °C nebo nižší", "Minimální trvanlivost: 24 měsíců"]
-      }
-    }
-  },
-  "certifications": {
-    "eyebrow": "Kvalita a certifikace",
-    "title": "Certifikováno pro nejnáročnější trhy světa",
-    "lead": "Náš zpracovatelský závod i smluvní pěstitelé procházejí každý rok nezávislým auditem. Certifikáty a auditní zprávy poskytneme ověřeným odběratelům na vyžádání.",
-    "cta": "Vyžádat certifikáty",
-    "certified": "Certifikováno",
     "specs": {
       "tabSpecs": "Balení a specifikace",
       "tabNutrition": "Nutriční hodnoty",
@@ -114,7 +73,7 @@
       "fibre": "Vláknina",
       "protein": "Bílkoviny",
       "salt": "Sůl",
-      "note": "Typické hodnoty mraženého nekořeněného produktu. Mohou se lišit podle sezóny a šarže; oficiální specifikace je k dispozici na vyžádání.",
+      "note": "Typické hodnoty mraženého nekořeněného produktu. Mohou se lišit podle sezóny a šarže.",
       "view": "Zobrazit specifikace",
       "close": "Zavřít",
       "forms": "Dostupné formy",
@@ -142,28 +101,52 @@
       }
     },
     "items": {
+      "strawberries": { "name": "Jahody", "variants": ["Celé", "Plátky", "Kostky"] },
+      "pomegranate": { "name": "Granátové jablko", "variants": ["Sypaná zrna"] },
+      "mango": { "name": "Mango", "variants": ["Kostky / Kousky"] },
+      "okra": { "name": "Okra (Ibišek jedlý)", "variants": ["Zero (Extra jemná)", "Fine (Jemná)"] },
+      "artichoke": { "name": "Artyčoky", "variants": ["Dna", "Srdíčka"] },
+      "peas": { "name": "Zelený hrášek", "variants": ["Celý"] },
+      "peasCarrots": { "name": "Hrášek s mrkví", "variants": ["Směs 50/50"] },
+      "broccoli": { "name": "Brokolice", "variants": ["Růžičky"] },
+      "cauliflower": { "name": "Květák", "variants": ["Růžičky"] },
+      "fries": { "name": "Hranolky", "variants": ["9x9 mm", "10x10 mm"] },
+      "falafel": { "name": "Falafel", "variants": ["Kuličky / Placičky (předpečené)"] },
+      "beans": { "name": "Zelené fazolky", "variants": ["Řezané"] },
+      "molokhia": { "name": "Molochija (listy jutovníku)", "variants": ["Sekaná"] },
+      "spinach": { "name": "Špenát", "variants": ["Listový", "Sekaný"] },
+      "mixed": { "name": "Zeleninové směsi", "variants": ["Standardní i receptury na míru"] }
+    }
+  },
+  "certifications": {
+    "eyebrow": "Kvalita a certifikace",
+    "title": "Certifikováno pro nejnáročnější trhy světa",
+    "lead": "Náš zpracovatelský závod i smluvní pěstitelé procházejí nezávislými audity třetích stran. Certifikáty a auditní zprávy poskytneme ověřeným odběratelům na vyžádání[cite: 8].",
+    "cta": "Vyžádat certifikáty",
+    "certified": "Certifikováno",
+    "items": {
       "iso": {
-        "title": "Systém managementu bezpečnosti potravin (ISO 22000)",
-        "text": "Mezinárodně uznávaný systém managementu bezpečnosti potravin pokrývající celý zpracovatelský řetězec."
+        "title": "Systém managementu bezpečnosti potravin",
+        "text": "Mezinárodně uznávaný systém zajišťující bezpečnost v celém zpracovatelském řetězci."
       },
       "haccp": {
-        "title": "Analýza rizik a kritické kontrolní body (HACCP)",
-        "text": "Preventivní kontroly v každém kritickém bodě – od příjmu čerstvé suroviny po chladírenské skladování."
+        "title": "Analýza rizik a kritické kontrolní body",
+        "text": "Preventivní monitorování v každém kritickém bodě – od příjmu suroviny po chladírenské skladování."
       },
       "globalgap": {
-        "title": "Správná zemědělská praxe (GlobalG.A.P.)",
+        "title": "Správná zemědělská praxe",
         "text": "Certifikované postupy na úrovni farem pro bezpečné, udržitelné a plně dohledatelné pěstování."
       },
       "fda": {
         "title": "Registrace u americké FDA",
-        "text": "Registrované potravinářské zařízení splňující požadavky FSMA pro přímý export do USA."
+        "text": "Registrované potravinářské zařízení splňující požadavky FSMA pro přímý export do Severní Ameriky."
       }
     }
   },
   "contact": {
-    "eyebrow": "Kontaktujte náš exportní tým",
+    "eyebrow": "Kontakt",
     "title": "Projednejme vaši další zásilku",
-    "lead": "Napište nám požadovaný produkt, objem a cílový přístav. Náš exportní tým odpoví do 24 hodin s cenovou nabídkou, specifikacemi a dostupností.",
+    "lead": "Neváhejte se ozvat přímo přes telefon, WhatsApp nebo e-mail. Řekněte nám, jaké produkty a objemy potřebujete, a můžeme probrat ceny a dostupnost.",
     "info": {
       "email": "E-mail",
       "phone": "Telefon",
@@ -182,17 +165,17 @@
       "country": "Země určení *",
       "countryPlaceholder": "Česká republika",
       "volume": "Předpokládaný objem",
-      "volumeOptions": ["Zkušební objednávka (< 1 FCL kontejner)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
+      "volumeOptions": ["Zkušební objednávka (1 FCL)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
       "message": "Detailní poptávka *",
       "messagePlaceholder": "Specifikace produktů, požadované řezy, typ balení, cílový přístav, dodací podmínky Incoterms…",
-      "error": "Vyplňte prosím všechna povinná pole a platnou e-mailovou adresu.",
+      "error": "Vyplňte prosím všechna povinná pole a zadejte platný firemní e-mail.",
       "privacy": "Respektujeme vaše soukromí. Údaje slouží výhradně k vyřízení vaší B2B poptávky.",
       "submit": "Odeslat poptávku",
-      "success": "Děkujeme! Náš exportní tým se vám ozve nejpozději do jednoho pracovního dne."
+      "success": "Děkujeme! Ozveme se vám v co nejkratším možném čase."
     }
   },
   "footer": {
-    "about": "Egyptský pěstitel, zpracovatel a exportér prémiového mraženého ovoce a zeleniny pro dovozce, distributory a potravinářský průmysl po celém světě.",
+    "about": "Egyptský pěstitel, zpracovatel a exportér prémiového mraženého ovoce a zeleniny IQF pro globální dovozce, distributory a průmyslové odběratele potravin.",
     "company": "Společnost",
     "aboutUs": "O nás",
     "products": "Produkty",

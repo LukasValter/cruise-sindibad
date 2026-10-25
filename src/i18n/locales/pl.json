@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Cruise Sindibad | Egipski Eksporter Mrożonych Owoców i Warzyw IQF",
-    "description": "Cruise Sindibad uprawia, mrozi i eksportuje najwyższej jakości owoce i warzywa IQF z żyznych gleb Egiptu dla importerów, dystrybutorów i przetwórców na całym świecie."
+    "description": "Cruise Sindibad uprawia, mrozi i eksportuje najwyższej jakości owoce i warzywa IQF z żyznych gleb Egiptu dla importerów, dystrybutorów i przetwórców żywności na całym świecie."
   },
   "nav": {
     "home": "Strona główna",
@@ -20,46 +20,46 @@
     "titleBefore": "Egipskie mrożone",
     "titleHighlight": "owoce i warzywa",
     "titleAfter": "najwyższej jakości",
-    "lead": "Cruise Sindibad dostarcza najwyższej jakości mrożone owoce i warzywa dla importerów, dystrybutorów oraz przetwórców żywności. Zamrożone w ciągu kilku godzin od zbiorów w Egipcie, dostarczone bezpośrednio do Państwa firmy.",
+    "lead": "Cruise Sindibad dostarcza najwyższej jakości mrożone owoce i warzywa dla importerów, dystrybutorów oraz przetwórców żywności na całym świecie. Zamrożone w ciągu kilku godzin od zbiorów w Egipcie, dostarczane bezpośrednio do Państwa z bezkompromisową jakością.",
     "ctaPrimary": "Zapytaj o ofertę",
     "ctaSecondary": "Zobacz katalog",
     "points": {
       "cold": { "title": "-18 °C i łańcuch chłodniczy", "text": "Nieprzerwany łańcuch chłodniczy od pola do portu." },
-      "packaging": { "title": "Elastyczne opakowania", "text": "Kartony zbiorcze 10 kg, torebki detaliczne od 400 g do 2,5 kg (także marka własna)." },
-      "fcl": { "title": "Logistyka FCL", "text": "40-stopowe kontenery chłodnicze, FOB Aleksandria / Damietta lub CIF do portu docelowego." },
-      "quality": { "title": "Certyfikowana jakość", "text": "ISO 22000 · HACCP · GlobalG.A.P. · rejestracja w US FDA." },
+      "packaging": { "title": "Elastyczne opakowania", "text": "Opakowania hurtowe i detaliczne (400g - 10kg)." },
+      "fcl": { "title": "Logistyka FCL", "text": "40-stopowe kontenery chłodnicze (FOB / CIF)." },
+      "quality": { "title": "Certyfikowana jakość", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA" },
       "markets": { "title": "Globalne rynki eksportowe", "text": "Niezawodnie zaopatrujemy klientów w UE, Wielkiej Brytanii, na Bliskim Wschodzie, w Ameryce Północnej i Azji." }
     }
   },
   "about": {
     "eyebrow": "O firmie Cruise Sindibad",
-    "title": "Z Delty Nilu do łańcuchów chłodniczych na całym świecie.",
-    "lead": "Łączymy urodzajność egipskiego rolnictwa z rygorystycznymi normami europejskimi. Cruise Sindibad to egipski producent, przetwórca i eksporter mrożonych owoców i warzyw. We współpracy z lokalnymi rolnikami wybieramy najlepsze zbiory z żyznych pól Delty Nilu. Zamrażanie IQF bezpośrednio po zbiorach pozwala zachować pełną wartość odżywczą, naturalny smak i świeżość przez cały rok.",
+    "title": "Z Delty Nilu do globalnych łańcuchów chłodniczych.",
+    "lead": "Łączymy urodzajność egipskiego rolnictwa z rygorystycznymi międzynarodowymi normami. Cruise Sindibad to bezpośredni producent, przetwórca i eksporter mrożonych owoców i warzyw. Blisko współpracując z lokalnymi rolnikami, wybieramy najlepsze plody z żyznej Delty Nilu. Szybkie zamrażanie bezpośrednio po zbiorach pozwala zachować pełną wartość odżywczą, naturalny smak i całoroczną świeżość.",
     "pillars": {
       "iqf": {
-        "title": "Zrównoważone rolnictwo",
-        "text": "Wspieramy odpowiedzialne uprawy, skracamy łańcuch dostaw i aktywnie redukujemy marnowanie żywności od pola po pakowanie."
+        "title": "Zrównoważone rolnictwo i pozyskiwanie",
+        "text": "Wspieramy odpowiedzialne rolnictwo, skracamy łańcuch dostaw i aktywnie minimalizujemy marnowanie żywności od pola do ostatecznego opakowania."
       },
       "farms": {
-        "title": "Kontrola jakości i bezpieczeństwo",
-        "text": "Gwarantujemy rygorystyczną higienę pakowania, pełną identyfikowalność partii oraz zgodność z międzynarodowymi normami."
+        "title": "Kontrola jakości i bezpieczeństwo żywności",
+        "text": "Gwarantujemy rygorystyczną higienę pakowania, pełną identyfikowalność partii oraz ścisłą zgodność z globalnymi normami bezpieczeństwa żywności."
       },
       "export": {
         "title": "Niezawodny eksport międzynarodowy",
-        "text": "Zapewniamy stabilne dostawy całoroczne, elastyczne opakowania (gastro, przemysł, marka własna) oraz bezpieczną dostawę na cały świat."
+        "text": "Zapewniamy stabilne całoroczne dostawy, elastyczne opcje pakowania (gastro, przemysł, marka własna) oraz bezpieczną wysyłkę w dowolne miejsce na świecie."
       }
     },
-    "whyTitle": "Dlaczego wybierają nas partnerzy B2B",
+    "whyTitle": "Dlaczego kupujący wybierają nas",
     "points": {
-      "harvest": "Całoroczny kalendarzzbiorów i dostaw",
-      "residue": "Badane na obecność pozostałości pestycydów (zgodnie z MRL w UE)",
-      "speed": "Z pola do zamrażalnika w mniej niż 6 godzin"
+      "harvest": "365-dniowy kalendarz zbiorów i dostaw",
+      "residue": "Rygorystycznie badane pod kątem pozostałości pestycydów (zgodnie z unijnymi normami MRL)",
+      "speed": "Z pola do zamrażarki w mniej niż 6 godzin"
     }
   },
   "products": {
     "eyebrow": "Nasze Produkty",
     "title": "Katalog owoców i warzyw",
-    "lead": "Sortowane, kalibrowane i mrożone metoda IQF zgodnie z międzynarodowymi normami. Krojenie, proporcje mieszanek i opakowania na zamówienie.",
+    "lead": "Sortowane, kalibrowane i mrożone metodą IQF zgodnie z międzynarodowymi standardami. Niestandardowe krojenie, proporcje mieszanek i dostosowane opakowania dostępne na życzenie.",
     "fruits": "Owoce",
     "vegetables": "Warzywa",
     "specs": {
@@ -73,7 +73,7 @@
       "fibre": "Błonnik",
       "protein": "Białko",
       "salt": "Sól",
-      "note": "Typowe wartości dla mrożonego produktu bez przypraw. Mogą się różnić w zależności od sezonu i partii; oficjalna karta specyfikacji jest dostępna na życzenie.",
+      "note": "Typowe wartości dla mrożonego produktu bez przypraw. Mogą się różnić w zależności od sezonu i partii.",
       "view": "Zobacz specyfikację",
       "close": "Zamknij",
       "forms": "Dostępne formy",
@@ -104,66 +104,49 @@
       "strawberries": { "name": "Truskawki", "variants": ["Całe", "Plastry", "Kostka"] },
       "pomegranate": { "name": "Granat", "variants": ["Pestki (Arille)"] },
       "mango": { "name": "Mango", "variants": ["Kostka / Kawałki"] },
-      "okra": { "name": "Okra (Piżmian jadalny)", "variants": ["Zero (Extra drobna)", "Drobna"] },
-      "artichoke": { "name": "Karczochy", "variants": ["Dna karczochów", "Serca karczochów"] },
+      "okra": { "name": "Okra", "variants": ["Zero (Extra drobna)", "Drobna"] },
+      "artichoke": { "name": "Karczochy", "variants": ["Dna", "Serca"] },
       "peas": { "name": "Zielony groszek", "variants": ["Cały"] },
       "peasCarrots": { "name": "Groszek z marchewką", "variants": ["Mieszanka 50/50"] },
       "broccoli": { "name": "Brokuły", "variants": ["Różyczki"] },
       "cauliflower": { "name": "Kalafior", "variants": ["Różyczki"] },
       "fries": { "name": "Frytki", "variants": ["9x9 mm", "10x10 mm"] },
-      "falafel": { "name": "Falafel", "variants": ["Kulki (formowane)"] },
+      "falafel": { "name": "Falafel", "variants": ["Kotlety / Kulki (uformowane)"] },
       "beans": { "name": "Fasolka szparagowa", "variants": ["Cięta"] },
       "molokhia": { "name": "Molokhia (Liście juty)", "variants": ["Siekana"] },
-      "spinach": { "name": "Szpinak", "variants": ["W liściach", "Siekany"] },
-      "mixed": { "name": "Mieszanki warzywne", "variants": ["Receptury standardowe i na zamówienie"] }
-    },
-    "packaging": {
-      "title": "Opakowania B2B i specyfikacja logistyczna",
-      "lead": "Każda wysyłka jest paletyzowana, wyposażona w rejestratory temperatury i ładowana pod ścisłym nadzorem. Specyfikacja techniczna dołączana jest do każdej oferty.",
-      "cta": "Zamów specyfikację opakowań",
-      "bulk": {
-        "title": "Opakowania hurtowe (Bulk)",
-        "items": ["Karton 10 kg", "4 × 2,5 kg woreczki PE w kartonie zbiorczym"]
-      },
-      "retail": {
-        "title": "Opakowania detaliczne (Retail)",
-        "items": ["Woreczki 400 g, 1 kg i 2,5 kg", "Nadruk indywidualny / Marka Własna (Private Label)"]
-      },
-      "shipping": {
-        "title": "Przechowywanie i logistyka",
-        "items": ["Kontenery chłodnicze 40ft Reefer w temp. -18 °C lub niższej", "Okres przydatności: 24 miesiące"]
-      }
+      "spinach": { "name": "Szpinak", "variants": ["Całe liście", "Siekany"] },
+      "mixed": { "name": "Mieszanki warzywne", "variants": ["Standardowe i niestandardowe proporcje"] }
     }
   },
   "certifications": {
     "eyebrow": "Jakość i Certyfikaty",
-    "title": "Certyfikaty na najbardziej wymagające rynki",
-    "lead": "Nasz zakład przetwórczy oraz gospodarstwa partnerskie przechodzą coroczne niezależne audyty. Certyfikaty udostępniamy zweryfikowanym odbiorcom na życzenie.",
+    "title": "Certyfikowane na najbardziej wymagające rynki świata",
+    "lead": "Nasze zakłady przetwórcze i zakontraktowane gospodarstwa podlegają niezależnym audytom stron trzecich. Certyfikaty i pełne raporty z audytów są dostępne dla zweryfikowanych nabywców na życzenie.",
     "cta": "Zamów certyfikaty",
     "certified": "Certyfikowano",
     "items": {
       "iso": {
-        "title": "System zarządzania bezpieczeństwem żywności (ISO 22000)",
-        "text": "Międzynarodowy system gwarantujący bezpieczeństwo w całym łańcuchu przetwórczym."
+        "title": "System zarządzania bezpieczeństwem żywności",
+        "text": "Międzynarodowo uznany system zapewniający bezpieczeństwo w całym łańcuchu przetwórczym."
       },
       "haccp": {
-        "title": "Analiza zagrożeń i krytyczne punkty kontroli (HACCP)",
-        "text": "Zapobiegawcze kontrole na każdym etapie – od przyjęcia surowca po magazynowanie w chłodni."
+        "title": "Analiza zagrożeń i krytyczne punkty kontroli",
+        "text": "Zapobiegawczy monitoring na każdym krytycznym etapie - od przyjęcia surowca po chłodnię."
       },
       "globalgap": {
-        "title": "Dobra Praktyka Rolnicza (GlobalG.A.P.)",
-        "text": "Certyfikowane procedury w gospodarstwach zapewniające bezpieczną, zrównoważoną i identyfikowalną uprawę."
+        "title": "Dobra Praktyka Rolnicza",
+        "text": "Certyfikowane praktyki na poziomie gospodarstw rolnych w zakresie bezpiecznej, zrównoważonej i w pełni identyfikowalnej uprawy."
       },
       "fda": {
-        "title": "Rejestracja w amerykańskiej FDA",
-        "text": "Zarejestrowany zakład spełniający wymogi FSMA w zakresie bezpośredniego eksportu do USA."
+        "title": "Rejestracja w US FDA",
+        "text": "Zarejestrowany zakład spożywczy zgodny z przepisami FSMA dotyczącymi bezpośredniego eksportu do Ameryki Północnej."
       }
     }
   },
   "contact": {
-    "eyebrow": "Skontaktuj się z naszym zespołem eksportowym",
-    "title": "Omówmy Państwa najbliższą dostawę",
-    "lead": "Prosimy podać poszukiwany produkt, wolumen i port docelowy. Nasz dział eksportu odpowie w ciągu 24 godzin przedstawiając wycenę, specyfikacje i dostępność.",
+    "eyebrow": "Kontakt",
+    "title": "Omówmy Państwa kolejną wysyłkę",
+    "lead": "Zapraszamy do kontaktu bezpośrednio przez telefon, WhatsApp lub e-mail. Powiedz nam, jakich produktów i ilości potrzebujesz, a my omówimy ceny i dostępność.",
     "info": {
       "email": "E-mail",
       "phone": "Telefon",
@@ -172,33 +155,33 @@
       "officeValue": "Strefa Przemysłowa, Kair, Egipt"
     },
     "form": {
-      "heading": "Wolisz napisać? Wyślij szczegółowe zapytanie",
+      "heading": "Wolisz pisać? Wyślij szczegółowe zapytanie",
       "name": "Imię i nazwisko *",
-      "namePlaceholder": "Jan Kowalski",
-      "company": "Firma / Przedsiębiorstwo *",
-      "companyPlaceholder": "Kowalski Sp. z o.o.",
+      "namePlaceholder": "John Smith",
+      "company": "Nazwa firmy *",
+      "companyPlaceholder": "Global Foods Ltd.",
       "email": "Służbowy e-mail *",
-      "emailPlaceholder": "jan@firma.pl",
+      "emailPlaceholder": "john@company.com",
       "country": "Kraj docelowy *",
-      "countryPlaceholder": "Polska",
+      "countryPlaceholder": "Stany Zjednoczone",
       "volume": "Szacowany wolumen",
-      "volumeOptions": ["Zamówienie próbne (< 1 kontener FCL)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
+      "volumeOptions": ["Zamówienie próbne (1 FCL)", "1 - 5 FCL / rok", "5 - 20 FCL / rok", "20+ FCL / rok"],
       "message": "Szczegóły zapytania *",
-      "messagePlaceholder": "Specyfikacja produktów, wymagany sposób krojenia, typ opakowania, port docelowy, Incoterms...",
-      "error": "Prosimy wypełnić wszystkie wymagane pola i podać poprawny adres e-mail.",
-      "privacy": "Szanujemy Państwa prywatność. Dane służą wyłącznie do obsługi zapytania B2B.",
+      "messagePlaceholder": "Specyfikacja produktów, wymagane krojenie, rodzaj opakowania, port docelowy, preferowane Incoterms...",
+      "error": "Prosimy o wypełnienie wszystkich wymaganych pól i podanie prawidłowogo służbowego adresu e-mail.",
+      "privacy": "Szanujemy Państwa prywatność. Państwa dane są wykorzystywane wyłącznie do obsługi zapytania B2B.",
       "submit": "Wyślij zapytanie",
-      "success": "Dziękujemy! Nasz zespół ds. eksportu skontaktuje się w ciągu jednego dnia roboczego."
+      "success": "Dziękujemy! Skontaktujemy się z Państwem tak szybko, jak to możliwe."
     }
   },
   "footer": {
-    "about": "Egipski producent, przetwórca i eksporter mrożonych owoców i warzyw IQF dla importerów, dystrybutorów i przemysłu spożywczego na całym świecie.",
+    "about": "Egipski producent, przetwórca i eksporter najwyższej jakości mrożonych owoców i warzyw IQF obsługujący globalnych importerów, dystrybutorów i przemysłowych nabywców żywności.",
     "company": "Firma",
     "aboutUs": "O nas",
     "products": "Produkty",
-    "ready": "Chcą Państwo zamówić kontener?",
-    "readyText": "Uzyskaj aktualne cenniki i dostępność dla swojego kolejnego zamówienia.",
+    "ready": "Gotowy zarezerwować kontener?",
+    "readyText": "Uzyskaj aktualne cenniki i alokację sezonową na swoje nadchodzące zamówienie.",
     "rights": "Wszelkie prawa zastrzeżone.",
-    "proud": "Dumnie uprawiane i mrożone w Egipcie"
+    "proud": "Z dumą uprawiane i mrożone w Egipcie"
   }
 }

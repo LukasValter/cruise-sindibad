@@ -20,46 +20,46 @@
     "titleBefore": "Ägyptisches Tiefkühlobst",
     "titleHighlight": "und -gemüse",
     "titleAfter": "höchster Qualität",
-    "lead": "Cruise Sindibad liefert Premium-Tiefkühlobst und -gemüse für Importeure, Großhändler und die Lebensmittelindustrie weltweit. Schockgefrostet wenige Stunden nach der Ernte in Ägypten, direkt zu Ihnen geliefert.",
+    "lead": "Cruise Sindibad liefert Premium-Tiefkühlobst und -gemüse für Importeure, Großhändler und die Lebensmittelindustrie weltweit. Schockgefrostet wenige Stunden nach der Ernte in Ägypten, direkt zu Ihnen geliefert mit kompromissloser Qualität.",
     "ctaPrimary": "Angebot anfordern",
     "ctaSecondary": "Katalog ansehen",
     "points": {
       "cold": { "title": "-18 °C & Kühlkette", "text": "Lückenlose Kühlkette vom Feld bis zum Hafen." },
-      "packaging": { "title": "Flexible Verpackung", "text": "10-kg-Umkartons, Einzelhandelsbeutel von 400 g bis 2,5 kg (auch als Handelsmarke)." },
-      "fcl": { "title": "FCL-Logistik", "text": "40-Fuß-Kühlcontainer, FOB Alexandria / Damietta oder CIF bis zu Ihrem Zielhafen." },
-      "quality": { "title": "Zertifizierte Qualität", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US-FDA-registriert." },
-      "markets": { "title": "Globale Exportmärkte", "text": "Zuverlässige Belieferung von Kunden in der EU, in Großbritannien, im Nahen Osten, in Nordamerika und Asien." }
+      "packaging": { "title": "Flexible Verpackung", "text": "Groß- & Einzelhandelsverpackung (400g - 10kg)." },
+      "fcl": { "title": "FCL-Logistik", "text": "40-Fuß-Kühlcontainer (FOB / CIF)." },
+      "quality": { "title": "Zertifizierte Qualität", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA" },
+      "markets": { "title": "Globale Exportmärkte", "text": "Zuverlässige Belieferung von Kunden in der EU, UK, Nahem Osten, Nordamerika & Asien." }
     }
   },
   "about": {
     "eyebrow": "Über Cruise Sindibad",
-    "title": "Vom Nildelta in die Tiefkühlketten der Welt.",
-    "lead": "Wir verbinden die Fruchtbarkeit der ägyptischen Landwirtschaft mit strengen internationalen Standards. Cruise Sindibad ist Anbauer, Verarbeiter und Exporteur von Tiefkühlobst und -gemüse. In enger Partnerschaft mit lokalen Landwirten wählen wir die besten Früchte aus dem fruchtbaren Nildelta aus. Durch Schockfrosten direkt nach der Ernte bleiben Nährstoffe, natürlicher Geschmack und Frische ganzjährig erhalten.",
+    "title": "Vom Nildelta in die globalen Kühlketten.",
+    "lead": "Wir verbinden die Fruchtbarkeit der ägyptischen Landwirtschaft mit strengen internationalen Standards. Cruise Sindibad ist direkter Anbauer, Verarbeiter und Exporteur von Tiefkühlobst und -gemüse. In enger Zusammenarbeit mit lokalen Landwirten wählen wir die besten Erzeugnisse aus dem fruchtbaren Nildelta aus. Das Schockfrosten unmittelbar nach der Ernte bewahrt den vollen Nährwert, den natürlichen Geschmack und die ganzjährige Frische.",
     "pillars": {
       "iqf": {
-        "title": "Nachhaltige Landwirtschaft",
-        "text": "Wir fördern umweltschonenden Anbau, verkürzen Lieferketten und minimieren Lebensmittelverschwendung vom Feld bis zur Verpackung."
+        "title": "Nachhaltige Landwirtschaft & Beschaffung",
+        "text": "Wir fördern verantwortungsvolle Landwirtschaft, verkürzen die Lieferkette und minimieren aktiv Lebensmittelabfälle vom Feld bis zur Endverpackung."
       },
       "farms": {
-        "title": "Qualitätskontrolle & Sicherheit",
-        "text": "Wir garantieren höchste Hygiene, vollständige Chargenrückverfolgbarkeit und die Einhaltung internationaler Lebensmittelnormen."
+        "title": "Qualitätskontrolle & Lebensmittelsicherheit",
+        "text": "Wir garantieren strenge Verpackungshygiene, vollständige Chargenrückverfolgbarkeit und die strikte Einhaltung globaler Lebensmittelsicherheitsstandards."
       },
       "export": {
-        "title": "Zuverlässiger Internationale Export",
-        "text": "Wir bieten stabile ganzjährige Lieferungen, flexible Verpackungen (Gastro, Industrie, Private Label) und sicheren weltweiten Versand."
+        "title": "Zuverlässiger internationaler Export",
+        "text": "Wir bieten eine stabile ganzjährige Versorgung, flexible Verpackungsoptionen (Gastro, Industrie, Handelsmarke) und einen sicheren weltweiten Versand."
       }
     },
-    "whyTitle": "Warum B2B-Kunden uns wählen",
+    "whyTitle": "Warum Käufer uns wählen",
     "points": {
       "harvest": "365-Tage-Ernte- und Lieferkalender",
-      "residue": "Geprüft auf Pestizidrückstände (MRL-konform gemäß EU-Normen)",
+      "residue": "Streng geprüft auf Pestizidrückstände (EU-MRL-konform)",
       "speed": "Vom Feld in den Froster in unter 6 Stunden"
     }
   },
   "products": {
     "eyebrow": "Unsere Produkte",
     "title": "Obst- und Gemüsekatalog",
-    "lead": "Sortiert, kalibriert und nach internationalen Normen schockgefrostet. Kundenspezifische Schnitte, Mischungsverhältnisse und Verpackungen auf Anfrage.",
+    "lead": "Sortiert, kalibriert und nach internationalen Standards IQF-schockgefrostet. Kundenspezifische Schnitte, Mischungsverhältnisse und maßgeschneiderte Verpackungen auf Anfrage.",
     "fruits": "Obst",
     "vegetables": "Gemüse",
     "specs": {
@@ -73,7 +73,7 @@
       "fibre": "Ballaststoffe",
       "protein": "Eiweiß",
       "salt": "Salz",
-      "note": "Typische Werte für das tiefgekühlte, ungewürzte Produkt. Sie können je nach Saison und Charge variieren; das offizielle Spezifikationsblatt erhalten Sie auf Anfrage.",
+      "note": "Typische Werte für das tiefgekühlte, ungewürzte Produkt. Sie können je nach Saison und Charge variieren.",
       "view": "Spezifikationen ansehen",
       "close": "Schließen",
       "forms": "Verfügbare Formen",
@@ -102,8 +102,8 @@
     },
     "items": {
       "strawberries": { "name": "Erdbeeren", "variants": ["Ganz", "Scheiben", "Würfel"] },
-      "pomegranate": { "name": "Granatapfel", "variants": ["Kerne"] },
-      "mango": { "name": "Mango", "variants": ["Würfel"] },
+      "pomegranate": { "name": "Granatapfel", "variants": ["Kerne (Samen)"] },
+      "mango": { "name": "Mango", "variants": ["Würfel / Stücke"] },
       "okra": { "name": "Okra", "variants": ["Zero (Extra Fein)", "Fein"] },
       "artichoke": { "name": "Artischocken", "variants": ["Böden", "Herzen"] },
       "peas": { "name": "Grüne Erbsen", "variants": ["Ganz"] },
@@ -111,93 +111,76 @@
       "broccoli": { "name": "Brokkoli", "variants": ["Röschen"] },
       "cauliflower": { "name": "Blumenkohl", "variants": ["Röschen"] },
       "fries": { "name": "Pommes Frites", "variants": ["9x9 mm", "10x10 mm"] },
-      "falafel": { "name": "Falafel", "variants": ["Bällchen / Briketts (vorgeformt)"] },
+      "falafel": { "name": "Falafel", "variants": ["Patties / Bällchen (vorgeformt)"] },
       "beans": { "name": "Grüne Bohnen", "variants": ["Geschnitten"] },
       "molokhia": { "name": "Molokhia (Juteblätter)", "variants": ["Gehackt"] },
       "spinach": { "name": "Spinat", "variants": ["Blattspinat", "Gehackt"] },
       "mixed": { "name": "Gemüsemischungen", "variants": ["Standard & individuelle Rezepturen"] }
-    },
-    "packaging": {
-      "title": "B2B-Verpackung & Logistik",
-      "lead": "Jede Lieferung wird palettiert, mit Temperaturdatenloggern ausgestattet und unter strenger Aufsicht verladen. Detaillierte Spezifikationen liegen jedem Angebot bei.",
-      "cta": "Spezifikationen anfordern",
-      "bulk": {
-        "title": "Großhandelsverpackung (Bulk)",
-        "items": ["10 kg Karton", "4 × 2,5 kg PE-Beutel im Masterkarton"]
-      },
-      "retail": {
-        "title": "Einzelhandelsverpackung (Retail)",
-        "items": ["Beutel à 400 g, 1 kg und 2,5 kg", "Eigenmarkenbedruckung (Private Label)"]
-      },
-      "shipping": {
-        "title": "Lagerung & Logistik",
-        "items": ["40ft Kühlcontainer bei -18 °C oder kälter", "Mindesthaltbarkeit: 24 Monate"]
-      }
     }
   },
   "certifications": {
-    "eyebrow": "Qualität & Zertifizierung",
-    "title": "Zertifiziert für anspruchsvollste Märkte",
-    "lead": "Unser Verarbeitungsbetrieb und unsere Vertragslandwirte werden jährlich unabhängig auditiert. Zertifikate stellen wir verifizierten Einkäufern gerne zur Verfügung.",
+    "eyebrow": "Qualität & Zertifizierungen",
+    "title": "Zertifiziert für die anspruchsvollsten Märkte der Welt",
+    "lead": "Unsere Verarbeitungsbetriebe und Vertragsbetriebe unterliegen unabhängigen Audits durch Dritte. Zertifikate und vollständige Auditberichte stehen verifizierten Käufern auf Anfrage zur Verfügung.",
     "cta": "Zertifikate anfordern",
     "certified": "Zertifiziert",
     "items": {
       "iso": {
-        "title": "Lebensmittelsicherheitsmanagement (ISO 22000)",
-        "text": "International anerkanntes Managementsystem für Sicherheit in der gesamten Verarbeitungskette."
+        "title": "Lebensmittelsicherheitsmanagementsystem",
+        "text": "International anerkanntes System zur Gewährleistung der Sicherheit entlang der gesamten Verarbeitungskette."
       },
       "haccp": {
-        "title": "Gefahrenanalyse & kritische Kontrollpunkte (HACCP)",
-        "text": "Präventive Kontrollen an jedem kritischen Punkt – von der Rohwarenannahme bis zur Tiefkühllagerung."
+        "title": "Gefahrenanalyse und kritische Kontrollpunkte",
+        "text": "Präventive Überwachung in jeder kritischen Phase – von der Rohwarenannahme bis zur Kühllagerung."
       },
       "globalgap": {
-        "title": "Gute Agrarpraxis (GlobalG.A.P.)",
-        "text": "Zertifizierte Standards auf Betriebsebene für sicheren, nachhaltigen und rückverfolgbaren Anbau."
+        "title": "Gute landwirtschaftliche Praxis",
+        "text": "Zertifizierte Betriebspraktiken für eine sichere, nachhaltige und vollständig rückverfolgbare Kulturführung."
       },
       "fda": {
-        "title": "US FDA Registrierung",
-        "text": "Registrierter Betrieb gemäß FSMA-Anforderungen für den direkten Export in die USA."
+        "title": "US-FDA-Registrierung",
+        "text": "Registrierte Lebensmittelstätte gemäß FSMA-Vorschriften für den Direktexport nach Nordamerika."
       }
     }
   },
   "contact": {
-    "eyebrow": "Kontaktieren Sie unser Export-Team",
-    "title": "Lassen Sie uns Ihre nächste Lieferung besprechen",
-    "lead": "Senden Sie uns Ihr gewünschtes Produkt, die Menge und den Zielhafen. Unser Exportteam antwortet innerhalb von 24 Stunden mit Angebot, Spezifikationen und Verfügbarkeit.",
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns Ihre nächste Sendung besprechen",
+    "lead": "Melden Sie sich gerne direkt per Telefon, WhatsApp oder E-Mail. Teilen Sie uns mit, welche Produkte und Mengen Sie benötigen, und wir besprechen Preise und Verfügbarkeit.",
     "info": {
       "email": "E-Mail",
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
-      "office": "Unternehmenssitz",
+      "office": "Hauptsitz",
       "officeValue": "Industriezone, Kairo, Ägypten"
     },
     "form": {
-      "heading": "Lieber schriftlich? Senden Sie eine ausführliche Anfrage",
+      "heading": "Lieber schriftlich? Senden Sie eine detaillierte Anfrage",
       "name": "Vollständiger Name *",
       "namePlaceholder": "Max Mustermann",
-      "company": "Firma / Unternehmen *",
-      "companyPlaceholder": "Mustermann Lebensmittel GmbH",
+      "company": "Unternehmensname *",
+      "companyPlaceholder": "Global Foods Ltd.",
       "email": "Geschäftliche E-Mail *",
       "emailPlaceholder": "max@firma.de",
       "country": "Zielland *",
       "countryPlaceholder": "Deutschland",
       "volume": "Geschätztes Volumen",
-      "volumeOptions": ["Testbestellung (< 1 FCL Container)", "1 – 5 FCL / Jahr", "5 – 20 FCL / Jahr", "20+ FCL / Jahr"],
-      "message": "Detaillierte Anfrage *",
-      "messagePlaceholder": "Produktspezifikationen, Schnitte, Verpackungsart, Zielhafen, bevorzugte Incoterms...",
-      "error": "Bitte füllen Sie alle Pflichtfelder aus und geben Sie eine gültige E-Mail-Adresse an.",
-      "privacy": "Wir respektieren Ihre Privatsphäre. Die Daten dienen ausschließlich der Bearbeitung Ihrer B2B-Anfrage.",
-      "submit": "Anfrage absenden",
-      "success": "Vielen Dank! Unser Exportteam wird sich innerhalb eines Werktags bei Ihnen melden."
+      "volumeOptions": ["Testbestellung (1 FCL)", "1 - 5 FCL / Jahr", "5 - 20 FCL / Jahr", "20+ FCL / Jahr"],
+      "message": "Anfragedetails *",
+      "messagePlaceholder": "Produktspezifikationen, erforderliche Schnittgrößen, Verpackungsart, Zielhafen, bevorzugte Incoterms...",
+      "error": "Bitte füllen Sie alle Pflichtfelder aus und geben Sie eine gültige geschäftliche E-Mail-Adresse an.",
+      "privacy": "Wir respektieren Ihre Privatsphäre. Ihre Daten werden ausschließlich zur Bearbeitung Ihrer B2B-Anfrage verwendet.",
+      "submit": "Anfrage senden",
+      "success": "Vielen Dank! Wir werden uns schnellstmöglich bei Ihnen melden."
     }
   },
   "footer": {
-    "about": "Ägyptischer Anbauer, Verarbeiter und Exporteur von Premium-Tiefkühlobst und -gemüse für Importeure, Händler und die Lebensmittelindustrie weltweit.",
+    "about": "Ägyptischer Anbauer, Verarbeiter und Exporteur von Premium-IQF-Tiefkühlobst und -gemüse für globale Importeure, Distributoren und industrielle Lebensmittelkäufer.",
     "company": "Unternehmen",
     "aboutUs": "Über uns",
     "products": "Produkte",
-    "ready": "Möchten Sie einen Container anfragen?",
-    "readyText": "Erhalten Sie aktuelle Preislisten und Kapazitäten für Ihre nächste Lieferung.",
+    "ready": "Bereit, einen Container zu buchen?",
+    "readyText": "Erhalten Sie aktuelle Preislisten und saisonale Kontingente für Ihre bevorstehende Bestellung.",
     "rights": "Alle Rechte vorbehalten.",
     "proud": "Mit Stolz angebaut und gefroren in Ägypten"
   }

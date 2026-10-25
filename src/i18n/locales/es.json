@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Cruise Sindibad | Exportador Egipcio de Frutas y Verduras Congeladas IQF",
-    "description": "Cruise Sindibad cultiva, congela y exporta frutas y verduras IQF de primera calidad desde los fértiles campos de Egipto para importadores, distribuidores e industrias de todo el mundo."
+    "description": "Cruise Sindibad cultiva, congela y exporta frutas y verduras IQF de primera calidad desde las fértiles tierras de Egipto para importadores, distribuidores y fabricantes de alimentos de todo el mundo."
   },
   "nav": {
     "home": "Inicio",
@@ -19,47 +19,47 @@
     "eyebrow": "Cultivado y congelado en Egipto",
     "titleBefore": "Frutas y verduras",
     "titleHighlight": "congeladas de Egipto",
-    "titleAfter": "de la máxima calidad",
-    "lead": "Cruise Sindibad suministra frutas y verduras congeladas de calidad premium a importadores, distribuidores e industrias alimentarias de todo el mundo. Congeladas a las pocas horas de su cosecha en Egipto, entregadas directamente en su almacén.",
+    "titleAfter": "de la más alta calidad",
+    "lead": "Cruise Sindibad suministra frutas y verduras congeladas de calidad superior a importadores, distribuidores y procesadores de alimentos en todo el mundo. Congeladas a pocas horas de la cosecha en Egipto, entregadas directamente con calidad intransigente.",
     "ctaPrimary": "Solicitar presupuesto",
     "ctaSecondary": "Ver catálogo",
     "points": {
       "cold": { "title": "-18 °C y cadena de frío", "text": "Cadena de frío ininterrumpida del campo al puerto." },
-      "packaging": { "title": "Envasado flexible", "text": "Cajas máster de 10 kg, bolsas minoristas de 400 g a 2,5 kg (incluida marca blanca)." },
-      "fcl": { "title": "Logística FCL", "text": "Contenedores reefer de 40 pies, FOB Alexandria / Damieta o CIF hasta su puerto de destino." },
-      "quality": { "title": "Calidad certificada", "text": "ISO 22000 · HACCP · GlobalG.A.P. · registrada ante la FDA de EE. UU." },
-      "markets": { "title": "Mercados de exportación globales", "text": "Abastecemos con fiabilidad a clientes en la UE, Reino Unido, Oriente Medio, Norteamérica y Asia." }
+      "packaging": { "title": "Embalaje flexible", "text": "Embalaje a granel y minorista (400g - 10kg)." },
+      "fcl": { "title": "Logística FCL", "text": "Contenedores reefer de 40 pies (FOB / CIF)." },
+      "quality": { "title": "Calidad certificada", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA" },
+      "markets": { "title": "Mercados de exportación globales", "text": "Suministro fiable a clientes en la UE, Reino Unido, Oriente Medio, Norteamérica y Asia." }
     }
   },
   "about": {
     "eyebrow": "Sobre Cruise Sindibad",
-    "title": "Del delta del Nilo a las cadenas de frío de todo el mundo.",
-    "lead": "Unimos la fertilidad de la agricultura egipcia con los más estrictos estándares internacionales. Cruise Sindibad es un cultivador, procesador y exportador egipcio de frutas y verduras congeladas. En estrecha colaboración con los agricultores locales, seleccionamos las mejores cosechas del delta del Nilo. La ultracongelación inmediata tras la recolección mantiene el valor nutricional, sabor natural y frescura durante todo el año.",
+    "title": "Del delta del Nilo a las cadenas de frío globales.",
+    "lead": "Conectando la fertilidad de la agricultura egipcia con estrictos estándares internacionales. Cruise Sindibad es un cultivador, procesador y exportador directo de frutas y verduras congeladas. Trabajando en estrecha colaboración con agricultores locales, seleccionamos los mejores productos del fértil delta del Nilo. La ultracongelación inmediatamente después de la cosecha preserva todo el valor nutricional, el sabor natural y la frescura durante todo el año.",
     "pillars": {
       "iqf": {
-        "title": "Agricultura sostenible",
-        "text": "Promovemos el cultivo responsable, acortamos la cadena de suministro y reducimos activamente el desperdicio alimentario."
+        "title": "Agricultura y abastecimiento sostenible",
+        "text": "Promovemos la agricultura responsable, acortamos la cadena de suministro y minimizamos activamente el desperdicio de alimentos desde los campos hasta el envasado final."
       },
       "farms": {
-        "title": "Control de calidad y seguridad",
-        "text": "Garantizamos la máxima higiene, trazabilidad completa de lotes y el cumplimiento estricto de la normativa alimentaria internacional."
+        "title": "Control de calidad e inocuidad alimentaria",
+        "text": "Garantizamos una estricta higiene en el envasado, trazabilidad completa de lotes y un riguroso cumplimiento de las normas globales de seguridad alimentaria."
       },
       "export": {
         "title": "Exportación internacional confiable",
-        "text": "Aseguramos un suministro estable todo el año, empaques flexibles (gastro, industrial, marca propia) y envíos seguros a cualquier parte del mundo."
+        "text": "Ofrecemos un suministro estable durante todo el año, opciones de envasado flexible (gastro, industrial, marca blanca) y envíos seguros a cualquier lugar del mundo."
       }
     },
-    "whyTitle": "Por qué nos eligen los compradores",
+    "whyTitle": "Por qué los compradores nos eligen",
     "points": {
-      "harvest": "Calendario de cosecha y suministro los 365 días del año",
-      "residue": "Analizado contra residuos de plaguicidas (conforme a los LMR de la UE)",
+      "harvest": "Calendario de cosecha y suministro de 365 días",
+      "residue": "Estrictamente analizado para residuos de pesticidas (conforme a los LMR de la UE)",
       "speed": "Del campo al congelador en menos de 6 horas"
     }
   },
   "products": {
     "eyebrow": "Nuestros Productos",
     "title": "Catálogo de frutas y verduras",
-    "lead": "Clasificadas, calibradas y congeladas IQF según normas internacionales. Cortes, mezclas y envases personalizados bajo pedido.",
+    "lead": "Clasificadas, calibradas y ultracongeladas IQF para cumplir con los estándares internacionales. Cortes personalizados, proporciones de mezcla y envasado a medida disponibles bajo pedido.",
     "fruits": "Frutas",
     "vegetables": "Verduras",
     "specs": {
@@ -73,7 +73,7 @@
       "fibre": "Fibra",
       "protein": "Proteínas",
       "salt": "Sal",
-      "note": "Valores típicos del producto congelado y sin condimentar. Pueden variar según la temporada y el lote; la ficha técnica oficial está disponible bajo petición.",
+      "note": "Valores típicos del producto congelado y sin condimentar. Pueden variar según la temporada y el lote.",
       "view": "Ver especificaciones",
       "close": "Cerrar",
       "forms": "Presentaciones disponibles",
@@ -107,63 +107,46 @@
       "okra": { "name": "Okra (Gombo)", "variants": ["Zero (Extra fina)", "Fina"] },
       "artichoke": { "name": "Alcachofas", "variants": ["Fondos", "Corazones"] },
       "peas": { "name": "Guisantes verdes", "variants": ["Enteros"] },
-      "peasCarrots": { "name": "Guisantes con zanahoria", "variants": ["Mezcla 50/50"] },
+      "peasCarrots": { "name": "Guisantes y zanahorias", "variants": ["Mezcla 50/50"] },
       "broccoli": { "name": "Brócoli", "variants": ["Ramilletes"] },
       "cauliflower": { "name": "Coliflor", "variants": ["Ramilletes"] },
       "fries": { "name": "Patatas fritas", "variants": ["9x9 mm", "10x10 mm"] },
-      "falafel": { "name": "Faláfel", "variants": ["Bolas / Pastillas (preformadas)"] },
-      "beans": { "name": "Judías verdes", "variants": ["Troceadas"] },
+      "falafel": { "name": "Falafel", "variants": ["Bolas / Pastillas (preformadas)"] },
+      "beans": { "name": "Judías verdes", "variants": ["Cortadas"] },
       "molokhia": { "name": "Molokhia (Hojas de yute)", "variants": ["Picada"] },
       "spinach": { "name": "Espinacas", "variants": ["En hoja", "Picadas"] },
-      "mixed": { "name": "Verduras variadas", "variants": ["Mezclas estándar y formulaciones a medida"] }
-    },
-    "packaging": {
-      "title": "Empaque B2B y especificaciones logísticas",
-      "lead": "Cada envío se paletiza, se equipa con registradores de temperatura y se carga bajo estricta supervisión. Fichas técnicas incluidas en cada cotización.",
-      "cta": "Solicitar especificaciones de empaque",
-      "bulk": {
-        "title": "Empaque a granel (Bulk)",
-        "items": ["Caja de cartón de 10 kg", "4 × 2,5 kg bolsas PE en caja máster"]
-      },
-      "retail": {
-        "title": "Empaque al por menor (Retail)",
-        "items": ["Bolsas de 400 g, 1 kg y 2,5 kg", "Impresión personalizada / Marca blanca (Private Label)"]
-      },
-      "shipping": {
-        "title": "Almacenamiento y logística",
-        "items": ["Contenedores refrigerados 40ft Reefer a -18 °C o inferior", "Vida útil: 24 meses"]
-      }
+      "mixed": { "name": "Verduras variadas", "variants": ["Estándar y proporciones personalizadas"] }
     }
   },
   "certifications": {
     "eyebrow": "Calidad y Certificaciones",
-    "title": "Certificado para los mercados más exigentes",
-    "lead": "Nuestra planta de procesamiento y agricultores asociados se someten a auditorías independientes anuales. Certificados disponibles para compradores verificados.",
+    "title": "Certificado para los mercados más exigentes del mundo",
+    "lead": "Nuestras instalaciones de procesamiento y granjas contratadas se someten a auditorías independientes de terceros. Los certificados y los informes de auditoría completos están disponibles para compradores verificados previa solicitud.",
     "cta": "Solicitar certificados",
     "certified": "Certificado",
     "items": {
       "iso": {
-        "title": "Gestión de la inocuidad alimentaria (ISO 22000)",
-        "text": "Sistema reconocido internacionalmente para garantizar la seguridad en toda la cadena de procesamiento."
+        "title": "Sistema de gestión de inocuidad alimentaria",
+        "text": "Sistema reconocido internacionalmente que garantiza la seguridad en toda la cadena de procesamiento."
       },
       "haccp": {
-        "title": "Análisis de peligros y puntos críticos de control (HACCP)",
-        "text": "Controles preventivos en cada punto crítico, desde la recepción de la materia prima hasta el almacenamiento en frío."
+        "title": "Análisis de peligros y puntos críticos de control",
+        "text": "Monitoreo preventivo en cada etapa crítica, desde la recepción de la materia prima hasta el almacenamiento en frío."
       },
       "globalgap": {
-        "title": "Buenas Prácticas Agrícolas (GlobalG.A.P.)",
-        "text": "Prácticas certificadas a nivel de campo para un cultivo seguro, sostenible y trazable."
+        "title": "Buenas prácticas agrícolas",
+        "text": "Prácticas certificadas a nivel de granja para un cultivo seguro, sostenible y totalmente trazable."
       },
       "fda": {
-        "title": "Registro US FDA",
-        "text": "Instalación alimentaria registrada que cumple con la normativa FSMA para la exportación directa a EE. UU."
+        "title": "Registro de la FDA de EE. UU.",
+        "text": "Instalación alimentaria registrada que cumple con las regulaciones FSMA para la exportación directa a Norteamérica."
       }
     }
   },
   "contact": {
-    "eyebrow": "Póngase en contacto con nuestro equipo de exportación",
+    "eyebrow": "Contacto",
     "title": "Hablemos de su próximo envío",
-    "lead": "Envíenos el producto deseado, el volumen y el puerto de destino. Nuestro equipo responderá en un plazo de 24 horas con presupuestos, especificaciones y disponibilidad.",
+    "lead": "No dude en contactarnos directamente por teléfono, WhatsApp o correo electrónico. Díganos qué productos y volúmenes necesita, y podemos hablar sobre precios y disponibilidad.",
     "info": {
       "email": "Correo electrónico",
       "phone": "Teléfono",
@@ -174,31 +157,31 @@
     "form": {
       "heading": "¿Prefiere escribir? Envíe una consulta detallada",
       "name": "Nombre completo *",
-      "namePlaceholder": "Carlos García",
-      "company": "Empresa / Sociedad *",
-      "companyPlaceholder": "Alimentos García S.L.",
-      "email": "Correo corporativo *",
-      "emailPlaceholder": "carlos@empresa.es",
+      "namePlaceholder": "John Smith",
+      "company": "Nombre de la empresa *",
+      "companyPlaceholder": "Global Foods Ltd.",
+      "email": "Correo electrónico comercial *",
+      "emailPlaceholder": "john@company.com",
       "country": "País de destino *",
-      "countryPlaceholder": "España",
+      "countryPlaceholder": "Estados Unidos",
       "volume": "Volumen estimado",
-      "volumeOptions": ["Pedido de prueba (< 1 contenedor FCL)", "1 – 5 FCL / año", "5 – 20 FCL / año", "20+ FCL / año"],
+      "volumeOptions": ["Pedido de prueba (1 FCL)", "1 - 5 FCL / año", "5 - 20 FCL / año", "20+ FCL / año"],
       "message": "Detalles de la consulta *",
-      "messagePlaceholder": "Especificaciones del producto, cortes requeridos, tipo de empaque, puerto de destino, Incoterms...",
-      "error": "Por favor, complete todos los campos obligatorios y proporcione un correo válido.",
-      "privacy": "Respetamos su privacidad. Sus datos se utilizarán exclusivamente para tramitar su solicitud B2B.",
-      "submit": "Enviar solicitud",
-      "success": "¡Gracias! Nuestro departamento de exportación se pondrá en contacto en un plazo de un día hábil."
+      "messagePlaceholder": "Especificaciones del producto, cortes requeridos, tipo de envasado, puerto de destino, Incoterms preferidos...",
+      "error": "Por favor, complete todos los campos obligatorios y proporcione un correo electrónico comercial válido.",
+      "privacy": "Respetamos su privacidad. Sus datos se utilizan estrictamente para procesar su consulta B2B.",
+      "submit": "Enviar consulta",
+      "success": "¡Gracias! Nos pondremos en contacto con usted lo antes posible."
     }
   },
   "footer": {
-    "about": "Cultivador, procesador y exportador egipcio de frutas y verduras congeladas IQF de primera calidad para importadores, distribuidores e industrias de todo el mundo.",
+    "about": "Cultivador, procesador y exportador egipcio de frutas y verduras congeladas IQF de primera calidad al servicio de importadores, distribuidores y compradores de alimentos industriales globales.",
     "company": "Empresa",
     "aboutUs": "Sobre nosotros",
     "products": "Productos",
-    "ready": "¿Desea solicitar un contenedor?",
-    "readyText": "Obtenga listas de precios actualizadas y disponibilidad para su próximo pedido.",
+    "ready": "¿Listo para reservar un contenedor?",
+    "readyText": "Obtenga listas de precios actualizadas y asignación estacional para su próximo pedido.",
     "rights": "Todos los derechos reservados.",
-    "proud": "Orgullosamente cultivado y congelado en Egipto"
+    "proud": "Cultivado y congelado con orgullo en Egipto"
   }
 }

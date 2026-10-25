@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Cruise Sindibad | Exportateur Égyptien de Fruits et Légumes Surgelés IQF",
-    "description": "Cruise Sindibad cultive, surgèle et exporte des fruits et légumes IQF haut de gamme des terres fertiles d'Égypte pour les importateurs, distributeurs et industriels du monde entier."
+    "description": "Cruise Sindibad cultive, surgèle et exporte des fruits et légumes IQF haut de gamme des terres fertiles d'Égypte pour les importateurs, distributeurs et industriels de l'alimentation du monde entier."
   },
   "nav": {
     "home": "Accueil",
@@ -19,47 +19,47 @@
     "eyebrow": "Cultivé et surgelé en Égypte",
     "titleBefore": "Fruits et légumes",
     "titleHighlight": "surgelés d'Égypte",
-    "titleAfter": "de haute qualité",
-    "lead": "Cruise Sindibad fournit des fruits et légumes surgelés de qualité supérieure aux importateurs, distributeurs et transformateurs alimentaires. Surgelés quelques heures après la récolte en Égypte, livrés directement chez vous.",
+    "titleAfter": "de la plus haute qualité",
+    "lead": "Cruise Sindibad fournit des fruits et légumes surgelés de qualité supérieure aux importateurs, distributeurs et transformateurs alimentaires du monde entier. Surgelés quelques heures après la récolte en Égypte, livrés directement chez vous avec une qualité irréprochable.",
     "ctaPrimary": "Demander un devis",
     "ctaSecondary": "Voir le catalogue",
     "points": {
       "cold": { "title": "-18 °C & chaîne du froid", "text": "Chaîne du froid ininterrompue, du champ au port." },
-      "packaging": { "title": "Conditionnement flexible", "text": "Cartons de 10 kg, sachets de détail de 400 g à 2,5 kg (marque de distributeur possible)." },
-      "fcl": { "title": "Logistique FCL", "text": "Conteneurs frigorifiques 40 pieds, FOB Alexandrie / Damiette ou CIF jusqu’à votre port de destination." },
-      "quality": { "title": "Qualité certifiée", "text": "ISO 22000 · HACCP · GlobalG.A.P. · enregistré auprès de la FDA américaine." },
-      "markets": { "title": "Marchés d’export mondiaux", "text": "Nous approvisionnons durablement nos clients dans l’UE, au Royaume-Uni, au Moyen-Orient, en Amérique du Nord et en Asie." }
+      "packaging": { "title": "Conditionnement flexible", "text": "Emballage en vrac et au détail (400g - 10kg)." },
+      "fcl": { "title": "Logistique FCL", "text": "Conteneurs frigorifiques 40 pieds (FOB / CIF)." },
+      "quality": { "title": "Qualité certifiée", "text": "ISO 22000 · HACCP · GlobalG.A.P. · US FDA" },
+      "markets": { "title": "Marchés d'export mondiaux", "text": "Approvisionnement fiable de clients dans l'UE, au Royaume-Uni, au Moyen-Orient, en Amérique du Nord et en Asie." }
     }
   },
   "about": {
     "eyebrow": "À propos de Cruise Sindibad",
-    "title": "Du delta du Nil aux chaînes du froid du monde entier.",
-    "lead": "Nous relions la fertilité de l'agriculture égyptienne aux normes internationales les plus strictes. Cruise Sindibad est un producteur, transformateur et exportateur égyptien de fruits et légumes surgelés. En partenariat étroit avec les agriculteurs locaux, nous sélectionnons les meilleurs produits du delta du Nil. La surgélation immédiate après récolte préserve la valeur nutritionnelle, le goût naturel et la fraîcheur tout au long de l'année.",
+    "title": "Du delta du Nil aux chaînes du froid mondiales.",
+    "lead": "Relier la fertilité de l'agriculture égyptienne aux normes internationales strictes. Cruise Sindibad est un producteur, transformateur et exportateur direct de fruits et légumes surgelés. En collaboration étroite avec les agriculteurs locaux, nous sélectionnons les meilleurs produits du delta fertile du Nil. La surgélation immédiate après la récolte préserve toute la valeur nutritionnelle, le goût naturel et la fraîcheur toute l'année.",
     "pillars": {
       "iqf": {
-        "title": "Agriculture durable",
-        "text": "Nous encourageons une agriculture responsable, raccourcissons la chaîne d'approvisionnement et réduisons le gaspillage alimentaire."
+        "title": "Agriculture durable & Approvisionnement",
+        "text": "Nous promouvons une agriculture responsable, raccourcissons la chaîne d'approvisionnement et minimisons activement le gaspillage alimentaire des champs jusqu'à l'emballage final."
       },
       "farms": {
-        "title": "Contrôle qualité & Sécurité",
-        "text": "Nous garantissons une hygiène stricte, une traçabilité totale des lots et le respect rigoureux des normes alimentaires internationales."
+        "title": "Contrôle qualité & Sécurité des aliments",
+        "text": "Nous garantissons une hygiène d'emballage stricte, une traçabilité complète des lots et une conformité rigoureuse aux normes mondiales de sécurité alimentaire."
       },
       "export": {
         "title": "Exportation internationale fiable",
-        "text": "Nous assurons des approvisionnements stables toute l'année, des emballages sur mesure (gastro, industriel, marque propre) et une livraison sécurisée."
+        "text": "Nous offrons un approvisionnement stable toute l'année, des options d'emballage flexibles (gastro, industriel, marque propre) et un transport maritime sûr partout dans le monde."
       }
     },
     "whyTitle": "Pourquoi les acheteurs nous choisissent",
     "points": {
-      "harvest": "Calendrier de récolte et d'approvisionnement 365 jours par an",
-      "residue": "Analysé pour les résidus de pesticides (conforme aux LMR européennes)",
-      "speed": "Du champ au surgélateur en moins de 6 heures"
+      "harvest": "Calendrier de récolte et d'approvisionnement de 365 jours",
+      "residue": "Strictement testé pour les résidus de pesticides (conforme aux LMR de l'UE)",
+      "speed": "Du champ au congélateur en moins de 6 heures"
     }
   },
   "products": {
     "eyebrow": "Nos Produits",
     "title": "Catalogue de fruits et légumes",
-    "lead": "Tries, calibrés et surgelés selon les normes internationales. Coupes, mélanges et conditionnements personnalisés sur demande.",
+    "lead": "Triés, calibrés et surgelés IQF selon les normes internationales. Coupes personnalisées, ratios de mélange et emballages sur mesure disponibles sur demande.",
     "fruits": "Fruits",
     "vegetables": "Légumes",
     "specs": {
@@ -73,7 +73,7 @@
       "fibre": "Fibres",
       "protein": "Protéines",
       "salt": "Sel",
-      "note": "Valeurs typiques du produit surgelé non assaisonné. Elles peuvent varier selon la saison et le lot ; la fiche technique officielle est disponible sur demande.",
+      "note": "Valeurs typiques du produit surgelé non assaisonné. Elles peuvent varier selon la saison et le lot.",
       "view": "Voir les spécifications",
       "close": "Fermer",
       "forms": "Formats disponibles",
@@ -111,93 +111,76 @@
       "broccoli": { "name": "Brocoli", "variants": ["Fleurettes"] },
       "cauliflower": { "name": "Chou-fleur", "variants": ["Fleurettes"] },
       "fries": { "name": "Frites", "variants": ["9x9 mm", "10x10 mm"] },
-      "falafel": { "name": "Falafel", "variants": ["Boulettes (préformées)"] },
+      "falafel": { "name": "Falafel", "variants": ["Boulettes / Galettes (préformées)"] },
       "beans": { "name": "Haricots verts", "variants": ["Coupés"] },
-      "molokhia": { "name": "Mélokhia (Feuilles de Corète)", "variants": ["Hachée"] },
+      "molokhia": { "name": "Molokhia (Feuilles de jute)", "variants": ["Hachée"] },
       "spinach": { "name": "Épinards", "variants": ["En branches", "Hachés"] },
-      "mixed": { "name": "Mélanges de légumes", "variants": ["Recettes standard et sur mesure"] }
-    },
-    "packaging": {
-      "title": "Emballage B2B & Spécifications logistiques",
-      "lead": "Chaque expédition est palettisée, équipée de enregistreurs de température et chargée sous stricte supervision. Fiches techniques fournies avec chaque devis.",
-      "cta": "Demander les spécifications d'emballage",
-      "bulk": {
-        "title": "Emballage en vrac (Bulk)",
-        "items": ["Carton de 10 kg", "4 × 2,5 kg sachets PE en carton master"]
-      },
-      "retail": {
-        "title": "Emballage de détail (Retail)",
-        "items": ["Sachets de 400 g, 1 kg et 2,5 kg", "Impression personnalisée / Marque de distributeur"]
-      },
-      "shipping": {
-        "title": "Stockage & Logistique",
-        "items": ["Conteneurs frigorifiques 40ft Reefer à -18 °C ou moins", "Durée de conservation : 24 mois"]
-      }
+      "mixed": { "name": "Mélanges de légumes", "variants": ["Standard & Ratios personnalisés"] }
     }
   },
   "certifications": {
     "eyebrow": "Qualité & Certifications",
-    "title": "Certifié pour les marchés les plus exigeants",
-    "lead": "Notre usine de transformation et nos agriculteurs partenaires font l'objet d'audits annuels indépendants. Certificats disponibles pour les acheteurs vérifiés.",
+    "title": "Certifié pour les marchés les plus exigeants du monde",
+    "lead": "Nos installations de transformation et nos fermes partenaires font l'objet d'audits indépendants par des tiers. Les certificats et les rapports d'audit complets sont disponibles pour les acheteurs vérifiés sur demande.",
     "cta": "Demander les certificats",
     "certified": "Certifié",
     "items": {
       "iso": {
-        "title": "Système de management de la sécurité alimentaire (ISO 22000)",
-        "text": "Norme internationale garantissant la sécurité tout au long de la chaîne de transformation."
+        "title": "Système de management de la sécurité alimentaire",
+        "text": "Système reconnu internationalement garantissant la sécurité tout au long de la chaîne de transformation."
       },
       "haccp": {
-        "title": "Analyse des dangers et points critiques (HACCP)",
-        "text": "Contrôles préventifs à chaque étape clé – de la réception de la matière première au stockage frigorifique."
+        "title": "Analyse des dangers et points critiques pour maillage",
+        "text": "Surveillance préventive à chaque étape critique - de la réception des matières premières au stockage frigorifique."
       },
       "globalgap": {
-        "title": "Bonnes pratiques agricoles (GlobalG.A.P.)",
-        "text": "Pratiques certifiées au niveau des exploitations pour une culture sûre, durable et traçable."
+        "title": "Bonnes pratiques agricoles",
+        "text": "Pratiques certifiées au niveau des exploitations agricoles pour une culture sûre, durable et entièrement traçable."
       },
       "fda": {
-        "title": "Enregistrement FDA (États-Unis)",
-        "text": "Établissement enregistré et conforme aux normes FSMA pour l'exportation directe vers les États-Unis."
+        "title": "Enregistrement FDA des États-Unis",
+        "text": "Établissement alimentaire enregistré conforme aux réglementations FSMA pour l'exportation directe vers l'Amérique du Nord."
       }
     }
   },
   "contact": {
-    "eyebrow": "Contactez notre équipe export",
+    "eyebrow": "Contact",
     "title": "Discutons de votre prochaine expédition",
-    "lead": "Indiquez-nous le produit souhaité, le volume et le port de destination. Notre équipe export vous répondra sous 24 heures avec devis et disponibilités.",
+    "lead": "N'hésitez pas à nous contacter directement par téléphone, WhatsApp ou e-mail. Dites-nous quels produits et volumes vous avez besoin, et nous pourrons discuter des prix et de la disponibilité.",
     "info": {
       "email": "E-mail",
       "phone": "Téléphone",
       "whatsapp": "WhatsApp",
       "office": "Siège social",
-      "officeValue": "Zone Industrielle, Le Caire, Égypte"
+      "officeValue": "Zone industrielle, Le Caire, Égypte"
     },
     "form": {
       "heading": "Vous préférez écrire ? Envoyez une demande détaillée",
       "name": "Nom complet *",
-      "namePlaceholder": "Jean Dupont",
-      "company": "Société / Entreprise *",
-      "companyPlaceholder": "Dupont Alimentaire SAS",
+      "namePlaceholder": "John Smith",
+      "company": "Nom de l'entreprise *",
+      "companyPlaceholder": "Global Foods Ltd.",
       "email": "E-mail professionnel *",
-      "emailPlaceholder": "jean@entreprise.fr",
+      "emailPlaceholder": "john@company.com",
       "country": "Pays de destination *",
-      "countryPlaceholder": "France",
+      "countryPlaceholder": "États-Unis",
       "volume": "Volume estimé",
-      "volumeOptions": ["Commande test (< 1 conteneur FCL)", "1 – 5 FCL / an", "5 – 20 FCL / an", "20+ FCL / an"],
+      "volumeOptions": ["Commande d'essai (1 FCL)", "1 - 5 FCL / an", "5 - 20 FCL / an", "20+ FCL / an"],
       "message": "Détails de la demande *",
-      "messagePlaceholder": "Spécifications des produits, coupes, type d'emballage, port de destination, Incoterms souhaités...",
-      "error": "Veuillez remplir tous les champs obligatoires et fournir une adresse e-mail valide.",
-      "privacy": "Nous respectons votre vie privée. Vos données sont exclusivement utilisées pour traiter votre demande B2B.",
+      "messagePlaceholder": "Spécifications du produit, tailles de coupe requises, type d'emballage, port de destination, Incoterms préférés...",
+      "error": "Veuillez remplir tous les champs obligatoires et fournir une adresse e-mail professionnelle valide.",
+      "privacy": "Nous respectons votre vie privée. Vos informations sont strictement utilisées pour traiter votre demande B2B.",
       "submit": "Envoyer la demande",
-      "success": "Merci ! Notre service export vous contactera sous un jour ouvrable."
+      "success": "Merci ! Nous vous répondrons dans les plus brefs délais."
     }
   },
   "footer": {
-    "about": "Producteur, transformateur et exportateur égyptien de fruits et légumes surgelés IQF pour les importateurs, distributeurs et industriels du monde entier.",
+    "about": "Producteur, transformateur et exportateur égyptien de fruits et légumes surgelés IQF haut de gamme au service des importateurs, distributeurs et acheteurs alimentaires industriels du monde entier.",
     "company": "Entreprise",
     "aboutUs": "À propos",
     "products": "Produits",
-    "ready": "Vous souhaitez commander un conteneur ?",
-    "readyText": "Obtenez les tarifs actuels et les disponibilités pour votre prochaine expédition.",
+    "ready": "Prêt à réserver un conteneur ?",
+    "readyText": "Obtenez les listes de prix actuelles et les allocations saisonnières pour votre prochaine commande.",
     "rights": "Tous droits réservés.",
     "proud": "Fièrement cultivé et surgelé en Égypte"
   }
