@@ -7,7 +7,7 @@ const t = useTranslations(getLang(Astro.currentLocale));
 const { info, form } = t.contact;
 
 const directItems = [
-  { icon: Mail, label: info.email, value: 'export@cruisesindibad.com', href: 'mailto:export@cruisesindibad.com' },
+  { icon: Mail, label: info.email, value: 'sherif.abdelfattah@cruise-sindibad.com', href: 'mailto:sherif.abdelfattah@cruise-sindibad.com' },
   { icon: Phone, label: info.phone, value: '+20 100 000 0000', href: 'tel:+201000000000' },
   { icon: WhatsAppIcon, label: info.whatsapp, value: '+20 100 000 0000', href: 'https://wa.me/201000000000' },
 ];
@@ -48,7 +48,6 @@ const directItems = [
       <span><span class="font-semibold">{info.office}:</span> {info.officeValue}</span>
     </p>
 
-    <!-- Secondary: written inquiry -->
     <div class="mx-auto mt-16 max-w-3xl">
       <h3 class="mb-5 flex items-center gap-4 text-lg font-bold text-slate-800">
         <span class="h-px flex-1 bg-slate-200"></span>
@@ -122,10 +121,8 @@ const directItems = [
   const success = document.getElementById('form-success')!;
 
   form.addEventListener('submit', async (e) => {
-    // 1. Vždy zastavíme výchozí odeslání prohlížeče
     e.preventDefault();
 
-    // 2. Kontrola validace poli
     if (!form.checkValidity()) {
       error.textContent = 'Prosím vyplňte všechna povinná pole.';
       error.classList.remove('hidden');
