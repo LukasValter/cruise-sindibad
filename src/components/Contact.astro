@@ -55,7 +55,21 @@ const directItems = [
         <span class="text-center">{form.heading}</span>
         <span class="h-px flex-1 bg-slate-200"></span>
       </h3>
-      <form id="inquiry-form" class="rounded-lg border border-slate-200 bg-white p-6 sm:p-8" novalidate>
+      
+      <!-- ZDE JE ZMĚNA: Přidaný action, method a Web3Forms parametry -->
+      <form 
+        id="inquiry-form" 
+        action="https://api.web3forms.com/submit" 
+        method="POST" 
+        class="rounded-lg border border-slate-200 bg-white p-6 sm:p-8" 
+        novalidate
+      >
+          <input type="hidden" name="access_key" value="43226da0-dd75-4a01-9fb1-2fadf23aaa0e" />
+
+          <input type="hidden" name="subject" value="Nová poptávka z formuláře" />
+
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
+
           <div class="grid gap-5 sm:grid-cols-2">
             <label class="block">
               <span class="mb-1.5 block text-sm font-medium text-slate-700">{form.name}</span>
@@ -103,22 +117,16 @@ const directItems = [
 </section>
 
 <script>
-  // No backend yet: validates client-side and shows a confirmation.
-  // To go live, POST the FormData to your form endpoint (e.g. Formspree, Netlify Forms, or an API route).
   const form = document.getElementById('inquiry-form') as HTMLFormElement;
   const error = document.getElementById('form-error')!;
   const success = document.getElementById('form-success')!;
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
+  form.addEventListener('submit', async (e) => {
     if (!form.checkValidity()) {
+      e.preventDefault();
       error.classList.remove('hidden');
       form.reportValidity();
       return;
     }
-    error.classList.add('hidden');
-    success.classList.remove('hidden');
-    success.classList.add('flex');
-    form.reset();
   });
 </script>
