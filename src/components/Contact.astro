@@ -122,11 +122,44 @@ const directItems = [
   const success = document.getElementById('form-success')!;
 
   form.addEventListener('submit', async (e) => {
+    // 1. Vždy zastavíme výchozí odeslání prohlížeče
+    e.preventDefault();
+
+    // 2. Kontrola validace poli
     if (!form.checkValidity()) {
-      e.preventDefault();
+      error.textContent = 'Prosím vyplňte všechna povinná pole.';
       error.classList.remove('hidden');
       form.reportValidity();
       return;
+    }
+
+    error.classList.add('hidden');
+    
+    // Získání dat z formuláře
+    const formData = new FormData(form);
+
+    try {
+      // 3. Odeslání přímo přes POST v JavaScriptu
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        // Zobrazení zelené hlášky o úspěchu
+        success.classList.remove('hidden');
+        success.classList.add('flex');
+        form.reset();
+      } else {
+        // Zobrazení chyby, pokud Web3Forms vráti error
+        error.textContent = data.message || 'Chyba při odesílání formuláře.';
+        error.classList.remove('hidden');
+      }
+    } catch (err) {
+      error.textContent = 'Nepodařilo se připojit k serveru. Zkontrolujte připojení.';
+      error.classList.remove('hidden');
     }
   });
 </script>
