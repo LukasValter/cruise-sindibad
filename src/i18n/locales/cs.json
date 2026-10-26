@@ -59,7 +59,7 @@
   "products": {
     "eyebrow": "Naše produkty",
     "title": "Katalog ovoce a zeleniny",
-    "lead": "Tříděno, kalibrováno a šokově mraženo podle mezinárodních norem. Řezy, poměry směsí a balení na míru podle vašich požadavků[cite: 8].",
+    "lead": "Tříděno, kalibrováno a šokově mraženo podle mezinárodních norem. Řezy, poměry směsí a balení na míru podle vašich požadavků.",
     "fruits": "Ovoce",
     "vegetables": "Zelenina",
     "specs": {
@@ -121,7 +121,7 @@
   "certifications": {
     "eyebrow": "Kvalita a certifikace",
     "title": "Certifikováno pro nejnáročnější trhy světa",
-    "lead": "Náš zpracovatelský závod i smluvní pěstitelé procházejí nezávislými audity třetích stran. Certifikáty a auditní zprávy poskytneme ověřeným odběratelům na vyžádání[cite: 8].",
+    "lead": "Náš zpracovatelský závod i smluvní pěstitelé procházejí nezávislými audity třetích stran. Certifikáty a auditní zprávy poskytneme ověřeným odběratelům na vyžádání.",
     "cta": "Vyžádat certifikáty",
     "certified": "Certifikováno",
     "items": {
@@ -131,7 +131,7 @@
       },
       "haccp": {
         "title": "Analýza rizik a kritické kontrolní body",
-        "text": "Preventivní monitorování v každém kritickém bodě – od příjmu suroviny po chladírenské skladování."
+        "text": "Preventivní monitorování v každém kritickém bodě - od příjmu suroviny po chladírenské skladování."
       },
       "globalgap": {
         "title": "Správná zemědělská praxe",
@@ -168,7 +168,7 @@
       "country": "Země určení *",
       "countryPlaceholder": "Česká republika",
       "volume": "Předpokládaný objem",
-      "volumeOptions": ["Zkušební objednávka (1 FCL)", "1 – 5 FCL / rok", "5 – 20 FCL / rok", "20+ FCL / rok"],
+      "volumeOptions": ["Zkušební objednávka (1 FCL)", "1 - 5 FCL / rok", "5 - 20 FCL / rok", "20+ FCL / rok"],
       "message": "Detailní poptávka *",
       "messagePlaceholder": "Specifikace produktů, požadované řezy, typ balení, cílový přístav, dodací podmínky Incoterms…",
       "error": "Vyplňte prosím všechna povinná pole a zadejte platný firemní e-mail.",
