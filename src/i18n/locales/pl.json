@@ -152,7 +152,10 @@
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
       "office": "Siedziba główna",
-      "officeValue": "Strefa Przemysłowa, Kair, Egipt"
+      "officeValue": "Strefa Przemysłowa, Kair, Egipt",
+      "contactLabel": "Osoba kontaktowa",
+      "contactName": "Yusuf Abdelfattah",
+      "contactRole": "Sales Manager"
     },
     "form": {
       "heading": "Wolisz pisać? Wyślij szczegółowe zapytanie",

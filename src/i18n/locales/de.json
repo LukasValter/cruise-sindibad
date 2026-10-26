@@ -152,7 +152,10 @@
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
       "office": "Hauptsitz",
-      "officeValue": "Industriezone, Kairo, Ägypten"
+      "officeValue": "Industriezone, Kairo, Ägypten",
+      "contactLabel": "Ihr Ansprechpartner",
+      "contactName": "Yusuf Abdelfattah",
+      "contactRole": "Sales Manager"
     },
     "form": {
       "heading": "Lieber schriftlich? Senden Sie eine detaillierte Anfrage",

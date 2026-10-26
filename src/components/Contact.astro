@@ -1,5 +1,5 @@
 ---
-import { Mail, Phone, MapPin, Send, CircleCheck } from 'lucide-astro';
+import { Mail, Phone, MapPin, UserRound, Send, CircleCheck } from 'lucide-astro';
 import WhatsAppIcon from './WhatsAppIcon.astro';
 import { getLang, useTranslations } from '../i18n/utils';
 
@@ -8,8 +8,8 @@ const { info, form } = t.contact;
 
 const directItems = [
   { icon: Mail, label: info.email, value: 'sherif.abdelfattah@cruise-sindibad.com', href: 'mailto:sherif.abdelfattah@cruise-sindibad.com' },
-  { icon: Phone, label: info.phone, value: '+20 100 000 0000', href: 'tel:+201000000000' },
-  { icon: WhatsAppIcon, label: info.whatsapp, value: '+20 100 000 0000', href: 'https://wa.me/201000000000' },
+  { icon: Phone, label: info.phone, value: '+420 777 452 529', href: 'tel:+420777452529' },
+  { icon: WhatsAppIcon, label: info.whatsapp, value: '+420 777 452 529', href: 'https://wa.me/420777452529' },
 ];
 ---
 
@@ -21,8 +21,18 @@ const directItems = [
       <p class="mt-5 text-lg leading-relaxed text-slate-700">{t.contact.lead}</p>
     </div>
 
+    <!-- Contact person -->
+    <div class="mx-auto mt-10 flex max-w-md items-center justify-center gap-4 rounded-lg border border-slate-200 bg-slate-50 px-6 py-4">
+      <span class="grid size-12 shrink-0 place-items-center rounded-full bg-leaf-600 text-white"><UserRound size={24} /></span>
+      <div class="text-start">
+        <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{info.contactLabel}</p>
+        <p class="text-lg font-bold text-ink">{info.contactName}</p>
+        <p class="text-sm text-slate-700">{info.contactRole}</p>
+      </div>
+    </div>
+
     <!-- Primary: direct contact methods -->
-    <ul class="mx-auto mt-12 grid max-w-5xl gap-4 sm:grid-cols-3 sm:gap-6">
+    <ul class="mx-auto mt-6 grid max-w-5xl gap-4 sm:grid-cols-3 sm:gap-6">
       {
         directItems.map(({ icon: Icon, label, value, href }) => (
           <li>

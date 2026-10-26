@@ -152,7 +152,10 @@
       "phone": "الهاتف",
       "whatsapp": "واتساب",
       "office": "المقر الرئيسي",
-      "officeValue": "المنطقة الصناعية، القاهرة، مصر"
+      "officeValue": "المنطقة الصناعية، القاهرة، مصر",
+      "contactLabel": "مسؤول التواصل",
+      "contactName": "Yusuf Abdelfattah",
+      "contactRole": "مدير المبيعات"
     },
     "form": {
       "heading": "تفضّل الكتابة؟ أرسل استفسارًا مفصلًا",

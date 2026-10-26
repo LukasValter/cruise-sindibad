@@ -152,7 +152,10 @@
       "phone": "Telefon",
       "whatsapp": "WhatsApp",
       "office": "Sídlo společnosti",
-      "officeValue": "Průmyslová zóna, Káhira, Egypt"
+      "officeValue": "Průmyslová zóna, Káhira, Egypt",
+      "contactLabel": "Kontaktní osoba",
+      "contactName": "Yusuf Abdelfattah",
+      "contactRole": "Sales Manager"
     },
     "form": {
       "heading": "Raději písemně? Pošlete podrobnou poptávku",
