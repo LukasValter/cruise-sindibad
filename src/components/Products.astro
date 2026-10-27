@@ -1,5 +1,6 @@
 ---
-import { Snowflake, X, Check, ArrowRight, Images, Video, Play } from 'lucide-astro';
+import { Snowflake, X, Check, ArrowRight, Play, Leaf } from 'lucide-astro';
+import ProductCard from './ProductCard.astro';
 import { getLang, useTranslations } from '../i18n/utils';
 import { products } from '../data/products';
 
@@ -18,12 +19,17 @@ const nutritionRows = (n: { kcal: number; fat: number; carbs: number; sugars: nu
   { label: specs.salt, value: `${fmt(n.salt)} g` },
 ];
 
+const withText = (p: (typeof products)[number]) => ({ ...p, ...items[p.id] });
+
+// Products flagged `inSeason` are featured first; their dialogs come from the category groups below.
+const seasonal = products.filter((p) => p.inSeason).map(withText);
+
 const groups = [
   { key: 'fruits', title: t.products.fruits, cols: 'sm:grid-cols-2 lg:grid-cols-3' },
   { key: 'vegetables', title: t.products.vegetables, cols: 'sm:grid-cols-2 lg:grid-cols-4' },
 ].map((g) => ({
   ...g,
-  products: products.filter((p) => p.category === g.key).map((p) => ({ ...p, ...items[p.id] })),
+  products: products.filter((p) => p.category === g.key).map(withText),
 }));
 ---
 
@@ -37,6 +43,20 @@ const groups = [
 
     <div class="mt-16 space-y-16">
       {
+        seasonal.length > 0 && (
+          <div id="in-season" class="rounded-lg border border-leaf-600/30 bg-leaf-600/5 p-5 sm:p-8">
+            <h3 class="flex items-center gap-2 text-xl font-bold">
+              <Leaf size={22} class="text-leaf-600" aria-hidden="true" />
+              {t.products.inSeason}
+            </h3>
+            <p class="mt-2 max-w-2xl text-slate-700">{t.products.inSeasonLead}</p>
+            <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {seasonal.map((product) => <ProductCard {...product} />)}
+            </div>
+          </div>
+        )
+      }
+      {
         groups.map(({ title, cols, products }) => (
           <div>
             <h3 class="mb-6 flex items-center gap-3 text-lg font-bold">
@@ -44,44 +64,7 @@ const groups = [
               <span class="h-px flex-1 bg-slate-200" />
             </h3>
             <div class:list={['grid gap-6', cols]}>
-              {products.map(({ id, name, variants, image, gallery, videos }) => (
-                <article class="card group overflow-hidden transition hover:border-slate-400">
-                  <div class="relative aspect-square overflow-hidden bg-slate-100 p-4 sm:p-6">
-                    {(gallery?.length || videos?.length) && (
-                      <span
-                        title={specs.supplierMedia}
-                        class="absolute end-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-white/90 px-2 py-1 text-xs font-semibold text-slate-800 shadow-sm"
-                      >
-                        <span class="sr-only">{specs.supplierMedia}</span>
-                        {gallery?.length ? <Images size={14} aria-hidden="true" /> : null}
-                        {gallery?.length ? <span aria-hidden="true">{gallery.length + 1}</span> : null}
-                        {videos?.length ? <Video size={14} aria-hidden="true" /> : null}
-                      </span>
-                    )}
-                    <img
-                      src={image}
-                      alt={name}
-                      width="600"
-                      height="600"
-                      loading="lazy"
-                      decoding="async"
-                      onerror="this.style.display='none'"
-                      class="relative size-full object-contain mix-blend-multiply"
-                    />
-                  </div>
-                  <div class="p-5">
-                    <h4 class="text-lg font-bold">{name}</h4>
-                    <ul class="mt-3 flex flex-wrap gap-1.5">
-                      {variants.map((v) => (
-                        <li class="rounded-sm bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-800">{v}</li>
-                      ))}
-                    </ul>
-                    <button type="button" data-open-dialog={`product-${id}`} class="btn-secondary mt-5 w-full px-4 py-2.5">
-                      {specs.view}
-                    </button>
-                  </div>
-                </article>
-              ))}
+              {products.map((product) => <ProductCard {...product} />)}
             </div>
           </div>
         ))

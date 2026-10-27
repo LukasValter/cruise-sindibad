@@ -62,6 +62,9 @@
     "lead": "Clasificadas, calibradas y ultracongeladas IQF para cumplir con los estándares internacionales. Cortes personalizados, proporciones de mezcla y envasado a medida disponibles bajo pedido.",
     "fruits": "Frutas",
     "vegetables": "Verduras",
+    "inSeason": "Oferta de temporada",
+    "inSeasonBadge": "De temporada",
+    "inSeasonLead": "Recién cosechado esta temporada, disponible para pedido.",
     "specs": {
       "tabSpecs": "Envase y especificaciones",
       "tabNutrition": "Información nutricional",

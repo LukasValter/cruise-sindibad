@@ -62,6 +62,9 @@
     "lead": "Sortiert, kalibriert und nach internationalen Standards IQF-schockgefrostet. Kundenspezifische Schnitte, Mischungsverhältnisse und maßgeschneiderte Verpackungen auf Anfrage.",
     "fruits": "Obst",
     "vegetables": "Gemüse",
+    "inSeason": "Saisonangebot",
+    "inSeasonBadge": "Saisonangebot",
+    "inSeasonLead": "Frisch aus der aktuellen Ernte, jetzt bestellbar.",
     "specs": {
       "tabSpecs": "Verpackung & Specs",
       "tabNutrition": "Nährwerte",

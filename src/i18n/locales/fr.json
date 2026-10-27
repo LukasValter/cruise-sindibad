@@ -62,6 +62,9 @@
     "lead": "Triés, calibrés et surgelés IQF selon les normes internationales. Coupes personnalisées, ratios de mélange et emballages sur mesure disponibles sur demande.",
     "fruits": "Fruits",
     "vegetables": "Légumes",
+    "inSeason": "Offre de saison",
+    "inSeasonBadge": "De saison",
+    "inSeasonLead": "Fraîchement issu de la récolte de la saison, disponible dès maintenant.",
     "specs": {
       "tabSpecs": "Emballage et specs",
       "tabNutrition": "Valeurs nutritionnelles",

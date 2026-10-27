@@ -62,6 +62,9 @@
     "lead": "Sorted, calibrated, and IQF flash-frozen to meet international standards. Custom cuts, mix ratios, and tailored packaging available upon request.",
     "fruits": "Fruits",
     "vegetables": "Vegetables",
+    "inSeason": "In Season",
+    "inSeasonBadge": "In Season",
+    "inSeasonLead": "Fresh from this season's harvest, available for order now.",
     "specs": {
       "tabSpecs": "Packaging & Specs",
       "tabNutrition": "Nutrition Facts",

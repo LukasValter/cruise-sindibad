@@ -62,6 +62,9 @@
     "lead": "Tříděno, kalibrováno a šokově mraženo podle mezinárodních norem. Řezy, poměry směsí a balení na míru podle vašich požadavků.",
     "fruits": "Ovoce",
     "vegetables": "Zelenina",
+    "inSeason": "Sezónní nabídka",
+    "inSeasonBadge": "Sezónní nabídka",
+    "inSeasonLead": "Čerstvě z aktuální sklizně, nyní k objednání.",
     "specs": {
       "tabSpecs": "Balení a specifikace",
       "tabNutrition": "Nutriční hodnoty",

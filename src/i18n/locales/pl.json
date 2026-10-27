@@ -62,6 +62,9 @@
     "lead": "Sortowane, kalibrowane i mrożone metodą IQF zgodnie z międzynarodowymi standardami. Niestandardowe krojenie, proporcje mieszanek i dostosowane opakowania dostępne na życzenie.",
     "fruits": "Owoce",
     "vegetables": "Warzywa",
+    "inSeason": "Oferta sezonowa",
+    "inSeasonBadge": "Sezonowe",
+    "inSeasonLead": "Świeże z tegorocznych zbiorów, dostępne do zamówienia.",
     "specs": {
       "tabSpecs": "Opakowanie i specyfikacja",
       "tabNutrition": "Wartości odżywcze",
