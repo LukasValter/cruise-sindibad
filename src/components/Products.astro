@@ -2,22 +2,26 @@
 import { Snowflake, X, Check, ArrowRight, Play, Leaf } from 'lucide-astro';
 import ProductCard from './ProductCard.astro';
 import { getLang, useTranslations } from '../i18n/utils';
-import { products } from '../data/products';
+import { products, type Nutrition } from '../data/products';
 
 const t = useTranslations(getLang(Astro.currentLocale));
 const { items, specs } = t.products;
 const specGroups = [specs.bulk, specs.retail, specs.shipping];
 
 const fmt = (n: number) => n.toLocaleString(getLang(Astro.currentLocale), { minimumFractionDigits: 0, maximumFractionDigits: 1 });
-const nutritionRows = (n: { kcal: number; fat: number; carbs: number; sugars: number; fibre: number; protein: number; salt: number }) => [
-  { label: specs.energy, value: `${Math.round(n.kcal * 4.184)} kJ / ${n.kcal} kcal`, strong: true },
-  { label: specs.fat, value: `${fmt(n.fat)} g` },
-  { label: specs.carbs, value: `${fmt(n.carbs)} g` },
-  { label: specs.sugars, value: `${fmt(n.sugars)} g`, sub: true },
-  { label: specs.fibre, value: `${fmt(n.fibre)} g` },
-  { label: specs.protein, value: `${fmt(n.protein)} g` },
-  { label: specs.salt, value: `${fmt(n.salt)} g` },
-];
+const nutritionRows = (n: Nutrition) =>
+  [
+    { label: specs.energy, value: n.kcal !== undefined && `${Math.round(n.kcal * 4.184)} kJ / ${n.kcal} kcal`, strong: true },
+    { label: specs.fat, value: n.fat !== undefined && `${fmt(n.fat)} g` },
+    { label: specs.carbs, value: n.carbs !== undefined && `${fmt(n.carbs)} g` },
+    { label: specs.sugars, value: n.sugars !== undefined && `${fmt(n.sugars)} g`, sub: true },
+    { label: specs.fibre, value: n.fibre !== undefined && `${fmt(n.fibre)} g` },
+    { label: specs.protein, value: n.protein !== undefined && `${fmt(n.protein)} g` },
+    { label: specs.sodium, value: n.sodium !== undefined && `${fmt(n.sodium)} mg` },
+    { label: specs.calcium, value: n.calcium !== undefined && `${fmt(n.calcium)} mg` },
+    { label: specs.iron, value: n.iron !== undefined && `${fmt(n.iron)} mg` },
+    { label: specs.vitaminC, value: n.vitaminC !== undefined && `${fmt(n.vitaminC)} mg` },
+  ].filter((row): row is typeof row & { value: string } => row.value !== false);
 
 const withText = (p: (typeof products)[number]) => ({ ...p, ...items[p.id] });
 
