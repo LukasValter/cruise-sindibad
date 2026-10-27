@@ -1,5 +1,5 @@
 ---
-import { Snowflake, X, Check, ArrowRight } from 'lucide-astro';
+import { Snowflake, X, Check, ArrowRight, Images, Video, Play } from 'lucide-astro';
 import { getLang, useTranslations } from '../i18n/utils';
 import { products } from '../data/products';
 
@@ -44,9 +44,20 @@ const groups = [
               <span class="h-px flex-1 bg-slate-200" />
             </h3>
             <div class:list={['grid gap-6', cols]}>
-              {products.map(({ id, name, variants, image }) => (
+              {products.map(({ id, name, variants, image, gallery, videos }) => (
                 <article class="card group overflow-hidden transition hover:border-slate-400">
                   <div class="relative aspect-square overflow-hidden bg-slate-100 p-4 sm:p-6">
+                    {(gallery?.length || videos?.length) && (
+                      <span
+                        title={specs.supplierMedia}
+                        class="absolute end-3 top-3 z-10 inline-flex items-center gap-1.5 rounded-full bg-white/90 px-2 py-1 text-xs font-semibold text-slate-800 shadow-sm"
+                      >
+                        <span class="sr-only">{specs.supplierMedia}</span>
+                        {gallery?.length ? <Images size={14} aria-hidden="true" /> : null}
+                        {gallery?.length ? <span aria-hidden="true">{gallery.length + 1}</span> : null}
+                        {videos?.length ? <Video size={14} aria-hidden="true" /> : null}
+                      </span>
+                    )}
                     <img
                       src={image}
                       alt={name}
@@ -78,7 +89,7 @@ const groups = [
     </div>
 
     {
-      groups.flatMap((g) => g.products).map(({ id, name, variants, image, nutrition }) => (
+      groups.flatMap((g) => g.products).map(({ id, name, variants, image, gallery, videos, nutrition }) => (
         <dialog
           id={`product-${id}`}
           aria-labelledby={`product-${id}-title`}
@@ -90,8 +101,47 @@ const groups = [
             </button>
           </form>
           <div class="grid sm:grid-cols-5">
-            <div class="aspect-square bg-slate-100 p-6 sm:col-span-2 sm:aspect-auto sm:min-h-full">
-              <img src={image} alt={name} width="600" height="600" loading="lazy" decoding="async" class="size-full max-h-72 object-contain mix-blend-multiply sm:max-h-none" />
+            <div data-gallery class="flex flex-col gap-3 bg-slate-100 p-6 sm:col-span-2">
+              <div class="relative aspect-square">
+                <img data-main-image src={image} alt={name} width="600" height="600" loading="lazy" decoding="async" class="size-full object-contain mix-blend-multiply" />
+                {videos?.length ? (
+                  <video data-main-video controls preload="none" playsinline hidden class="size-full rounded bg-black object-contain" />
+                ) : null}
+              </div>
+              {(gallery?.length || videos?.length) && (
+                <ul class="flex flex-wrap gap-2">
+                  {[image, ...(gallery ?? [])].map((src, i) => (
+                    <li>
+                      <button
+                        type="button"
+                        data-thumb
+                        data-src={src}
+                        aria-label={`${specs.showMedia} ${i + 1}`}
+                        aria-pressed={i === 0 ? 'true' : 'false'}
+                        class="block size-14 overflow-hidden rounded border-2 border-transparent bg-white p-0.5 transition aria-pressed:border-leaf-600"
+                      >
+                        <img src={src} alt="" width="56" height="56" loading="lazy" decoding="async" class="size-full object-contain" />
+                      </button>
+                    </li>
+                  ))}
+                  {videos?.map((v, i) => (
+                    <li>
+                      <button
+                        type="button"
+                        data-thumb
+                        data-video-src={v.src}
+                        data-poster={v.poster}
+                        aria-label={`${specs.video} ${i + 1}`}
+                        aria-pressed="false"
+                        class="relative block size-14 overflow-hidden rounded border-2 border-transparent bg-ink transition aria-pressed:border-leaf-600"
+                      >
+                        {v.poster && <img src={v.poster} alt="" width="56" height="56" loading="lazy" decoding="async" class="size-full object-cover opacity-70" />}
+                        <Play size={20} aria-hidden="true" class="absolute inset-0 m-auto text-white" />
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
             <div class="p-6 sm:col-span-3 sm:p-8">
               <h3 id={`product-${id}-title`} class="pe-10 text-2xl font-bold">{name}</h3>
@@ -173,7 +223,29 @@ const groups = [
     dlg.addEventListener('close', () => {
       lock(false);
       select('specs'); // always reopen on the packaging view
+      showMedia(thumbs[0] ?? null);
     });
+
+    // Gallery: thumbnails swap the main image; the video thumbnail swaps in the player.
+    const mainImg = dlg.querySelector<HTMLImageElement>('[data-main-image]');
+    const mainVideo = dlg.querySelector<HTMLVideoElement>('[data-main-video]');
+    const thumbs = [...dlg.querySelectorAll<HTMLButtonElement>('[data-thumb]')];
+    function showMedia(thumb: HTMLButtonElement | null) {
+      if (!mainImg) return;
+      const videoSrc = thumb?.dataset.videoSrc;
+      if (thumb && !videoSrc) mainImg.src = thumb.dataset.src!;
+      mainImg.hidden = !!videoSrc;
+      if (mainVideo) {
+        mainVideo.pause();
+        mainVideo.hidden = !videoSrc;
+        if (videoSrc && !mainVideo.src.endsWith(videoSrc)) {
+          mainVideo.poster = thumb!.dataset.poster ?? '';
+          mainVideo.src = videoSrc;
+        }
+      }
+      thumbs.forEach((t) => t.setAttribute('aria-pressed', String(t === thumb)));
+    }
+    thumbs.forEach((t) => t.addEventListener('click', () => showMedia(t)));
 
     const tabs = dlg.querySelectorAll<HTMLButtonElement>('[role="tab"]');
     const panels = dlg.querySelectorAll<HTMLElement>('[data-panel]');
