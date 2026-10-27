@@ -33,9 +33,9 @@ export interface Product {
 }
 
 export const products: Product[] = [
+  { id: 'mango', category: 'fruits', image: '/images/products/mango.webp', nutrition: { kcal: 60, fat: 0.4, carbs: 15.0, sugars: 13.5, fibre: 1.6, protein: 0.8, salt: 0 } },
   { id: 'strawberries', inSeason: true, category: 'fruits', image: '/images/products/strawberries.webp', gallery: ['/images/products/strawberries/01.webp', '/images/products/strawberries/02.webp'], nutrition: { kcal: 32, fat: 0.3, carbs: 7.7, sugars: 4.9, fibre: 2.0, protein: 0.7, salt: 0 } },
   { id: 'pomegranate', category: 'fruits', image: '/images/products/pomegranate.webp', nutrition: { kcal: 83, fat: 1.2, carbs: 18.7, sugars: 13.7, fibre: 4.0, protein: 1.7, salt: 0 } },
-  { id: 'mango', category: 'fruits', image: '/images/products/mango.webp', nutrition: { kcal: 60, fat: 0.4, carbs: 15.0, sugars: 13.5, fibre: 1.6, protein: 0.8, salt: 0 } },
   { id: 'peas', category: 'vegetables', image: '/images/products/peas.webp', nutrition: { kcal: 77, fat: 0.4, carbs: 13.6, sugars: 5.0, fibre: 5.1, protein: 5.2, salt: 0 } },
   { id: 'peasCarrots', category: 'vegetables', image: '/images/products/peas-carrots.webp', nutrition: { kcal: 64, fat: 0.4, carbs: 12.5, sugars: 5.0, fibre: 4.0, protein: 3.3, salt: 0.1 } },
   { id: 'beans', inSeason: true, category: 'vegetables', image: '/images/products/beans.webp', gallery: ['/images/products/beans/01.webp'], videos: [{ src: '/videos/products/beans-1.mp4', poster: '/videos/products/beans-1-poster.webp' }, { src: '/videos/products/beans-2.mp4', poster: '/videos/products/beans-2-poster.webp' }], nutrition: { kcal: 31, fat: 0.2, carbs: 6.9, sugars: 2.0, fibre: 3.0, protein: 1.8, salt: 0 } },
