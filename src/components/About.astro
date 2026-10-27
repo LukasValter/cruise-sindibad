@@ -1,13 +1,13 @@
 ---
-import { Snowflake, Sprout, Ship } from 'lucide-astro';
+import { Sprout, ShieldCheck, Ship } from 'lucide-astro';
 import { getLang, useTranslations } from '../i18n/utils';
 
 const t = useTranslations(getLang(Astro.currentLocale));
 const { pillars } = t.about;
 
 const pillarItems = [
-  { icon: Snowflake, ...pillars.iqf },
-  { icon: Sprout, ...pillars.farms },
+  { icon: Sprout, ...pillars.iqf },
+  { icon: ShieldCheck, ...pillars.farms },
   { icon: Ship, ...pillars.export },
 ];
 ---
