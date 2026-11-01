@@ -161,7 +161,9 @@
       "officeValue": "Polská 2188, 272 01 Kladno, جمهورية التشيك",
       "contactLabel": "مسؤول التواصل",
       "contactName": "Yusuf Abdelfattah",
-      "contactRole": "مدير المبيعات"
+      "contactRole": "مدير المبيعات",
+      "ceoName": "Sheriff Abdelfattah",
+      "ceoRole": "CEO"
     },
     "form": {
       "heading": "تفضّل الكتابة؟ أرسل استفسارًا مفصلًا",

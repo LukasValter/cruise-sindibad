@@ -17,5 +17,8 @@
     "astro": "^7.4.2",
     "lucide-astro": "^0.556.0",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "^2.1.316"
   }
 }
