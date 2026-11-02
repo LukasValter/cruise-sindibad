@@ -12,8 +12,11 @@ const yusufItems = [
   { icon: WhatsAppIcon, label: info.whatsapp, value: '+420 777 452 529', href: 'https://wa.me/420777452529' },
 ];
 
-// TODO: fill in the CEO's contacts (same shape as yusufItems); the card renders them automatically once added.
-const ceoItems: typeof yusufItems = [];
+const ceoItems: typeof yusufItems = [
+  { icon: Mail, label: info.email, value: 'sherif.abdelfattah@cruise-sindibad.com', href: 'mailto:sherif.abdelfattah@cruise-sindibad.com' },
+  { icon: Phone, label: info.phone, value: '+420 774 217 074', href: 'tel:+420774217074' },
+  { icon: WhatsAppIcon, label: info.whatsapp, value: '+420 774 217 074', href: 'https://wa.me/420774217074' },
+];
 
 const people = [
   { name: info.contactName, role: info.contactRole, primary: true, items: yusufItems },
@@ -35,29 +38,29 @@ const people = [
         people.map(({ name, role, primary, items }) => (
           <div>
             <div class="flex items-center justify-center gap-4">
-              <span class={`grid shrink-0 place-items-center rounded-full bg-leaf-600 text-white ${primary ? 'size-14' : 'size-12'}`}>
-                <UserRound size={primary ? 28 : 24} />
+              <span class={`grid shrink-0 place-items-center rounded-full bg-leaf-600 text-white size-14`}>
+                <UserRound size={28} />
               </span>
               <div class="text-start">
                 {primary && <p class="text-xs font-semibold uppercase tracking-wider text-slate-700">{info.contactLabel}</p>}
-                <p class={`font-bold text-ink ${primary ? 'text-xl' : 'text-lg'}`}>{name}</p>
+                <p class={`font-bold text-ink text-xl`}>{name}</p>
                 <p class="text-sm text-slate-700">{role}</p>
               </div>
             </div>
 
             {items.length > 0 && (
-              <ul class={`mx-auto mt-5 grid gap-4 sm:grid-cols-3 sm:gap-6 ${primary ? '' : 'max-w-4xl'}`}>
+              <ul class={`mx-auto mt-5 grid gap-4 sm:grid-cols-3 sm:gap-6`}>
                 {items.map(({ icon: Icon, label, value, href }) => (
                   <li>
                     <a
                       href={href}
-                      class="group flex h-full flex-col items-center gap-3 rounded-lg border border-slate-200 bg-slate-50 p-6 text-center transition hover:border-navy-700 hover:bg-white hover:shadow-md sm:p-8"
+                      class={`group flex h-full flex-col items-center rounded-lg border border-slate-200 bg-slate-50 text-center transition hover:border-navy-700 hover:bg-white hover:shadow-md gap-3 p-6 sm:p-8`}
                     >
-                      <span class="grid size-14 place-items-center rounded-full bg-navy-900 text-white">
+                      <span class={`grid place-items-center rounded-full bg-navy-900 text-white size-14`}>
                         <Icon size={26} />
                       </span>
                       <span class="text-xs font-semibold uppercase tracking-wider text-slate-700">{label}</span>
-                      <span class="max-w-full break-words text-lg font-bold text-ink group-hover:underline sm:text-xl">
+                      <span class={`max-w-full break-words font-bold text-ink group-hover:underline text-lg sm:text-xl`}>
                         <bdi dir="ltr">{value}</bdi>
                       </span>
                     </a>
