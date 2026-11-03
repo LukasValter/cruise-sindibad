@@ -90,8 +90,8 @@
       "bulk": {
         "title": "Bulk Packaging",
         "items": [
-          "10 kg cartons",
-          "4 × 2.5 kg PE bags in master carton"
+          "1 kg or 10 kg bags in 10 kg master carton (10x 1 kg or 1x 10 kg)",
+          "~3,000 cartons per 40ft reefer container"
         ]
       },
       "retail": {
@@ -105,7 +105,7 @@
         "title": "Storage & Logistics",
         "items": [
           "40ft Reefer containers at -18 °C or below",
-          "Shelf life: 24 months"
+          "Shelf life: 18 months"
         ]
       }
     },

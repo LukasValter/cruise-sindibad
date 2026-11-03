@@ -90,8 +90,8 @@
       "bulk": {
         "title": "Velkoobchodní balení (Bulk)",
         "items": [
-          "Karton 10 kg",
-          "4 × 2,5 kg PE sáčky v master kartonu"
+          "Sáčky 1 kg nebo 10 kg v master kartonu 10 kg (10× 1 kg nebo 1× 10 kg)",
+          "~3 000 kartonů na 40ft reefer kontejner"
         ]
       },
       "retail": {
@@ -105,7 +105,7 @@
         "title": "Skladování a logistika",
         "items": [
           "Mrazírenské kontejnery 40ft Reefer při -18 °C nebo nižší",
-          "Minimální trvanlivost: 24 měsíců"
+          "Minimální trvanlivost: 18 měsíců"
         ]
       }
     },

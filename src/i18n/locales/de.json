@@ -87,8 +87,8 @@
       "bulk": {
         "title": "Großhandelsverpackung (Bulk)",
         "items": [
-          "10 kg Karton",
-          "4 × 2,5 kg PE-Beutel im Masterkarton"
+          "1-kg- oder 10-kg-Beutel im 10-kg-Masterkarton (10× 1 kg oder 1× 10 kg)",
+          "~3.000 Kartons pro 40ft-Kühlcontainer"
         ]
       },
       "retail": {
@@ -102,7 +102,7 @@
         "title": "Lagerung & Logistik",
         "items": [
           "40ft Kühlcontainer bei -18 °C oder kälter",
-          "Mindesthaltbarkeit: 24 Monate"
+          "Mindesthaltbarkeit: 18 Monate"
         ]
       }
     },

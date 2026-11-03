@@ -87,8 +87,8 @@
       "bulk": {
         "title": "Emballage en vrac (Bulk)",
         "items": [
-          "Carton de 10 kg",
-          "4 × 2,5 kg sachets PE en carton master"
+          "Sachets de 1 kg ou 10 kg dans un carton master de 10 kg (10× 1 kg ou 1× 10 kg)",
+          "~3 000 cartons par conteneur reefer 40ft"
         ]
       },
       "retail": {
@@ -102,7 +102,7 @@
         "title": "Stockage & Logistique",
         "items": [
           "Conteneurs frigorifiques 40ft Reefer à -18 °C ou moins",
-          "Durée de conservation : 24 mois"
+          "Durée de conservation : 18 mois"
         ]
       }
     },

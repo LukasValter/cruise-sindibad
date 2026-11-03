@@ -87,8 +87,8 @@
       "bulk": {
         "title": "Empaque a granel (Bulk)",
         "items": [
-          "Caja de cartón de 10 kg",
-          "4 × 2,5 kg bolsas PE en caja máster"
+          "Bolsas de 1 kg o 10 kg en caja máster de 10 kg (10× 1 kg o 1× 10 kg)",
+          "~3.000 cajas por contenedor reefer de 40 pies"
         ]
       },
       "retail": {
@@ -102,7 +102,7 @@
         "title": "Almacenamiento y logística",
         "items": [
           "Contenedores refrigerados 40ft Reefer a -18 °C o inferior",
-          "Vida útil: 24 meses"
+          "Vida útil: 18 meses"
         ]
       }
     },
